@@ -1,0 +1,41 @@
+.clb-social {
+    @include animate();
+
+    &-holder {
+        white-space: nowrap;
+        @include flex_center();
+        list-style: none;
+
+		li {
+			margin: 0px 5px;
+
+            a:after {
+                content: "/";
+                display: inline;
+                padding-left: 10px;
+            }
+
+            &:last-child {
+                a:after {
+                    display: none;
+                }
+            }
+		}
+
+        &.icons {
+            li {
+                padding: 0px 5px;
+                
+                i {
+                    transform: rotate(90deg);
+                }
+
+                a {
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+	}
+}

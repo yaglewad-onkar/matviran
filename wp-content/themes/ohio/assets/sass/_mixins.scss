@@ -1,0 +1,291 @@
+// Flex with center alignment
+
+@mixin flex_center() {
+	display: flex;
+	align-items: center;
+}
+
+// Flex with top alignment
+
+@mixin flex_top() {
+	display: flex;
+	align-items: flex-start;
+}
+
+// Flex with bottom alignment
+
+@mixin flex_bottom() {
+	display: flex;
+	align-items: flex-end;
+}
+
+// Transition animation
+
+@mixin animate($property: all, $ease: $transition_function, $duration: $transition_duration) {
+	-webkit-transition: $property $ease $duration;
+	-moz-transition: $property $ease $duration;
+	-o-transition: $property $ease $duration;
+	transition: $property $ease $duration;
+}
+
+// Divider
+
+@mixin divider() {
+	content: '•';
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .8em;
+    margin-top: -2px;
+    color: $color_brand;
+}
+
+// Divider
+
+@mixin link_reset() {
+	&:before {
+		display: none;
+	}
+}
+
+// Fade up animation
+
+@mixin fade_up() {
+	transform: translateY(10px);
+	opacity: 0;
+    visibility: hidden;
+    @include animate();
+}
+
+@mixin fade_up_active() {
+	transform: none;
+	visibility: visible;
+    opacity: 1;
+}
+
+// Fade down animation
+
+@mixin fade_down() {
+	transform: translateY(-10px);
+	opacity: 0;
+    visibility: hidden;
+    @include animate();
+}
+
+@mixin fade_down_active() {
+	transform: none;
+	visibility: visible;
+    opacity: 1;
+}
+
+// Flip up animation
+
+@mixin flip_up() {
+    opacity: 0;
+    visibility: hidden;
+    @include animate();
+    transform-origin: 50% -50px;
+    transform: perspective(300px) rotateX(-15deg);
+}
+
+@mixin flip_up_active() {
+	transform: none;
+	visibility: visible;
+    opacity: 1;
+}
+
+// Image effect on active state
+
+@mixin active_image() {
+	transform: scale(.98);
+	@include animate();
+}
+
+@mixin btn_shadow() {
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+@mixin btn_shadow_inset() {
+	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.04);
+	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.04);
+}
+
+@mixin shape_shadow() {
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.07);
+}
+
+@mixin dropdown_shadow() {
+	-webkit-box-shadow: 0 20px 32px -8px rgba(0, 0, 0, .15), 0 0 1px rgba(0, 0, 0, .05);
+	box-shadow: 0 20px 32px -8px rgba(0, 0, 0, .15), 0 0 1px rgba(0, 0, 0, .05);
+}
+
+@mixin clearfix() {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+// Border radius
+
+@mixin border_radius($radius: 5px) {
+	-webkit-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin border_top_radius($radius: 5px) {
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+}
+
+@mixin border_right_radius($radius: 5px) {
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	-webkit-border-top-right-radius: $radius;
+	border-top-right-radius: $radius;
+}
+
+@mixin border_bottom_radius($radius: 5px) {
+	-webkit-border-bottom-right-radius: $radius;
+	border-bottom-right-radius: $radius;
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+}
+
+@mixin border_left_radius($radius: 5px) {
+	-webkit-border-bottom-left-radius: $radius;
+	border-bottom-left-radius: $radius;
+	-webkit-border-top-left-radius: $radius;
+	border-top-left-radius: $radius;
+}
+
+// Media queries breakpoints
+
+@mixin sm_screen {
+	@media screen and (max-width: 768px) {
+		@content;	
+	}
+}
+
+@mixin md_screen {
+	@media screen and (min-width: 769px) {
+		@content;	
+	}
+}
+
+@mixin tablet_vert_screen {
+	@media screen and (max-width: 991px) {
+		@content;	
+	}
+}
+
+@mixin tablet_screen {
+	@media screen and (max-width: 1024px) {
+		@content;	
+	}
+}
+
+@mixin lg_screen {
+	@media screen and (min-width: 1025px) {
+		@content;	
+	}
+}
+
+@mixin xl_screen {
+	@media screen and (min-width: 1200px) {
+		@content;	
+	}
+}
+
+@mixin note_screen {
+	@media screen and (min-width: 1025px) and (max-width: 1440px) {
+		@content;	
+	}
+}
+
+// Fluid typography
+
+@mixin fluid-type($min-font-size: 28px, $max-font-size: 72px, $lower-range: 576px, $upper-range: 1600px) {
+
+	font-size: calc(#{$min-font-size} + #{(($max-font-size / ($max-font-size * 0 + 1)) - ($min-font-size / ($min-font-size * 0 + 1)))} * ( (100vw - #{$lower-range}) / #{(($upper-range / ($upper-range * 0 + 1)) - ($lower-range / ($lower-range * 0 + 1)))}));
+  
+	@media screen and (max-width: $lower-range) {
+		font-size: $min-font-size;
+	}
+
+	@media screen and (min-width: $upper-range){
+		font-size: $max-font-size;
+	}
+}
+
+// Spacers
+
+@mixin spacer100($property: padding) {
+	#{$property}: 10.6vh;
+
+	@include sm_screen() {
+		#{$property}: $spacer_50;
+	}
+}
+
+@mixin spacer80($property: padding) {
+	#{$property}: 8.8vh;
+
+	@include sm_screen() {
+		#{$property}: $spacer_40;
+	}
+}
+
+@mixin spacer60($property: padding) {
+	#{$property}: 7.2vh;
+	
+	@include sm_screen() {
+		#{$property}: $spacer_30;
+	}
+}
+
+@mixin spacer40($property: padding) {
+	#{$property}: 4.4vh;
+
+	@include tablet_screen() {
+		#{$property}: $spacer_20;
+	}
+}
+
+@mixin spacer30($property: padding) {
+	#{$property}: 3.4vh;
+
+	@include tablet_screen() {
+		#{$property}: $spacer_20;
+	}
+}
+
+@mixin spacer25($property: padding) {
+	#{$property}: $spacer_25;
+	
+	@include tablet_screen() {
+		#{$property}: $spacer_20;
+	}
+}
+
+//Header height
+
+@mixin header_height($property: height) {
+	#{$property}: 14vh;
+	
+	@include tablet_screen() {
+		#{$property}: $spacer_100;
+	}
+}
+
+//Crop overflow string
+
+@mixin crop_string() {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

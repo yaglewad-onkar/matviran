@@ -1,0 +1,5 @@
+<svg id="{{SVG_ID}}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1366 120" preserveAspectRatio="none">
+    {{SVG_STYLE_ID}}
+    {{SVG_DEF_ID}}
+    <polygon {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" points="1366,120 0,120 0,0 343,96.5 1366,0"/>
+</svg>

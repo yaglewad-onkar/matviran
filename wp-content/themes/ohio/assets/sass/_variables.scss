@@ -1,0 +1,86 @@
+// Animation & transitions
+
+$transition_function: cubic-bezier(0.4, 0, 0.2, 1);
+$transition_duration: .4s;
+
+// Brand colors
+
+$color_brand: #d90a2c;
+$color_brand_second: #6ED9C6;
+$color_dark: #17161A;
+$color_dark_lighten: #1A191D;
+$color_text: #232226;
+$color_neutral: #888;
+$color_light: #6A696C;
+$color_light_rgba: rgba(#fff, .35);
+$color_overlay: rgba($color_dark, .992);
+$color_overlay_light: rgba(#fff, 0.972);
+$color_text_field: rgba($color_dark, .35);
+$color_green: #9ff8d0;
+$color_fill: rgba($color_neutral, .05);
+$color_fill_input: rgba($color_dark, .08);
+$color_fill_solid: #f9f9f9;
+$color_border: rgba($color_neutral, .15);
+$color_border_dark: rgba($color_neutral, .65);
+$color_error: #DE4B53;
+$color_success: #0ebd6e;
+$color_envato: #85A42E;
+
+// Typography - font families
+
+$font_main: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font_code: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font_pre: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font_titles: "Space Grotesk Bold", -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Typography - font sizes
+
+$font_size_regular: 16px;
+$font_size_small: .94rem;
+
+$font_size_large: 17px;
+$font_size_large_mobile: 16.6px;
+
+$font_size_h1: 72px;
+$font_size_h1_mobile: 46px;
+
+$font_size_h2: 54px;
+$font_size_h2_mobile: 40px;
+
+$font_size_h3: 40px;
+$font_size_h3_mobile: 36px;
+
+$font_size_h4: 26px;
+$font_size_h4_mobile: 24px;
+
+$font_size_h5: 20px;
+$font_size_h5_mobile: 19px;
+
+$font_lh: 1.65;
+
+// Grid spacer
+
+$grid_spacer: 20px;
+
+// Layout
+
+$size_container: 1300px;
+$size_container_laptop: 1240px;
+$size_container_laptop_sm: 1180px;
+$size_container_laptop_xs: 1090px;
+
+// Spacers
+
+$spacer_100: 100px;
+$spacer_90: 90px;
+$spacer_80: 80px;
+$spacer_70: 70px;
+$spacer_60: 60px;
+$spacer_55: 55px;
+$spacer_50: 50px;
+$spacer_45: 45px;
+$spacer_40: 40px;
+$spacer_35: 35px;
+$spacer_30: 30px;
+$spacer_25: 25px;
+$spacer_20: 20px;

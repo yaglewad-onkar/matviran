@@ -1,0 +1,209 @@
+/*
+Theme Name: Ohio
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/*
+Theme Name: Ohio
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align: right;
+}
+
+/*Common overrides*/
+.widget_shopping_cart_content .mini-cart-description,
+.clb-page-headline,
+.clb-page-headline .clb-post-meta-item,
+.blog-grid-content,
+.wpcf7-form label,
+.field-label, 
+label,
+.pagination {
+	text-align: right; 
+}
+
+/*Page headline*/
+
+.clb-page-headline {
+	.clb-post-meta-item:first-child {
+		margin-right: 0;
+	}
+}
+
+.arrow-icon {
+	&.arrow-icon-back {
+		transform: rotate(0deg); 
+	}
+}
+
+.arrow-icon,
+.ion-ios-arrow-forward,
+.ion-ios-arrow-back {
+	transform: rotate(180deg);
+}
+
+/*Filters*/
+
+.filter-holder {
+	.filter {
+		.result {
+			margin-left: 12px;
+			margin-right: 0;
+		}
+
+		.select-inline {
+			margin-left: auto;
+			margin-right: 8px;
+		}
+	}
+}
+
+/*Custom select*/
+
+.select-holder:after,
+.select-inline .select-holder:after, 
+.variation .select-holder:after {
+	right: auto;
+	left: 18px;
+}
+
+.select-inline .select-holder select, 
+.variation .select-holder select {
+	padding-left: 28px;
+	padding-right: 12px;
+}
+
+/*Search form*/
+
+.search-form button.search, 
+.woocommerce-product-search button.search,
+.woo-c_actions_coupon .btn {
+	right: auto;
+	left: 0;
+}
+
+/*Scroll to top*/
+
+.clb-scroll-top-bar {
+	margin-right: auto;
+	margin-left: 15px;
+}
+
+/*Button icons*/
+
+.btn-link svg, 
+a.btn-link svg, 
+span.btn-link svg {
+	margin: -2px 3px 0px 0px;
+}
+
+/*Blockquote*/
+
+blockquote, q {
+	border-left: none;
+	border-right: 5px solid rgba(23, 22, 26, 0.5);
+}
+
+/*Blog and portfolio sticky nav*/
+
+.sticky-nav_item {
+	.nav-holder {
+		a {
+			margin-right: 6px;
+			margin-left: 0;
+		}
+	}
+}
+
+/*Comments*/
+
+.comments-area {
+	.comment-body {
+		padding-right: 80px;
+		padding-left: 0;
+
+		.comment-author {
+	 	 	img {
+	 	 		left: auto;
+				right: 0;
+	 	 	}
+		}
+	}
+}
+
+/*Blog overrides*/
+
+.blog-grid-meta {
+	.author-avatar {
+		margin-left: 15px;
+		margin-right: 0;
+	}
+}
+
+/*WooCommerce*/
+
+.woo-c_actions_coupon,
+.woo-cart_item_thumbnail, 
+.woo-cart_item_name, 
+.woo-cart_item_price, 
+.woo-cart_item_quantity, 
+.woo-cart_item_details {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.clb-woo-sidebar {
+	.shop_table {
+		tr th {
+			padding-right: 0;
+    		padding-left: 30px;
+		}
+	}
+}
+
+.submenu_cart {
+	left: -10px;
+    right: auto;
+
+	.cart_heading {
+		padding-right: 30px;
+	}
+
+	.close-bar {
+	    padding: 0px 0px 0px 15px;
+	}
+}
+
+.widget_shopping_cart_content {
+	.mini-cart-description {
+		.mini-cart-item-title {
+			padding-right: 0;
+    		padding-left: 25px;
+		}
+	}
+}
+
+.clb-mode-switcher {
+	position: relative;
+	direction: ltr;
+	
+	&-toddler {
+		top: 0;
+	}
+}

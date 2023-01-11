@@ -1,0 +1,12 @@
+.ohio-recent-projects-sc {
+    .portfolio-onepage-slider:not(.full-vh) {
+        .portfolio-item {
+            height: auto;
+        }
+
+        .portfolio-item-image,
+        .parallax {
+            height: 105% !important;
+        } 
+    }
+}

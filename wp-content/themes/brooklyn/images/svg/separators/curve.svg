@@ -1,0 +1,5 @@
+<svg id="{{SVG_ID}}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 180" preserveAspectRatio="none">
+    {{SVG_STYLE_ID}}
+    {{SVG_DEF_ID}}
+    <path {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" d="M1024,181.3H0V1.3c61.8,44.1,246.6,164,512,164c76,0,296-9.8,512-164C1024,61.3,1024,121.3,1024,181.3z"/>
+</svg>

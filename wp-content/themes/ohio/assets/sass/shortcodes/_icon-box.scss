@@ -1,0 +1,99 @@
+.icon-box {
+	position: relative;
+
+	.icon-box-icon {
+		margin: 0 0 15px;
+		vertical-align: middle;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		white-space: nowrap;
+		position: relative;
+		height: 50px;
+		width: 50px;
+		@include border_radius(50%);
+
+		i {
+			font-size: 42px;
+			display: inherit;
+		}
+
+		img {
+			max-width: 40px;
+			max-height: 40px;
+			vertical-align: middle;
+		}
+	}
+
+	// Icon layout
+
+	&[class*="shape-"] {
+		.icon-box-icon {
+			width: 60px;
+			height: 60px;
+			@include border_radius(50%);
+		}
+	}
+
+	&.shape-border {
+		.icon-box-icon {
+			border: 1px solid $color_brand;
+		}
+	}
+
+	&.shape-fill {
+		.icon-box-icon {
+			background-color: $color_brand;
+			color: #fff;
+		}
+	}
+
+	&.shape-border,
+	&.shape-fill {
+		.icon-box-icon {
+			i {
+				font-size: 32px;
+			}
+
+			img {
+				max-height: 32px;
+			}
+
+			> * {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+
+	// Icon box layout
+
+	&.with-left-icon {
+		&:not(.with-full-icon) {
+			padding-left: 70px;
+
+			.icon-box-icon {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+
+		&.with-full-icon {
+			.icon-box-headline {
+				@include flex_center();
+				margin-bottom: 20px;
+
+				.icon-box-icon {
+					margin-bottom: 0;
+				}
+
+				.icon-box-title {
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,171 @@
+.widgets {
+	a:not(.tag-cloud-link, .social), 
+	a *:not(.fab) {
+		color: $color_brand;
+		font-weight: 500;
+		@include animate();
+
+		&:hover {
+			opacity: .5;
+		}
+	}
+
+	cite {
+		font-style: normal;
+
+		&:before {
+		    content: "— ";
+		}
+	}
+
+	.rss-date {
+		color: $color_light;
+	}
+}
+
+.widget-title {
+	color: $color_light;
+}
+
+.widget {
+	margin: 0;
+	list-style: none;
+	@include spacer30(padding-top);
+
+
+	// Set logo height
+
+	&.widget_ohio_widget_logo {
+
+		img {
+			max-height: 3rem;
+		}
+	}
+
+	&:first-child {
+		padding-top: 0;
+	}
+
+	@include sm_screen() {
+		padding-top: 30px;
+	}
+
+	&.widget_rating_filter,
+	&.widget_ohio_widget_logo {
+		a:before {
+		    display: none;
+		}
+	}
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+
+	ul {
+		margin-left: 0;
+	}
+
+	h3 {
+		font-size: $font_size_regular;
+	}
+
+	h4 {
+		@extend h4.title;
+	}
+
+	h5 {
+		@extend h5.title;
+	}
+}
+
+h3.widget-title {
+	text-align: inherit;
+	line-height: inherit;
+	margin: 0 0 20px;
+	font-weight: 600;
+	letter-spacing: 0;
+	color: $color_light;
+}
+
+section.widget:first-child {
+	.widget-title {
+		margin-top: 5px;
+	}
+}
+
+@mixin widget-list-box(){
+	@extend .list-box;
+
+	h3.title {
+		margin-bottom: 20px;
+
+		@include tablet_screen() {
+			margin-bottom: 15px;
+		}
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		padding-left: 0;
+
+		&:after {
+			display: none;
+		}
+
+		&.current-cat {
+			> a {
+				font-weight: 600;
+			}
+		}
+
+		&.cat-parent {
+			position: relative;
+			padding-right: 20px;
+
+			&:after {
+				content: "\f3d0";
+				display: inline-block;
+			    font-family: Ionicons;
+				position: absolute;
+			    font-style: normal;
+			    right: 0;
+			    top: 6px;
+			    font-size: 0.78em;
+			}
+
+			&.current-cat {
+				&:after {
+					transform: rotate(180deg);
+				}
+
+				.children {
+					display: block;
+				}
+			}
+		}
+	}
+
+	.children {
+		margin-left: 15px;
+	}
+}
+
+.widget {
+	input.search-field.flat:not([type="submit"]) {
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	}
+	
+	.subtitle {
+		color: $color_light;
+	}
+
+	.select {
+		.select-options {
+			min-width: 300px;
+		}
+	}
+}

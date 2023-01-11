@@ -1,0 +1,140 @@
+.contact-form, 
+.subscribe-form,
+.subscribe-widget {
+	[class*="vc_col-lg"] {
+		label {
+			margin: 0;
+		}
+	}
+
+	form {
+		@include clearfix();
+	}
+
+	.btn {
+		// margin: 15px 0px;
+
+		@include sm_screen() {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	.wpcf7-form {
+		&.sent,
+		&.invalid {
+			.btn.btn-loading:before {
+				display: none !important;
+			}
+		}
+	}
+
+	input:not([type="checkbox"]),
+	textarea,
+	select {
+		width: 100%;
+	}
+
+	input[type="submit"] {
+		width: auto;
+	}
+
+	br {
+		display: none;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.btn-link {
+		padding: 15px;
+	}
+
+	input[type="text"].wpcf7-not-valid,
+	input[type="password"].wpcf7-not-valid,
+	input[type="email"].wpcf7-not-valid,
+	input[type="number"].wpcf7-not-valid,
+	input[type="tel"].wpcf7-not-valid,
+	textarea.wpcf7-not-valid {
+		border-color: $color_error !important;
+	}
+
+	.wpcf7-not-valid-tip {
+		color: $color_error;
+		width: 45px;
+		line-height: 45px;
+		height: 45px;
+		margin: 0;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 0;
+		font-size: 0;
+		z-index: 1;
+	}
+
+	.wpcf7-form-control-wrap {
+		display: block;
+	}
+
+	label {
+		.wpcf7-form-control-wrap {
+			margin-top: 8px;
+		}	
+	}
+
+	@include sm_screen() {
+		label {
+			margin-top: 15px;
+		}
+	}
+
+	div.wpcf7-validation-errors, 
+	div.wpcf7-acceptance-missing,
+	div.wpcf7-response-output {
+		color: $color_error;
+		border: none;
+		@include border_radius();
+		padding: 0px 15px;
+		margin: 10px 0px 0px 0px;
+		text-align: left;
+		font-size: $font_size_small;
+	}
+
+	div.wpcf7-response-output {
+		display: flex;
+	}
+
+	div.wpcf7-mail-sent-ok {
+		color: inherit;
+	}
+}
+
+.contact-form.outline, 
+.subscribe-form.outline,
+.subscribe-widget.outline {
+	input[type="text"], 
+	input[type="password"], 
+	input[type="number"], 
+	input[type="email"], 
+	input[type="tel"],
+	select,
+	.select-styled,
+	textarea {
+		border: 1px solid $color_border_dark;
+		background-color: transparent;
+
+		&:focus {
+			border-color: darken($color_border_dark, 25%);
+		}
+	}
+}
+
+.subscribe-widget {
+	div.wpcf7-validation-errors, 
+	div.wpcf7-acceptance-missing,
+	div.wpcf7-response-output {
+		padding: 0;
+	}	
+}

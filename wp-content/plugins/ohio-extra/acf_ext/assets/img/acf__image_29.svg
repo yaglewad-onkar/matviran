@@ -1,0 +1,39 @@
+<svg width="252" height="150" viewBox="0 0 252 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect opacity="0.4" width="252" height="150" fill="#677A9E"/>
+<path opacity="0.15" d="M0 0H125C125.552 0 126 0.447715 126 1V99C126 99.5523 125.552 100 125 100H0.999996C0.447711 100 0 99.5523 0 99V0Z" fill="#677A9E"/>
+<rect opacity="0.3" x="50" y="37" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="50" y="37" width="26" height="26">
+<rect opacity="0.3" x="50" y="37" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M52 47.1667C52 45.3571 53.3478 44 55.1449 44C56.942 44 58.2899 45.3571 58.2899 47.1667C58.2899 48.9762 56.942 50.3333 55.1449 50.3333C53.3478 50.3333 52 48.9762 52 47.1667ZM71.0942 47.1667L65.9275 55.3095L61.8841 50.3333L52 63H83L71.0942 47.1667Z" fill="#677A9E"/>
+</g>
+<path opacity="0.15" d="M0 102H125C125.552 102 126 102.448 126 103V201C126 201.552 125.552 202 125 202H0.999996C0.447711 202 0 201.552 0 201V102Z" fill="#677A9E"/>
+<rect opacity="0.3" x="50" y="114" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="50" y="114" width="26" height="26">
+<rect opacity="0.3" x="50" y="114" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M52 124.167C52 122.357 53.3478 121 55.1449 121C56.942 121 58.2899 122.357 58.2899 124.167C58.2899 125.976 56.942 127.333 55.1449 127.333C53.3478 127.333 52 125.976 52 124.167ZM71.0942 124.167L65.9275 132.31L61.8841 127.333L52 140H83L71.0942 124.167Z" fill="#677A9E"/>
+</g>
+<path d="M199 59H159V63H199V59Z" fill="white"/>
+<path d="M169 86H159V90H169V86Z" fill="white"/>
+<path d="M219 69H159V72H219V69Z" fill="white"/>
+<path d="M199 75H159V78H199V75Z" fill="white"/>
+<rect x="14" y="16.3636" width="18" height="3.27273" fill="white"/>
+<rect x="97" y="17" width="12" height="2" fill="white"/>
+<rect x="115" y="17" width="12" height="2" fill="white"/>
+<rect x="133" y="17" width="12" height="2" fill="white"/>
+<rect x="151" y="17" width="12" height="2" fill="white"/>
+<rect x="169" y="17" width="12" height="2" fill="white"/>
+<rect x="187" y="17" width="12" height="2" fill="white"/>
+<rect x="220" y="17.1818" width="6" height="1.63636" fill="white"/>
+<rect x="232" y="17.1818" width="6" height="1.63636" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="252" height="150" fill="white"/>
+</clipPath>
+</defs>
+</svg>

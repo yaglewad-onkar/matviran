@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font list update</title>
+</head>
+<body>
+    <pre><div id="res"></div></pre>
+
+    <script>
+    // https://developers.google.com/fonts/docs/developer_api
+    window.rawobj = {"items":[]};
+
+    rawobj.items = rawobj.items.map(function(value){
+        delete value.kind;
+        delete value.category;
+        delete value.version;
+        delete value.lastModified;
+        delete value.files;
+
+        return value;
+    });
+
+    document.getElementById('res').innerHTML =  JSON.stringify(rawobj, null, ' ');
+    </script>  
+</body>
+</html>

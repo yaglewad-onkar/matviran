@@ -1,0 +1,7 @@
+<svg id="{{SVG_ID}}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 435" preserveAspectRatio="none">
+    {{SVG_STYLE_ID}}
+    {{SVG_DEF_ID}}
+    <path {{SVG_FILL_1_ID}} class="{{SVG_PATH_1_CLASS}} bklyn-section-separator-path-fill" d="M1920,435.1H0V49c32.8,32,92.7,82.1,180,108.3C486.8,249.6,554.4-28.5,918,9.1C1152.9,33.4,1328.5,180,1602,176 c137.7-2,248.9-43,318-75C1920,229.7,1920,306.4,1920,435.1z"/>
+    <path {{SVG_FILL_2_ID}} class="{{SVG_PATH_2_CLASS}} bklyn-section-separator-path-fill" d="M1920,288.1c-228,42-357.8,100.5-489,54c-254.1-90-325.1-324.6-603-315C619.8,34.3,532.8,150,280.5,228.8	c-136.7,42.7-178-42.7-280.5-48.6v255h1920V288.1z"/>
+    <path {{SVG_FILL_3_ID}} class="{{SVG_PATH_3_CLASS}} bklyn-section-separator-path-fill" d="M1920,435.1H0v-215c81,5,135,77,243,41c199.3-66.4,294.5-143.1,405-162c315-54,384.2,131.1,585,207 c165,62.4,385,129,687-120C1920,236.1,1920,385.1,1920,435.1z"/>    
+</svg>

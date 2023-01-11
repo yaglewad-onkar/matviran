@@ -1,0 +1,161 @@
+.elementor {
+	margin-left: -$spacer_20;
+	margin-right: -$spacer_20;
+
+	// Standard widgets override
+
+	.elementor-widget-text-editor:not(:first-child) {
+		margin-top: -10px;
+	}
+
+	// Default wide gap override
+
+	.elementor-column-gap-wide {
+		> .elementor-row {
+			> .elementor-column {
+				> .elementor-column-wrap {
+					padding-top: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+
+	// Entrance animation override
+
+	.animated {
+	    animation-duration: .4s;
+	}
+
+	@keyframes fadeInUpShort {
+	    from {
+	        opacity: 0;
+	        transform: translate3d(0, 40px, 0);
+	    }
+	    to {
+	        opacity: 1;
+	        transform: none;
+	    }
+	}
+
+	@keyframes fadeInDownShort {
+	    from {
+	        opacity: 0;
+	        transform: translate3d(0, -40px, 0);
+	    }
+	    to {
+	        opacity: 1;
+	        transform: none;
+	    }
+	}
+
+	@keyframes fadeInLeftShort {
+	    from {
+	        opacity: 0;
+	        transform: translate3d(40px, 0, 0);
+	    }
+	    to {
+	        opacity: 1;
+	        transform: none;
+	    }
+	}
+
+	@keyframes fadeInRightShort {
+	    from {
+	        opacity: 0;
+	        transform: translate3d(-40px, 0, 0);
+	    }
+	    to {
+	        opacity: 1;
+	        transform: none;
+	    }
+	}
+
+	.fadeInUp {
+	    animation-name: fadeInUpShort;
+	}
+
+	.fadeInDown {
+	    animation-name: fadeInDownShort;
+	}
+
+	.fadeInLeft {
+	    animation-name: fadeInLeftShort;
+	}
+
+	.fadeInRight {
+	    animation-name: fadeInRightShort;
+	}
+}
+
+// Custom row width for widgets demo
+.clb__narrow {
+	@include lg_screen() {
+	    padding-right: calc(10vw + 20px);
+		padding-left: calc(10vw + 20px);
+	}
+}
+
+.clb__regular {
+	@include lg_screen() {
+	    padding-right: calc(2vw + 20px);
+		padding-left: calc(2vw + 20px);
+	}
+}
+
+.elementor-page {
+
+	// Page container full-width override
+
+	.page-container.full {
+		.elementor-section.elementor-section-boxed {
+			> .elementor-container {
+				max-width: none;
+
+				@include note_screen() {
+					max-width: none;
+				}
+			}
+		}
+	}
+}
+
+// Builder switcher
+
+.builder-switcher {
+	display: inline-flex;
+    margin-top: 10px;
+
+    a {
+	    padding: 1px 10px;
+	    border: 1px solid #828084;
+	    font-size: .86em;
+	    font-weight: 500;
+	    transition-duration: .35s;
+
+	    &:first-child {
+			@include border_left_radius(14px);
+		}
+
+		&:last-child {
+			@include border_right_radius(14px);
+		    margin-left: -1px;
+		}
+
+		&.active,
+		&:hover {
+		    background-color: #828084;
+		    color: #fff;
+		}
+
+		&:not(.active):hover {
+			background-color: rgba(0, 0, 0, .5);
+		}
+	}
+}
+
+@include sm_screen(){
+	.elementor-element.elementor-products-grid ul.products {
+		grid-template-columns: 100% !important;
+	}
+}

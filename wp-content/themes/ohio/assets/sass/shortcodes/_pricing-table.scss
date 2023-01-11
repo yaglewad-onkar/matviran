@@ -1,0 +1,110 @@
+.pricing {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+
+	&_title {
+		font-size: 20px;
+		margin: 0px 0px 10px;
+	}
+
+	&_subtitle {
+		margin-top: 5px;
+		font-size: $font_size_small;
+	}
+
+	&_price {
+		&_title {
+			display: inline-block;
+			@include fluid-type($font_size_h1_mobile, $font_size_h1);
+			line-height: 1.1;;
+			margin: 0;
+			position: relative;
+			@include animate();
+
+			.icon {
+				position: absolute;
+				left: 0;
+				line-height: 25px;
+				font-size: 25px;
+			}
+		}
+
+		&_subtitle {
+			margin: 25px 0px;
+			font-weight: 500;
+		}
+
+
+		&_time {
+			background: #fff;
+			margin: 12px 0 0;
+		}
+	}
+
+
+	&_list {
+		margin: 0;
+		list-style-type: none;
+	}
+
+	&_list + .btn {
+		margin-top: 25px;
+	}
+
+	&_list {
+		&_item {
+			&:first-child {
+				padding-top: 0;
+			}
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
+			.ion {
+				font-size: 22px;
+				vertical-align: -3px;
+				color: $color_brand;
+
+				& + .title {
+					margin-left: 10px;
+				}
+			}
+
+			&.disabled {
+				color: rgba($color_dark, .75);
+
+				.ion {
+					color: inherit;
+				}
+			}
+		}
+	}
+
+	&.features {
+		background: transparent;
+
+		.pricing_title {
+			text-align: left;
+			margin: 0;
+		}
+
+		.pricing_list {
+			margin-top: 15px;
+		}
+	}
+
+	&:hover {
+		.pricing_price_title {
+			color: $color_brand;
+		}
+
+		.btn.btn-brand {
+			background: $color_brand;
+			border-color: $color_brand;
+			@include animate();
+		}
+
+	}
+}

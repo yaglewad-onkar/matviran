@@ -1,0 +1,165 @@
+/*!
+Theme Name: Ohio
+Theme URI: http://ohio.clbthemes.com/
+Author: Colabrio
+Author URI: http://clbthemes.com/
+Description: Ohio is a WordPress theme bundled with premium plugins to build a modern and functional website.
+Version: 2.4.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ohio
+Tags: agency, showcase, portfolio, blog, business, clean, corporate, creative, event, minimal, modern, multipurpose, photography, responsive, shop, wordpress
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Modules
+# Blog
+	## Comments
+	## Grid
+	## Post
+# Portfolio
+	## Portfolio grid
+	## Portfolio pages
+# Shortcodes
+	## Accordion
+	## Banner
+	## Call to Action
+	## Clients Logo
+	## Contact Form
+	## Countdown
+	## Counter
+	## Currency Switcher
+	## Fullscreen Slider
+	## Google Maps
+	## Heading
+	## Icon Box
+	## Instagram Feed
+	## Menu List
+	## Message Module
+	## Parallax
+	## Pricing Table
+	## Process
+	## Progress Bar
+	## Row
+	## Slider
+	## Social Networks
+	## Split Section
+	## Split Slider
+	## Subscibe
+	## Tabs
+	## Team Member
+	## Testimonials
+	## Tooltips
+	## Video
+	## Woo Categories
+# Layout
+	## Breadcrumbs
+	## Elements
+	## Footer
+	## Galleries
+	## Header
+	## Header title
+	## Menus
+	## Notification
+	## Navigation
+	## Pages
+	## Popup
+	## Pagination
+	## Preloader
+	## Subscribe
+	## Structure
+	## Subheader
+	## Submenu cart
+	## Sidebar
+	## Socialbar
+# Widgets
+	## Base Widgets
+	## Standard Widgets
+	## Theme Widgets
+	## Woo Widgets
+# WPML
+# Help classes
+# Woocommerce
+	## Notices
+	## Single product
+	## Products
+	## Cart
+	## Checkout
+	## Wishlist
+	## My Account
+	## Elements
+	## Cross Sells
+
+---------------------------------*/
+@import "variables";
+@import "mixins";
+
+/*---------------------------------
+# Normalize
+---------------------------------*/
+@import "normalize";
+
+/*---------------------------------
+# Typography
+---------------------------------*/
+@import "typography";
+
+/*---------------------------------
+# Modules
+---------------------------------*/
+@import "modules";
+
+/*---------------------------------
+# Shortcodes
+---------------------------------*/
+@import "shortcodes/shortcodes";
+
+/*---------------------------------
+# Widgets
+---------------------------------*/
+@import "widgets/widgets";
+
+/*---------------------------------
+# Content
+---------------------------------*/
+@import "layout/layout";
+
+/*---------------------------------
+# Portfolio
+---------------------------------*/
+@import "portfolio/portfolio";
+
+/*---------------------------------
+# Blog
+---------------------------------*/
+@import "blog/blog";
+
+/*---------------------------------
+# WPML
+---------------------------------*/
+@import "wpml";
+
+/*---------------------------------
+# Extras
+---------------------------------*/
+@import "extras";
+
+/*---------------------------------
+# WooCommerce
+---------------------------------*/
+@import "woocommerce/woo";
+
+/*---------------------------------
+# WPBAkery Front-End
+---------------------------------*/
+@import "wpbakery";

@@ -1,0 +1,1434 @@
+// Variables
+
+$color_grey: #8B9DA7;
+$color_text: darken($color_grey, 20%);
+$color_dark: darken($color_grey, 40%);
+$color_background_light: rgba($color_grey, .08);
+$color_button: lighten($color_grey, 34%);
+$color_border: lighten($color_grey, 34%);
+$color_border_field: rgba($color_grey, .6);
+$border_radius: 3px;
+$color_admin: #3368A5;
+$color_vc_background: #eeeeee;
+$color_vc_background_light: #f6f6f6;
+$color_red: #d90a2c;
+$color_green: #2BC37F;
+
+// Mixins
+
+@mixin border_radius($radius: 3px) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin border_top_radius($radius: 3px) {
+    -webkit-border-top-right-radius: $radius;
+    border-top-right-radius: $radius;
+    -webkit-border-top-left-radius: $radius;
+    border-top-left-radius: $radius;
+}
+
+@mixin border_right_radius($radius: 3px) {
+    -webkit-border-bottom-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+    -webkit-border-top-right-radius: $radius;
+    border-top-right-radius: $radius;
+}
+
+@mixin border_bottom_radius($radius: 3px) {
+    -webkit-border-bottom-right-radius: $radius;
+    border-bottom-right-radius: $radius;
+    -webkit-border-bottom-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+}
+
+@mixin border_left_radius($radius: 3px) {
+    -webkit-border-bottom-left-radius: $radius;
+    border-bottom-left-radius: $radius;
+    -webkit-border-top-left-radius: $radius;
+    border-top-left-radius: $radius;
+}
+
+@mixin border_radius($radius: 4px) {
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+}
+
+.vc_properties-list {
+    input,
+    select, 
+    textarea {
+        padding: 6px;
+        border-radius: $border_radius;
+        border-color: $color_border_field;
+        height: 30px;
+        color: $color_dark;
+        text-shadow: none;
+        box-shadow: none;
+
+        &:hover,
+        &:focus {
+            border-color: darken($color_border_field, 20%);
+            color: $color_dark;
+            box-shadow: none;
+        }
+
+        &:focus {
+            border-color: $color_admin;
+            background: $color_background_light;
+        }
+    }
+
+    input,
+    select {
+        line-height: 15px;
+
+        &[type=checkbox] {
+            padding: 0px;
+            height: 16px;
+            line-height: 1;
+        }
+    }
+
+    textarea {
+        height: auto;
+        line-height: inherit;
+    }
+}
+
+/*==================================================================
+WPBAkery Accordion SC Styles
+===================================================================*/
+
+.wpb_ohio_accordion > .vc_controls,
+.wpb_ohio_accordion_inner:not(.vc_active):hover>.vc_controls {
+    visibility: visible;
+    opacity: 1;
+}
+
+.wpb_ohio_accordion {
+    margin-top: 30px!important;
+    padding-top: 10px
+}
+
+.wpb_ohio_accordion .wpb_element_wrapper {
+    background: 0 0;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.wpb_ohio_accordion .vc_tta-container {
+    margin-top: 0
+}
+
+.wpb_ohio_accordion_inner,
+.wpb_ohio_horizontal_accordion_inner{
+    .vc_tta-panel-body>.vc_controls {
+        opacity: 1;
+        visibility: visible;
+        height: 28px
+    }
+} 
+
+.wpb_ohio_accordion_inner>.vc_controls .vc_controls-tc {
+    top: 5px
+}
+
+.wpb_ohio_accordion .vc_tta-section-append {
+    margin-top: 4px
+}
+
+.vc_ohio_accordion_inner-container {
+    margin: 2px 0;
+    width: 100%;
+    background: $color_background_light;
+
+    .right {
+        margin: 2px 0;
+        width: 100%;
+        background: $color_background_light;
+    }
+
+    .heading {
+        padding: 8px 14px 8px 12px;
+        color: #343434;
+        font-weight: 600;
+        line-height: 20px;
+
+        .plus {
+            float: right;
+            font-size: 18px;
+            line-height: 20px;
+            color: rgba(0, 0, 0, .4);
+        }
+    } 
+}
+
+.wpb_accordion_inner_ohio {
+    margin-top: 0;
+
+    &:first-child {
+        margin-top: 4px
+    }
+
+    &:last-child {
+        margin-bottom: 4px
+    }
+
+    .wpb_element_wrapper {
+        padding: 2px 10px
+    }
+}
+
+/*==================================================================
+WPBAkery Testimonials SC Styles
+===================================================================*/
+
+.vc_ohio_testimonial-container {
+    padding: 14px 0 10px;
+    width: auto;
+
+    .lines {
+        margin: 0 auto;
+        width: 160px;
+        height: 26px;
+
+        .line {
+            margin-bottom: 4px;
+            height: 6px;
+            background: $color_vc_background_light;
+
+            &:last-child {
+                margin: 0
+            }
+        } 
+    }
+
+    .photo {
+        margin: 8px auto;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: $color_vc_background_light;
+    }
+
+    .name {
+        margin: 0 auto;
+        width: 140px;
+        min-height: 12px;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center
+    }
+
+    .position {
+        margin: 4px auto 0;
+        width: 70px;
+        height: 5px;
+        background: $color_vc_background_light;
+    }
+}
+
+/*==================================================================
+WPBAkery Team Member SC Styles
+===================================================================*/
+
+.vc_ohio_team_member-container {
+    padding: 14px 0 6px;
+    width: auto;
+
+    ._contain {
+        margin: 8px auto;
+        padding-bottom: 4px;
+        max-width: 110px;
+        width: 80%;
+        background: $color_vc_background_light;
+        overflow: hidden;
+        border-radius: $border_radius;
+
+        .photo {
+            max-width: 110px;
+            height: 110px;
+            width: 100%;
+            background: center center no-repeat;
+        }
+    }
+
+    .lines {
+        margin: 0 auto;
+        max-width: 160px;
+        width: 92%;
+        height: 26px;
+
+        .line {
+            margin: 0 auto 4px;
+            max-width: 110px;
+            height: 6px;
+            background: $color_vc_background;
+
+            &:nth-child(2) {
+                max-width: 90px;
+            }
+
+            &:nth-child(3) {
+                max-width: 70px;
+            }
+        }
+    }
+
+    .name {
+        margin: 5px auto;
+        max-width: 110px;
+        width: 96%;
+        min-height: 12px;
+        font-size: 11px;
+        line-height: 12px;
+        text-align: center
+    }
+}
+
+/*==================================================================
+WPBAkery Team Member SC Inner Styles
+===================================================================*/
+
+.vc_ohio_team_member_inner-container {
+    padding: 14px 0 6px;
+    width: auto;
+
+    ._contain {
+        margin: 8px auto;
+        width: 180px;
+        height: 100px;
+        background: $color_vc_background_light;
+        line-height: 10px;
+    }
+
+    .right {
+        float: left;
+        width: 90px;
+        height: 100px;
+    }
+
+    .lines {
+        margin: 0 auto;
+        width: 70px;
+
+        .line {
+            margin-bottom: 4px;
+            height: 4px;
+            background: $color_background_light;
+
+            .line:last-child {
+                margin: 0;
+            }
+        }
+    }
+
+    ._contain .photo {
+        float: left;
+        width: 90px;
+        height: 100px;
+        background: center center no-repeat $color_background_light
+    }
+
+    .name {
+        margin: 6px auto 0;
+        width: 86px;
+        min-height: 11px;
+        font-size: 10px;
+        line-height: 11px;
+        text-align: center;
+    }
+
+    .position {
+        margin: 5px auto 9px;
+        width: 50px;
+        height: 4px;
+        background: $color_background_light;
+    }
+}
+
+.wpb_team_member_inner_ohio {
+    float: left;
+    margin: 0!important;
+    height: 174px;
+    width: 25%;
+    min-width: 220px;
+}
+
+/*==================================================================
+WPBAkery Icon Box SC Styles
+===================================================================*/
+
+.vc_ohio_icon_box-container {
+    .icon {
+        margin: 6px auto 8px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: $color_vc_background;
+        text-align: center;
+        line-height: 4px;
+
+        span {
+            font-size: 28px;
+            line-height: 60px;
+        }
+
+        span.small {
+            display: inline-block;
+            padding-top: 8px;
+            font-size: 24px;
+            line-height: 24px;
+        }
+    }
+
+    .title {
+        margin: 0 auto 10px;
+        max-width: 180px;
+        width: 80%;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .line {
+        margin: 0 auto 4px;
+        max-width: 110px;
+        height: 6px;
+        background: $color_vc_background;
+
+        &:nth-child(2) {
+            max-width: 90px;
+        }
+
+        &:nth-child(3) {
+            max-width: 70px;
+        }
+    }
+}
+
+/*==================================================================
+WPBAkery Contact SC Styles
+===================================================================*/
+
+.vc_ohio_contact_inner-container ._contain {
+    margin: 8px 0 0;
+    overflow: hidden;
+
+    .icon {
+        float: left;
+        margin-right: 8px;
+        width: 30px;
+        height: 30px;
+        background: $color_background_light
+    }
+
+    .right {
+        float: left
+    }
+
+    .heading {
+        font-weight: 600
+    }
+}
+
+/*==================================================================
+WPBAkery Banner SC Styles
+===================================================================*/
+
+.vc_ohio_banner_box-container {
+    .image {
+        margin: 24px 0 8px;
+        border-radius: $border_radius;
+        width: auto;
+        height: 150px;
+        background: center 75% no-repeat $color_vc_background_light;
+        overflow: hidden;
+    }
+
+    .title {
+        margin: 0 auto;
+        padding: 8px 10px 3px;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: left;
+        background: rgba(0, 0, 0, .03);
+    }
+
+    .lines {
+        padding: 0 10px 8px;
+        background: rgba(0, 0, 0, .03);
+        font-size: 11px;
+        line-height: 11px;
+        color: rgba(0, 0, 0, .5);
+    }
+}
+
+.vc_ohio_banner_box_inner-container {
+    margin-top: 26px;
+    overflow: hidden;
+
+    .image {
+        margin-bottom: 10px;
+        width: 50%;
+        float: left;
+        max-width: 340px;
+        height: 186px;
+        background: center center no-repeat $color_vc_background_light;
+    }
+
+    ._wrap {
+        float: left;
+        min-width: 50%;
+    }
+
+    .title {
+        margin: 0 auto;
+        padding: 8px 0 3px 10px;
+        font-size: 13px;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .lines {
+        padding: 0 10px 8px;
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    .desc {
+        padding: 5px 0 5px 10px;
+        width: 100%;
+    }
+
+    .desc div {
+        margin-bottom: 5px;
+        height: 9px;
+        width: 100%;
+        max-width: 280px;
+        background: rgba(0, 0, 0, .05);
+    }
+
+    .more {
+        margin: 10px 0 0 10px;
+        height: 28px;
+        width: 90px;
+        background: rgba(0, 0, 0, .05)
+    }
+}
+
+/*==================================================================
+WPBAkery Extra Typo Styles
+===================================================================*/
+
+.ohio_extra_typography_block {
+    .row {
+        overflow: hidden;
+        margin-bottom: 8px;
+
+        &:last-child {
+            margin: 0
+        }
+    }
+
+    .split-column {
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        padding-right: 25px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+
+    .column-6 {
+        width: 50%;
+        padding-right: 0px;
+    }
+
+    .column-3 {
+        width: 25%;
+    }
+
+    .title {
+        display: inline-block;
+        margin-bottom: 6px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .input-styles-wrap {
+        min-height: 24px;
+
+        label {
+            display: inline-block
+        }
+
+        > .cbrio_custom_check {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+        }
+    }
+
+    .wp-picker-container .wp-color-result.button {
+        margin-top: 0px;
+    }
+
+    .input-pixeles-wrap {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+
+        input {
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+
+        .pixeles {
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            line-height: 28px;
+            @include border_right_radius();
+            background: #F7F7F7;
+            border: 1px solid $color_border_field;
+            border-left: none;
+            text-align: center;
+            box-sizing: border-box;
+        } 
+    }
+
+    .input-fonts-wrap {
+        padding-top: 1px
+    }
+
+    .tip {
+        margin-top: 3px;
+        padding: 0 3px;
+        font-size: 12px;
+        text-align: right
+    }
+}
+
+.ohio_extra_portfolio_types_block .select2-container,
+.ohio_extra_portfolio_types_block .select2-container .select2-search__field,
+.ohio_extra_post_types_block .select2-container,
+.ohio_extra_post_types_block .select2-container .select2-search__field,
+.ohio_extra_woo_categories_types_block .select2-container,
+.ohio_extra_woo_categories_types_block .select2-container .select2-search__field {
+    width: 100% !important;
+}
+
+.ohio_extra_portfolio_types_block .select2-container--default .select2-selection--multiple,
+.ohio_extra_portfolio_types_block .select2-container--default.select2-container--focus .select2-selection--multiple,
+.ohio_extra_post_types_block .select2-container--default .select2-selection--multiple,
+.ohio_extra_post_types_block .select2-container--default.select2-container--focus .select2-selection--multiple,
+.ohio_extra_woo_categories_types_block .select2-container--default .select2-selection--multiple,
+.ohio_extra_woo_categories_types_block .select2-container--default.select2-container--focus .select2-selection--multiple {
+    border-color: #ddd;
+    border-radius: $border_radius;
+    height: 30px;
+    line-height: 30px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    color: #32373c;
+}
+
+.ohio_extra_portfolio_types_block,
+.ohio_extra_post_types_block {
+    .select2-container .select2-search--inline .select2-search__field {
+        margin-top: 0px;
+    }
+}
+
+.ohio_extra_choose_box_block {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+
+        li {
+            margin: 5px 18px 0 0;
+            max-width: calc(100%/6 - 18px);
+
+            input[type=radio] {
+                display: none;
+
+                &:checked + label {
+                    background-color: rgba($color_admin, .25);
+                    border-radius: 5px;
+
+                    img {
+                        border-radius: 5px 5px 0 0;
+                    }
+
+                    .ohio_extra_choose_box_title {
+                        background-color: $color_admin;
+                        color: #fff;
+                    }
+                }
+            }
+
+            label {
+                display: block;
+                overflow: hidden;
+
+                img {
+                    min-width: 82px;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                    vertical-align: top;
+                    background-color: rgba($color_admin, .05);
+                }
+
+                &:hover {
+                    img {
+                        box-shadow: 0 2px 5px rgba(0, 0, 0, .06);
+                    }
+                }
+            }
+
+            .ohio_extra_choose_box_title {
+                text-align: center;
+                margin: 0;
+                font-size: 13px;
+                line-height: 1.3;
+                border-radius: 0 0 5px 5px;
+                padding: 4px 5px 5px;
+            }
+        }
+    }
+}
+
+/*==================================================================
+Extra Icon Picker Styles
+===================================================================*/
+
+.ohio_extra_icon_picker_block .selected-icon {
+    width: 90px;
+    height: 50px;
+    line-height: 52px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 28px
+}
+
+.ohio_extra_icon_picker_block .selected-icon span::before {
+    line-height: 52px!important
+}
+
+.ohio_extra_icon_picker_block .selected-icon .select {
+    background: #eee;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 1px solid #ddd;
+    font-size: 22px;
+    float: right
+}
+
+.ohio_extra_icon_picker_block .selected-icon:hover {
+    border-color: #ccc;
+    cursor: pointer
+}
+
+.ohio_extra_icon_picker_block .selected-icon:hover .select {
+    background: #ddd;
+    border-color: #ccc
+}
+
+.ohio_extra_icon_picker_block .content {
+    width: 100%;
+    max-height: 0;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: .2s linear;
+    transition-property: opacity, max-height, background-color
+}
+
+.ohio_extra_icon_picker_block .content.open {
+    max-height: 600px;
+    padding: 3px 2px 0 0;
+    opacity: 1;
+    background-color: #f6f6f6
+}
+
+.ohio_extra_icon_picker_block .content .categories,
+.ohio_extra_icon_picker_block .content .search {
+    width: calc(100% - 9px);
+    margin: 2px 5px
+}
+
+.ohio_extra_icon_picker_block strong.category-name {
+    margin: 6px 0 6px 5px;
+    clear: both;
+    display: inline-block
+}
+
+.ohio_extra_check_block input[type=checkbox]:checked,
+.ohio_extra_check_block input[type=checkbox]:not(:checked),
+.ohio_extra_custom_check input[type=checkbox]:checked,
+.ohio_extra_custom_check input[type=checkbox]:not(:checked),
+.ohio_extra_icon_picker_block ul.icons li li.hidden,
+.ohio_extra_icon_picker_block ul.icons li li.search-hidden,
+.ohio_extra_icon_picker_block ul.icons li.category-hidden {
+    display: none
+}
+
+.ohio_extra_icon_picker_block ul.icons {
+    width: 100%;
+    max-height: 320px;
+    margin: 5px 0 3px;
+    padding: 0 2px;
+    border: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: auto;
+    min-height: 320px
+}
+
+.ohio_extra_icon_picker_block ul.icons ul,
+.ohio_extra_typography_block .input-pixeles-wrap {
+    overflow: hidden
+}
+
+.ohio_extra_icon_picker_block ul.icons li li {
+    width: 61px;
+    height: 61px;
+    text-align: center;
+    font-size: 42px;
+    line-height: 61px;
+    margin: 0 0 3px 3px;
+    float: left;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.ohio_extra_icon_picker_block ul.icons li li i::before {
+    line-height: 61px!important;
+}
+
+.ohio_extra_icon_picker_block ul.icons li li.selected {
+    border: 2px solid #307ac8;
+}
+
+.ohio_extra_icon_picker_block ul.icons li li:hover {
+    background: #d2f2ff;
+    border: 1px solid #8cf;
+    cursor: pointer;
+}
+
+.ohio_extra_icon_picker_block ul.icons li li.selected:hover {
+    border: 2px solid #307ac8;
+}
+
+.vc_ui-panel-content-container {
+    min-height: 50px;
+    font-size: 15px;
+
+    .select2-container--default {
+        .select2-selection--multiple {
+            .select2-selection__choice {
+                font-size: 14px;
+                line-height: 1.3;
+            }
+        }
+    }
+}
+
+.ohio_extra_custom_check {
+    margin-right: 6px;
+}
+
+.vc_general.vc_ui-tabs-line {
+    .vc_ui-tabs-line-trigger {
+        font-size: 15px;
+    }
+}
+
+.ohio_extra_check_block input[type=checkbox]:checked+label,
+.ohio_extra_check_block input[type=checkbox]:not(:checked)+label,
+.ohio_extra_custom_check label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    vertical-align: 0;
+}
+
+.ohio_extra_check_block input[type=checkbox]:checked+label:before,
+.ohio_extra_check_block input[type=checkbox]:not(:checked)+label:before,
+.ohio_extra_custom_check label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .06);
+}
+
+.ohio_extra_check_block input[type=checkbox]:checked+label:after,
+.ohio_extra_check_block input[type=checkbox]:not(:checked)+label:after,
+.ohio_extra_custom_check label:after {
+    content: '✔';
+    position: absolute;
+    top: 1px;
+    left: 3px;
+    font-size: 15px;
+    line-height: 15px;
+    color: #305288;
+}
+
+.ohio_extra_button_block .disabled,
+.ohio_extra_button_block .wp-picker-active {
+    position: relative;
+}
+
+.ohio_extra_check_block input[type=checkbox]:not(:checked)+label:after,
+.ohio_extra_custom_check input[type=checkbox]:not(:checked)+label:after {
+    opacity: 0
+}
+
+.ohio_extra_check_block input[type=checkbox]:checked+label:after,
+.ohio_extra_custom_check input[type=checkbox]:checked+label:after {
+    opacity: 1
+}
+
+.ohio_extra_check_block input[type=checkbox]:checked:focus+label:before,
+.ohio_extra_check_block input[type=checkbox]:not(:checked):focus+label:before {
+    border: 1px dotted #00f
+}
+
+.ohio_extra_check_block label:hover:before {
+    border: 1px solid #4778d9!important
+}
+
+.vc_ohio_pricing_table-container,
+.vc_ohio_service_table-container {
+    margin: 6px auto 0;
+    padding: 30px 16px;
+    max-width: 174px;
+    border: 1px solid rgba(0, 0, 0, .08)
+}
+
+.vc_ohio_pricing_table_features-container {
+    margin: 6px auto 0;
+    padding: 30px 16px 56px;
+    max-width: 174px
+}
+
+.vc_ohio_pricing_table-container .title,
+.vc_ohio_service_table-container .title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px
+}
+
+.vc_ohio_pricing_table_features-container .title {
+    margin-top: 64px;
+    padding-left: 10%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 16px
+}
+
+.vc_ohio_pricing_table-container .subtitle,
+.vc_ohio_service_table-container .subtitle {
+    margin: 4px auto;
+    height: 6px;
+    width: 35%;
+    background: $color_background_light
+}
+
+.vc_ohio_pricing_table-container .price,
+.vc_ohio_service_table-container .price {
+    margin-bottom: 16px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600
+}
+
+.vc_ohio_pricing_table-container .price span,
+.vc_ohio_service_table-container .price span {
+    display: inline-block;
+    margin-right: 2px;
+    height: 8px;
+    width: 7px;
+    vertical-align: 10px;
+    background: $color_background_light
+}
+
+.vc_ohio_pricing_table-container .item,
+.vc_ohio_service_table-container .item,
+.vc_ohio_pricing_table_features-container .item {
+    margin: 8px auto;
+    height: 9px;
+    width: 80%;
+    background: $color_background_light
+}
+
+.vc_ohio_pricing_table-container .divider,
+.vc_ohio_service_table-container .divider,
+.vc_ohio_pricing_table_features-container .divider {
+    margin: 8px auto;
+    height: 1px;
+    background: $color_background_light;
+    width: 90%
+}
+
+.vc_ohio_pricing_table-container .read_more,
+.vc_ohio_service_table-container .read_more {
+    margin: 10px auto 0;
+    max-width: 84px;
+    width: 60%;
+    height: 22px;
+    background: $color_background_light
+}
+
+.vc_element_label, 
+.wpb_element_label {
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.ohio_extra_divider_block {
+    margin-top: 18px;
+    padding-bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid $color_border;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    color: darken($color_grey, 5%);
+}
+
+.vc_wrapper-param-type-ohio_divider {
+    padding-top: 8px
+}
+
+.wpb_ohio_split_screen_column_left>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_split_screen_column_right>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_split_screens>.wpb_element_wrapper>.vc_empty-container::after {
+    top: 12px;
+    left: inherit;
+    right: calc(50% - 4px)
+}
+
+.wpb_ohio_split_screen>.wpb_element_wrapper>.wpb_column_container {
+    margin: 0 10px 0 25px
+}
+
+.wpb_ohio_split_screen>.wpb_element_wrapper>.wpb_element_title {
+    display: none
+}
+
+.wpb_ohio_split_screen>.wpb_element_wrapper>.wpb_column_container,
+.wpb_ohio_split_screen_column_left,
+.wpb_ohio_split_screen_column_right {
+    background: #fafafa
+}
+
+.wpb_ohio_split_screen_column_left {
+    width: 50%;
+    float: left
+}
+
+.wpb_ohio_split_screen_column_right {
+    margin: 0;
+    width: 50%;
+    float: left
+}
+
+.wpb_ohio_split_screen_column_left>.wpb_element_wrapper>.wpb_column_container,
+.wpb_ohio_split_screen_column_right>.wpb_element_wrapper>.wpb_column_container,
+.wpb_ohio_vertical_slider_inner .wpb_element_wrapper .wpb_column_container {
+    margin: 0 10px
+}
+
+.wpb_ohio_vertical_slider_inner .wpb_element_wrapper .wpb_column_container.vc_empty-container::after {
+    top: 10px
+}
+
+.wpb_ohio_vertical_slider_inner {
+    border-bottom: 2px dotted #e6e6e6
+}
+
+.wpb_ohio_vertical_slider_inner:last-child {
+    border-bottom: none
+}
+
+.ohio_extra_datetime_block {
+    margin-top: 5px;
+    padding: 5px 6px
+}
+
+.ohio_extra_datetime_block label {
+    display: inline-block;
+    margin: 0 4px
+}
+
+.ohio_extra_datetime_block .divider {
+    line-height: 40px;
+    vertical-align: -10px
+}
+
+.ohio_extra_datetime_block label:first-child {
+    margin-left: 0
+}
+
+.ohio_extra_datetime_block input[type=number] {
+    width: 50px
+}
+
+.ohio_extra_datetime_block input[type=number].year {
+    width: 70px
+}
+
+.ohio_extra_datetime_block label.hour {
+    margin-left: 40px
+}
+
+.left {
+    float: left;
+}
+
+.fullwidth {
+    margin-left: 10px;
+}
+
+.ohio_extra_button_block .brand-color {
+    margin-left: 5px;
+    margin-top: 9px;
+}
+
+.ohio_extra_button_block .brand-color label {
+    vertical-align: -4px;
+}
+
+.ohio_extra_button_block .button-checkbox {
+    min-height: 40px;
+    margin-top: 30px
+}
+
+.ohio_extra_button_block .button-checkbox input[type=checkbox] {
+    vertical-align: -3px
+}
+
+.ohio_extra_button_block .wp-picker-active .wp-picker-input-wrap {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px 0;
+    border: 1px solid #ddd;
+    border-bottom-width: 0;
+    position: relative
+}
+
+.ohio_extra_button_block .wp-picker-input-wrap input[type=text] {
+    width: 70%!important;
+    height: 30px
+}
+
+.ohio_extra_button_block .wp-picker-input-wrap input[type=button] {
+    width: 28%;
+    height: 30px;
+    margin-left: 2%
+}
+
+.ohio_extra_button_block .disabled:after,
+.ohio_extra_colorpicker_block .color.disabled:after {
+    content: '';
+    background: rgba(255, 255, 255, .6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0
+}
+
+.ohio_extra_button_block .disabled:after {
+    position: absolute;
+}
+
+// Colorpicker
+
+.ohio_extra_colorpicker_block,
+.ohio_extra_colorpicker_block .left {
+    display: flex;
+    align-items: center;
+
+    .color {
+        margin-right: 10px;
+        position: relative;
+    }
+
+    .color.disabled:after {
+        position: absolute;
+    }
+}
+
+// Colorpicker brand color
+
+.brand-color {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+    label {
+        display: flex;
+        align-items: center;
+    }
+
+    &-holder {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        color: $color_grey;
+        font-size: 14px;
+
+        .marker {
+            height: 14px;
+            width: 14px;
+            border: 3px solid rgba(#000, .15);
+            border-radius: $border_radius;
+        }
+    }
+}
+
+.vc_description {
+    color: $color_grey;
+    font-style: normal;
+}
+
+.vc_properties-list input[type=checkbox] {
+    margin: 0px 5px 0px 0px;
+}
+
+.vc_ui-panel.vc_ui-panel-window {
+    z-index: 10000!important
+}
+
+.vc_shortcode-param[data-param_type=iconpicker] .vc-icons-selector .selected-icon i {
+    font-size: 46px;
+    line-height: 46px
+}
+
+.vc_shortcode-param[data-param_type=iconpicker] .vc-icons-selector .selected-icon {
+    padding: 4px 0;
+    height: 46px
+}
+
+.vc-icons-selector .selector-button {
+    padding-top: 8px;
+    height: 46px
+}
+
+.vc-icons-selector .selector {
+    height: 54px
+}
+
+.fip-vc-theme-grey.vc-icons-selector .fip-icons-container .fip-box.current-icon:hover,
+.fip-vc-theme-grey.vc-icons-selector span.current-icon {
+    background-color: #305288
+}
+
+.fip-vc-theme-grey.vc-icons-selector .selector-search input[type=text] {
+    font-size: 14px
+}
+
+.vc-icons-selector .fip-icons-container .fip-box {
+    padding: 4px 0;
+    height: 46px;
+    font-size: 46px;
+    line-height: 46px
+}
+
+.wpb_ohio_tabs {
+    margin-top: 30px!important
+}
+
+.wpb_ohio_tabs>.wpb_element_wrapper {
+    background: 0 0;
+    padding: 14px 0 10px
+}
+
+.wpb_ohio_tabs>.vc_controls {
+    opacity: 1!important;
+    visibility: visible
+}
+
+.wpb_ohio_tabs .vc_tta-container {
+    margin-top: 10px
+}
+
+.wpb_ohio_tabs .vc_tta-tabs-container li.vc_tta-tab {
+    margin-right: 4px
+}
+
+.wpb_ohio_tabs .vc_tta-tabs-container li.vc_tta-tab a {
+    padding: 10px 14px
+}
+
+.wpb_ohio_tabs_inner {
+    margin: 0
+}
+
+.wpb_ohio_tabs_inner>.wpb_element_wrapper>.vc_tta-panel-body {
+    margin-top: 10px;
+    padding-top: 40px
+}
+
+.wpb_ohio_tabs_inner>.vc_controls {
+    opacity: 0;
+    visibility: hidden
+}
+
+.wpb_ohio_tabs_inner>.wpb_element_wrapper>.vc_tta-panel-body>.vc_controls {
+    opacity: 1;
+    visibility: visible
+}
+
+.wpb_ohio_carousel {
+    margin-top: 30px!important
+}
+
+.wpb_ohio_carousel>.wpb_element_wrapper {
+    background: 0 0;
+    padding: 14px 0 10px
+}
+
+.wpb_ohio_carousel>.vc_controls {
+    opacity: 1!important;
+    visibility: visible
+}
+
+.wpb_ohio_carousel .vc_tta-container {
+    margin-top: 10px
+}
+
+.wpb_ohio_carousel .vc_tta-tabs-container li.vc_tta-tab {
+    margin-right: 4px
+}
+
+.wpb_ohio_carousel .vc_tta-tabs-container li.vc_tta-tab a {
+    padding: 10px 14px
+}
+
+.wpb_ohio_carousel_inner {
+    margin: 0
+}
+
+.wpb_ohio_carousel_inner>.wpb_element_wrapper>.vc_tta-panel-body {
+    margin-top: 10px;
+    padding-top: 40px
+}
+
+.wpb_ohio_carousel_inner>.vc_controls {
+    opacity: 0;
+    visibility: hidden
+}
+
+.wpb_ohio_carousel_inner>.wpb_element_wrapper>.vc_tta-panel-body>.vc_controls {
+    opacity: 1;
+    visibility: visible
+}
+
+.wpb_ohio_split_box>.wpb_element_wrapper>.vc_empty-container,
+.wpb_ohio_split_box_inner>.wpb_element_wrapper>.vc_empty-container {
+    background: 0 0;
+    cursor: default
+}
+
+.wpb_ohio_split_box_column,
+.wpb_ohio_split_box_column_inner {
+    width: calc(50% - 25px);
+    float: left;
+    padding: 0 12px;
+    margin-top: 0!important
+}
+
+.wpb_ohio_split_box_column:first-child,
+.wpb_ohio_split_box_column_inner:first-child {
+    width: calc(50% - 25px);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.wpb_ohio_split_box_column>.wpb_element_wrapper>.wpb_column_container,
+.wpb_ohio_split_box_column_inner>.wpb_element_wrapper>.wpb_column_container {
+    margin: 0 10px;
+}
+
+.wpb_ohio_text .wpb_element_wrapper p {
+    margin-top: 0;
+}
+
+.wpb_ohio_banner_box_group>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_contacts_group>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_parallax>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_content_box>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_split_box_column>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_split_box_column_inner>.wpb_element_wrapper>.vc_empty-container::after,
+.wpb_ohio_team_members_group>.wpb_element_wrapper>.vc_empty-container::after {
+    top: 12px;
+}
+
+.wpb_ohio_accordion_inner>.wpb_element_wrapper>.vc_tta-panel-body>.vc_empty-container::after,
+.wpb_ohio_tabs_inner>.wpb_element_wrapper>.vc_tta-panel-body>.vc_empty-container::after {
+    top: 8px;
+}
+
+.ohio_heading_VC_gap {
+    padding: 3px 1px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.wpb_el_type_ohio_divider:first-child {
+    margin-top: -25px;
+}
+
+.vc_ui-panel .vc_panel-tabs>.vc_edit-form-tab.vc_row {
+    padding-bottom: 20px;
+}
+
+/*==================================================================
+WPBakery Front-End Fix
+===================================================================*/
+
+.vc_editor.compose-mode .vc_ohio_tabs,
+.vc_editor.compose-mode .vc_ohio_split_screens {
+    position: relative;
+    margin: 10px 0;
+    height: 60px;
+    background: rgba(0,0,0,.06);
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+.vc_editor.compose-mode .vc_ohio_tabs *,
+.vc_editor.compose-mode .vc_ohio_split_screens * { 
+    display: none;
+}
+
+.vc_editor.compose-mode .vc_ohio_tabs:after,
+.vc_editor.compose-mode .vc_ohio_split_screens:after {
+    content: 'Sorry, but this shortcode works only in backend editor.';
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 50%;
+    margin-left: -200px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #404040;
+    background: #ffffff;
+}

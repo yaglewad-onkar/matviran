@@ -1,0 +1,34 @@
+.heading {
+	margin-bottom: 20px;
+
+	.subtitle {
+		margin: 0;
+		font-size: .9em;
+		font-weight: 600;
+		color: rgba($color_text, .8);
+	}
+
+	.subtitle + .divider,
+	.subtitle + .title,
+	.title + .subtitle {
+		margin-top: 20px;
+	}
+
+	.subtitle + h3.title,
+	h3.title + .subtitle {
+		margin-top: 15px;
+	}
+
+	// Divider
+
+	.divider {
+		width: 100%;
+		height: 1px;
+		display: block;
+		background-color: $color_border_dark;
+
+		& + .title {
+			margin-top: 20px;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.horizontal_accordion {
+	display: flex;
+
+	&Item {
+		min-width: 50%;
+		position: relative;
+		box-shadow: 5px 0px 8px -2px rgba(0, 0, 0, 0.05);
+		background-color: #fff;
+		@include animate();
+
+		&_content {
+			height: 100%;
+			@include animate();
+
+			> .wrap {
+				height: 100%;
+			}
+		}
+
+		&:first-child {
+			padding-left: 0;
+		}
+
+		&:not(.active) {
+			cursor: pointer;
+		}
+
+		&:not(.active):hover {
+			background-color: $color_fill_solid;
+		}
+
+		&:last-child {
+			padding-left: 0;
+			box-shadow: none;
+		}
+	}
+
+	@include sm_screen() {
+		flex-direction: column;
+
+		&Item {
+			box-shadow: none;
+		}
+	}
+
+	&:not(.open) {
+		overflow-x: hidden;
+	}
+}

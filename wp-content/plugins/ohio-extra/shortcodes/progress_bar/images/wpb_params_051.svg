@@ -1,0 +1,33 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.15" x="6" y="13" width="48" height="6" rx="2" fill="#586A74"/>
+<path d="M6 15C6 13.8954 6.89543 13 8 13H36C37.1046 13 38 13.8954 38 15V17C38 18.1046 37.1046 19 36 19H8C6.89543 19 6 18.1046 6 17V15Z" fill="#586A74"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="6" y="13" width="32" height="6">
+<path d="M6 15C6 13.8954 6.89543 13 8 13H36C37.1046 13 38 13.8954 38 15V17C38 18.1046 37.1046 19 36 19H8C6.89543 19 6 18.1046 6 17V15Z" fill="#586A74"/>
+</mask>
+<g mask="url(#mask0)">
+<path opacity="0.15" d="M40.5 19L45 13H39.75L35.25 19H40.5Z" fill="white"/>
+<path opacity="0.15" d="M30.75 19L35.25 13H30L25.5 19H30.75Z" fill="white"/>
+<path opacity="0.15" d="M21 19L25.5 13H20.25L15.75 19H21Z" fill="white"/>
+<path opacity="0.15" d="M11.25 19L15.75 13H10.5L6 19H11.25Z" fill="white"/>
+</g>
+<rect opacity="0.15" x="6" y="41" width="48" height="6" rx="2" fill="#586A74"/>
+<path d="M6 43C6 41.8954 6.89543 41 8 41H36C37.1046 41 38 41.8954 38 43V45C38 46.1046 37.1046 47 36 47H8C6.89543 47 6 46.1046 6 45V43Z" fill="#586A74"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="6" y="41" width="32" height="6">
+<path d="M6 43C6 41.8954 6.89543 41 8 41H36C37.1046 41 38 41.8954 38 43V45C38 46.1046 37.1046 47 36 47H8C6.89543 47 6 46.1046 6 45V43Z" fill="#586A74"/>
+</mask>
+<g mask="url(#mask1)">
+<path opacity="0.15" d="M40.5 47L45 41H39.75L35.25 47H40.5Z" fill="white"/>
+<path opacity="0.15" d="M30.75 47L35.25 41H30L25.5 47H30.75Z" fill="white"/>
+<path opacity="0.15" d="M21 47L25.5 41H20.25L15.75 47H21Z" fill="white"/>
+<path opacity="0.15" d="M11.25 47L15.75 41H10.5L6 47H11.25Z" fill="white"/>
+</g>
+<rect opacity="0.15" x="6" y="27" width="48" height="6" rx="2" fill="#586A74"/>
+<path d="M6 29C6 27.8954 6.89543 27 8 27H20C21.1046 27 22 27.8954 22 29V31C22 32.1046 21.1046 33 20 33H8C6.89543 33 6 32.1046 6 31V29Z" fill="#586A74"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="6" y="27" width="16" height="6">
+<path d="M6 29C6 27.8954 6.89543 27 8 27H20C21.1046 27 22 27.8954 22 29V31C22 32.1046 21.1046 33 20 33H8C6.89543 33 6 32.1046 6 31V29Z" fill="#586A74"/>
+</mask>
+<g mask="url(#mask2)">
+<path opacity="0.15" d="M21 33L25.5 27H20.25L15.75 33H21Z" fill="white"/>
+<path opacity="0.15" d="M11.25 33L15.75 27H10.5L6 33H11.25Z" fill="white"/>
+</g>
+</svg>

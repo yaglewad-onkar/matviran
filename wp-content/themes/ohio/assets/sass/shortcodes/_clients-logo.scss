@@ -1,0 +1,89 @@
+.client-logo {
+	position: relative;
+
+	&-inner {
+		position: relative;
+		padding: 20px 0px;
+		@include border_radius();
+
+		img {
+			vertical-align: top;
+		}
+	}
+
+	&-default {
+		overflow: hidden;
+
+		&:hover {
+			img {
+				animation: logoFadeUp $transition_function .75s 1;
+			}
+		}
+	}
+
+	&-overlay {
+		@include animate;
+		
+		.client-logo-img {
+			padding: 0 25px;
+		}
+
+		&:hover {
+			@include border_left_radius();
+			background: #fff;
+
+			.client-logo-details {
+				@include animate;
+				opacity: 1;
+				visibility: visible;
+
+				p {
+					@include fade_up_active();
+				}
+			}
+		}
+	}
+
+	&-details {
+		background: #fff;
+		width: 100%;
+		height: auto;
+		visibility: hidden;
+		margin: 15px 0px 0px 0px;
+		padding: 0 20px 20px;
+		position: absolute;
+		z-index: 100;
+		opacity: 0;
+		@include border_bottom_radius();
+
+		p {
+			margin: 0;
+			@include fade_up();
+		}
+	}
+
+
+	@keyframes logoFadeUp {
+		0% {
+			transform: translateY(0px);
+		}
+		50% {
+			transform: translateY(calc(-100% - 25px));
+			opacity: 1;
+		}
+		51% {
+			transform: translateY(calc(-100% - 25px));
+			opacity: 0;
+		}
+		52% {
+			transform: translateY(calc(100% + 25px));
+		}
+		86% {
+			opacity: 1;
+		}
+
+		100% {
+			transform: translateY(0px);
+		}
+	}
+}

@@ -1,0 +1,177 @@
+.clb-page-headline {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+	&-holder {
+		position: relative;
+		@include spacer60(padding-top);
+		@include spacer60(padding-bottom);
+	}
+
+	.bg-image {
+		background-position: center center;
+		background-size: cover;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	&:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	&.without-cap {
+		@include header_height(padding-top);
+	}
+
+	&.full-vh {
+		padding-top: 0;
+	}
+
+	.clb-title {
+		margin: 10px 0px;
+		max-width: 60%;
+		display: inline-block;
+		text-align: inherit;
+
+		@include sm_screen() {
+			margin: 10px 0px;
+		}
+	}
+
+	.clb-post-meta {
+		max-width: 60%;
+		font-size: $font_size_large;
+
+		.clb-post-holder {
+			@include flex_center();
+			margin-top: $spacer_20;
+			list-style: none;
+			font-size: $font_size_regular;
+
+			@include sm_screen() {
+				align-items: flex-start;
+				font-size: $font_size_small;
+			}
+		}
+
+		&-item {
+			@include spacer30(margin-right);
+			line-height: 1.5;
+			text-align: left;
+
+			.prefix {
+				font-size: $font_size_small;
+			}
+
+			&:first-child {
+				margin-right: 15px;
+			}
+
+			.caption {
+				color: $color_light;
+			}
+
+			span, time {
+				font-weight: 600;
+			}
+		}
+
+		.btn {
+			margin-top: 20px;
+		}
+	}
+
+	&.text-center {
+		.clb-post-meta {
+			margin: auto;
+			
+			.clb-post-holder {
+				justify-content: center;
+			}
+		}
+	}
+
+	&.text-right {
+		.clb-post-meta {
+			margin: auto;
+			max-width: 100%;
+		}
+	}
+
+	&.headline-with-parallax {
+		position: relative;
+
+		.parallax {
+			position: absolute;
+			width: 100%;
+		}
+	}
+
+	// Mobile styles
+
+	@include sm_screen {
+		& {
+			min-height: 30vh;
+			margin-bottom: -15px;
+
+			&:before {
+				content: '';
+				background-color: #fff;
+				width: 100%;
+				height: 15px;
+				@include border_top_radius(15px);
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				z-index: 2;
+			}
+		}
+
+		.clb-title,
+		.clb-post-meta {
+			max-width: 100%;
+		}
+	}
+}
+
+@include lg_screen {
+	.with-header-2 {
+		.clb-page-headline {
+			&.without-cap {
+				padding-top: 21vh;
+			}
+		}
+	}
+
+	.with-header-5,
+	.with-header-6,
+	.with-header-7 {
+		.clb-page-headline {
+			&.without-cap {
+				padding-top: initial;
+			}
+		}
+	}
+
+	.single-post {
+		.clb-page-headline {
+			.clb-title {
+			    max-width: 80%;
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+.vc_editor.compose-mode {
+    .vc_ohio_tabs,
+    .vc_ohio_split_screens {
+        position: relative;
+        margin: 10px 0;
+        border-radius: 4px;
+
+        * { 
+            // opacity: .2;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10000;
+            background: rgba(#FFD569, 0.85);
+        }
+
+        &:after {
+            content: 'Sorry, but this shortcode can be properly edited only in WPBakery Backend Editor.';
+            position: absolute;
+            font-family: $font_main;
+            display: block;
+            padding: 0px 20%;
+            font-weight: 500;
+            color: rgba(#000, .8);
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            left: 0;
+            text-align: center;
+            z-index: 10001;
+        }
+    }
+}
+
+.vc_ohio_accordion_inner .content.open .wrap > .vc_element-container {
+    display: none;
+}

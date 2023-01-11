@@ -1,0 +1,30 @@
+<wpml-config>
+	<admin-texts>
+		<key name="option_tree">
+		  	<key name="ut_front_page_fancy_slider">
+				<key name="*"/>
+			</key>
+		</key>
+  	</admin-texts>
+    <language-switcher-settings>
+        <key name="display_ls_in_menu">1</key>
+        <key name="icl_lang_sel_type">classic</key>
+        <key name="icl_lso_flags">1</key>
+        <key name="icl_lso_native_lang">1</key>
+        <key name="icl_lso_display_lang">1</key>
+    </language-switcher-settings>
+    <shortcodes>
+        <shortcode>
+            <tag>ut_probar_thin</tag>
+            <attributes>
+                <attribute>info</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>ut_probar</tag>
+            <attributes>
+                <attribute>info</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

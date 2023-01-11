@@ -1,0 +1,28 @@
+.content_box {
+
+	&_container {
+		@include animate(border-color);
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			top: 0;
+			left: 0;
+			background: $color_dark;
+			transform: translateX(-100%);
+			@include animate();
+		}
+	}
+
+	&:hover {
+		.content_box_container {
+			&:before {
+				height: 100%;
+			}
+		}
+	}
+}
+	

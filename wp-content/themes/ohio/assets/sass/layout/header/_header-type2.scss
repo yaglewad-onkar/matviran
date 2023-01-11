@@ -1,0 +1,116 @@
+&.header-2 {
+
+    // General
+
+    .header-wrap {
+
+        .top-part {
+
+            &:not(.page-container) {
+                @include spacer40(padding-left);
+                @include spacer40(padding-right);
+            }
+        }
+    }
+
+    // Desktop
+
+    &:not(.-mobile) {
+
+        .header-wrap {
+            height: 21vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            padding: 0;
+
+            .menu-optional {
+                min-width: 20vw;
+
+                &-left {
+                    justify-content: flex-start;
+
+                    @include flex_center();
+
+                    > li {
+
+                        &:first-child {
+                            padding-left: 0;
+                        }
+                    }
+                }
+
+                &-right {
+                    justify-content: flex-end;
+                }
+            }
+
+            .top-part {
+
+                &.page-container {
+
+                    &:after {
+                        content: none;
+                    }
+                }  
+            }
+
+            .middle-part {
+                border-top: 1px solid $color_border;
+            }
+
+            .bottom-part {
+                flex-grow: 1;
+            }
+
+            .top-part,
+            .bottom-part {
+                height: auto;
+                padding-top: 1.5vh;
+                padding-bottom: 1.5vh;
+            }
+        }
+
+        &.-sticky {
+
+            .header-wrap {
+                height: 17vh;
+            }
+        }
+    }
+
+    // Mobile
+
+    &.-mobile {
+        
+        .header-wrap {
+            padding: 0;
+        }
+
+        .branding {
+
+            & + .menu-optional {
+                flex-grow: 2;
+                justify-content: flex-end;
+            }
+        }
+    }
+
+	@include sm_screen {
+
+		.header-wrap {
+
+			.menu-optional {
+				min-width: auto !important;
+			}
+		}
+
+        .branding {
+
+            & + .menu-optional {
+                flex-grow: 2;
+                justify-content: flex-end;
+            }
+        }
+	}
+}

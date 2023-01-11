@@ -1,0 +1,41 @@
+<svg width="252" height="150" viewBox="0 0 252 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect opacity="0.15" width="252" height="150" rx="1" fill="#677A9E"/>
+<rect opacity="0.5" x="15" y="16" width="18" height="4" fill="#677A9E"/>
+<g opacity="0.5">
+<rect x="74" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="92" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="110" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="128" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="146" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="164" y="17" width="12" height="2" fill="#677A9E"/>
+</g>
+<g opacity="0.5">
+<rect x="219" y="17" width="6" height="2" fill="#677A9E"/>
+<rect x="231" y="17" width="6" height="2" fill="#677A9E"/>
+</g>
+<rect opacity="0.15" x="36" y="40" width="180" height="33" rx="1" fill="#677A9E"/>
+<rect opacity="0.6" x="81" y="61" width="80" height="2" fill="#677A9E"/>
+<rect opacity="0.8" x="81" y="50" width="90" height="3" fill="#677A9E"/>
+<rect opacity="0.6" x="81" y="56" width="80" height="2" fill="#677A9E"/>
+<rect opacity="0.8" x="46" y="50" width="20" height="3" fill="#677A9E"/>
+<rect opacity="0.8" x="186" y="50" width="20" height="3" fill="#677A9E"/>
+<rect opacity="0.15" x="36" y="79" width="180" height="33" rx="1" fill="#677A9E"/>
+<rect opacity="0.6" x="81" y="100" width="80" height="2" fill="#677A9E"/>
+<rect opacity="0.8" x="81" y="89" width="90" height="3" fill="#677A9E"/>
+<rect opacity="0.6" x="81" y="95" width="80" height="2" fill="#677A9E"/>
+<rect opacity="0.8" x="46" y="89" width="20" height="3" fill="#677A9E"/>
+<rect opacity="0.8" x="186" y="89" width="20" height="3" fill="#677A9E"/>
+<rect opacity="0.15" x="36" y="118" width="180" height="33" rx="1" fill="#677A9E"/>
+<rect opacity="0.6" x="81" y="139" width="80" height="2" fill="#677A9E"/>
+<rect opacity="0.8" x="81" y="128" width="90" height="3" fill="#677A9E"/>
+<rect opacity="0.6" x="81" y="134" width="80" height="2" fill="#677A9E"/>
+<rect opacity="0.8" x="46" y="128" width="20" height="3" fill="#677A9E"/>
+<rect opacity="0.8" x="186" y="128" width="20" height="3" fill="#677A9E"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="252" height="150" fill="white"/>
+</clipPath>
+</defs>
+</svg>

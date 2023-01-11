@@ -1,0 +1,18 @@
+<svg width="252" height="150" viewBox="0 0 252 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.4" width="252" height="150" fill="#677A9E"/>
+<rect x="172" y="64" width="6" height="2" fill="white"/>
+<rect x="172" y="60" width="17" height="2" fill="white"/>
+<rect x="172" y="56" width="17" height="2" fill="white"/>
+<rect x="183" y="64" width="6" height="2" fill="white"/>
+<rect x="172" y="89" width="6" height="2" fill="white"/>
+<rect x="172" y="85" width="17" height="2" fill="white"/>
+<rect x="172" y="81" width="17" height="2" fill="white"/>
+<rect x="183" y="89" width="6" height="2" fill="white"/>
+<rect x="50" y="56" width="32" height="3" fill="white"/>
+<rect x="50" y="64" width="40" height="3" fill="white"/>
+<rect x="50" y="72" width="40" height="3" fill="white"/>
+<rect x="50" y="80" width="32" height="3" fill="white"/>
+<rect x="50" y="88" width="26" height="3" fill="white"/>
+<circle opacity="0.3" cx="21" cy="21" r="6" fill="white"/>
+<path d="M23.0884 19.4884L23.1768 19.4L23.0884 19.3116L22.6884 18.9116L22.6 18.8232L22.5116 18.9116L21 20.4233L19.4884 18.9116L19.4 18.8232L19.3116 18.9116L18.9116 19.3116L18.8232 19.4L18.9116 19.4884L20.4233 21L18.9116 22.5116L18.8232 22.6L18.9116 22.6884L19.3116 23.0884L19.4 23.1768L19.4884 23.0884L21 21.5768L22.5116 23.0884L22.6 23.1768L22.6884 23.0884L23.0884 22.6884L23.1768 22.6L23.0884 22.5116L21.5768 21L23.0884 19.4884Z" fill="white" stroke="white" stroke-width="0.25"/>
+</svg>

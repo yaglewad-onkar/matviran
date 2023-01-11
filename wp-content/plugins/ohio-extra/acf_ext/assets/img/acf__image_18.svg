@@ -1,0 +1,31 @@
+<svg width="237" height="130" viewBox="0 0 237 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="237" height="130" fill="#1C66AB" fill-opacity="0.05"/>
+<rect x="183" y="63" width="30" height="4" fill="#677A9E"/>
+<rect x="183" y="72" width="40" height="2" fill="#677A9E"/>
+<rect x="183" y="79" width="40" height="2" fill="#677A9E"/>
+<rect x="183" y="56" width="10" height="2" fill="#677A9E"/>
+<rect x="183" y="88" width="16" height="6" fill="#677A9E"/>
+<rect opacity="0.1" y="20" width="167" height="110" fill="#677A9E"/>
+<circle cx="12" cy="68" r="1.5" transform="rotate(90 12 68)" stroke="#1C66AB"/>
+<circle cx="12" cy="75" r="1" transform="rotate(90 12 75)" fill="#677A9E"/>
+<circle cx="12" cy="82" r="1" transform="rotate(90 12 82)" fill="#677A9E"/>
+<circle opacity="0.12" cx="84" cy="75" r="22" fill="#677A9E"/>
+<path d="M90.4167 65.8333C91.9328 65.8333 93.1667 67.0672 93.1667 68.5833V81.4167C93.1667 82.9328 91.9328 84.1667 90.4167 84.1667H77.5833C76.0672 84.1667 74.8333 82.9328 74.8333 81.4167V68.5833C74.8333 67.0672 76.0672 65.8333 77.5833 65.8333H90.4167ZM90.4167 64H77.5833C75.0524 64 73 66.0524 73 68.5833V81.4167C73 83.9476 75.0524 86 77.5833 86H90.4167C92.9485 86 95 83.9476 95 81.4167V68.5833C95 66.0524 92.9485 64 90.4167 64ZM84 69.5C80.9631 69.5 78.5 71.9631 78.5 75C78.5 78.0369 80.9631 80.5 84 80.5C87.0369 80.5 89.5 78.0369 89.5 75C89.5 71.9631 87.0369 69.5 84 69.5ZM84 78.6667C81.9778 78.6667 80.3333 77.0222 80.3333 75C80.3333 72.9778 81.9778 71.3333 84 71.3333C86.0213 71.3333 87.6667 72.9778 87.6667 75C87.6667 77.0222 86.0213 78.6667 84 78.6667ZM90.4167 69.5C89.9098 69.5 89.5 69.0893 89.5 68.5833C89.5 68.0773 89.9098 67.6667 90.4167 67.6667C90.9236 67.6667 91.3333 68.0773 91.3333 68.5833C91.3333 69.0893 90.9236 69.5 90.4167 69.5Z" fill="#677A9E"/>
+<rect opacity="0.1" width="237" height="20" fill="#677A9E"/>
+<rect x="46" y="9" width="12" height="2" fill="white"/>
+<rect x="64" y="9" width="12" height="2" fill="white"/>
+<rect x="82" y="9" width="12" height="2" fill="white"/>
+<rect x="144" y="9" width="12" height="2" fill="white"/>
+<rect x="162" y="9" width="12" height="2" fill="white"/>
+<rect x="180" y="9" width="12" height="2" fill="white"/>
+<rect x="10" y="9" width="6" height="2" fill="white"/>
+<rect x="221" y="9" width="6" height="2" fill="white"/>
+<rect x="109" y="8" width="20" height="4" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="237" height="130" fill="white"/>
+</clipPath>
+</defs>
+</svg>

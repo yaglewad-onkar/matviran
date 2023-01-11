@@ -1,0 +1,5452 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Brooklyn\n"
+"POT-Creation-Date: 2020-02-24 17:15+0100\n"
+"PO-Revision-Date: 2020-02-24 13:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: author-bio.php:48
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:46
+#, php-format
+msgid "Comment <span>(1)</span>"
+msgid_plural "Comments <span>(%1$s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:65
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:66
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:4
+msgid "Edit Product"
+msgstr ""
+
+#: footer.php:333
+#, php-format
+msgid "POWERED BY %2$s"
+msgstr ""
+
+#: functions.php:105 functions.php:106 partials/header/header-side.php:46
+#: partials/hero-search.php:33
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:106 partials/hero-search.php:33
+msgid "To search type and hit enter"
+msgstr ""
+
+#: functions.php:108 partials/header/header-side.php:46
+#: partials/hero-search.php:36
+msgid "Search"
+msgstr ""
+
+#: functions.php:306
+msgid "Setup Information"
+msgstr ""
+
+#: functions.php:309
+msgid ""
+"Thank you for purchasing our theme. We hope you enjoy our product! If you "
+"have any questions that are beyond the scope of the help file, please feel "
+"free to contact us on our Support Forum at."
+msgstr ""
+
+#: functions.php:313
+msgid "Useful links to start with:"
+msgstr ""
+
+#: functions.php:316
+msgid "Install required plugins"
+msgstr ""
+
+#: functions.php:317
+msgid "Customize Theme"
+msgstr ""
+
+#: functions.php:318
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:41
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:42
+#: unite/core/admin/option-tree/includes/ot-ui-theme-options.php:31
+#: unite/core/admin/option-tree/includes/ot-ui-theme-options.php:32
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:319 unite-custom/ut-theme-header.php:17
+#: unite-custom/ut-theme-header.php:343
+msgid "Set Up Your Menu"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:64
+#: inc/image-processing/image-processing-queue.php:65
+msgid "Image Processing"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:150
+#, php-format
+msgid ""
+"%s. Used Settings: (%s)x(%s) softcrop: (%s) upscale (%s) failed. Please "
+"change the Settings (and then unlock the image) or Upload an alternate Image "
+"with dimensions meeting the requirements."
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:164
+#: inc/image-processing/image-processing-queue.php:170
+msgid "Processing"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:254
+msgid "Currently Processing Images"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:259
+msgid "Select All"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:260
+msgid "Image ID"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:261
+msgid "Preview"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:262
+msgid "Image Title"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:263
+msgid "Locked Timestamp"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:264
+msgid "Sizes in Queue"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:265
+msgid "Locked"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:266
+msgid "Process Status"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:314
+msgid "Unlock Image"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:336
+msgid "Remove Locked Status"
+msgstr ""
+
+#: inc/image-processing/image-processing-queue.php:361
+msgid "You are not allowed to delete lock status from images."
+msgstr ""
+
+#: inc/image-processing/vendor/a5hleyrich/wp-queue/src/WP_Queue/Cron.php:87
+#, php-format
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/sidebars/index.php:77
+msgid "Individual Sidebars:"
+msgstr ""
+
+#: inc/sidebars/index.php:115 inc/sidebars/index.php:182
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2580
+msgid "No Sidebars"
+msgstr ""
+
+#: inc/sidebars/index.php:116 inc/sidebars/index.php:183
+#: unite/core/helper/unite-filters.php:92
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/sidebars/index.php:117 inc/sidebars/index.php:184
+#: unite/core/helper/unite-filters.php:93
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/sidebars/index.php:118 inc/sidebars/index.php:185
+msgid "Sidebar Left and Right"
+msgstr ""
+
+#: inc/sidebars/index.php:266 inc/sidebars/index.php:310
+msgid "Sidebar Name"
+msgstr ""
+
+#: inc/sidebars/index.php:269 inc/sidebars/index.php:314
+#: unite/core/admin/unite-sidebars.class.php:523
+#: unite/core/admin/unite-sidebars.class.php:560
+msgid "Please insert a unique name:"
+msgstr ""
+
+#: inc/sidebars/index.php:275 inc/sidebars/index.php:319
+#: inc/ut-menu-walker-onepage.php:242
+#: unite-custom/ut-theme-menu-buttons.php:614
+#: unite-custom/ut-theme-menu.php:916
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1297
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1343
+msgid "Description"
+msgstr ""
+
+#: inc/sidebars/index.php:278 inc/sidebars/index.php:322
+msgid "optional description:"
+msgstr ""
+
+#: inc/sidebars/index.php:303 unite/core/admin/unite-sidebars.class.php:551
+msgid "New Sidebar"
+msgstr ""
+
+#: inc/sidebars/index.php:334 unite/core/admin/unite-sidebars.class.php:576
+msgid "Add Sidebar"
+msgstr ""
+
+#: inc/sidebars/index.php:389
+msgid "Sidebar Settings"
+msgstr ""
+
+#: inc/sidebars/index.php:398
+msgid "Save Settings"
+msgstr ""
+
+#: inc/ut-customizer.php:72
+msgid "Hex Value"
+msgstr ""
+
+#: inc/ut-customizer.php:103 unite-custom/widgets/ut_logo_widget.php:19
+msgid "Logo"
+msgstr ""
+
+#: inc/ut-customizer.php:105
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: inc/ut-customizer.php:116
+msgid "Main Logo"
+msgstr ""
+
+#: inc/ut-customizer.php:122
+msgid "Alternate Logo"
+msgstr ""
+
+#: inc/ut-customizer.php:128
+msgid "Retina Main Logo"
+msgstr ""
+
+#: inc/ut-customizer.php:134
+msgid "Retina Alternate Logo"
+msgstr ""
+
+#: inc/ut-customizer.php:148
+msgid "Color"
+msgstr ""
+
+#: inc/ut-customizer.php:150
+msgid ""
+"Define your desired accent color. Inside the colorpicker itself, you can "
+"find some nice pre defined colors!"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: inc/ut-menu-walker-onepage.php:139
+#: unite-custom/ut-theme-menu-buttons.php:491
+#: unite-custom/ut-theme-menu.php:759
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: inc/ut-menu-walker-onepage.php:143
+#: unite-custom/ut-theme-menu-buttons.php:495
+#: unite-custom/ut-theme-menu.php:763
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:158
+msgid "Portfolio"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:179
+#: unite-custom/ut-theme-menu-buttons.php:538
+#: unite-custom/ut-theme-menu.php:828
+msgid "Move up"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:192
+#: unite-custom/ut-theme-menu-buttons.php:551
+#: unite-custom/ut-theme-menu.php:841
+msgid "Move down"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:194 inc/ut-menu-walker-onepage.php:196
+#: unite-custom/ut-theme-menu.php:843
+msgid "Edit Menu Item"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:205
+#: unite-custom/ut-theme-menu-buttons.php:564
+#: unite-custom/ut-theme-menu.php:856
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1246
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4486
+msgid "URL"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:212
+#: unite-custom/ut-theme-menu-buttons.php:578
+#: unite-custom/ut-theme-menu.php:874
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:218
+#: unite-custom/ut-theme-menu-buttons.php:590
+#: unite-custom/ut-theme-menu.php:886
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:225 unite-custom/ut-theme-menu.php:896
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:230
+#: unite-custom/ut-theme-menu-buttons.php:602
+#: unite-custom/ut-theme-menu.php:902
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:236
+#: unite-custom/ut-theme-menu-buttons.php:608
+#: unite-custom/ut-theme-menu.php:909
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:244
+#: unite-custom/ut-theme-menu-buttons.php:616
+#: unite-custom/ut-theme-menu.php:918
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:259
+msgid "Menu Type"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:280 inc/ut-menu-walker-onepage.php:285
+msgid "Page"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:281 inc/ut-menu-walker-onepage.php:286
+msgid "Section"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:304
+#: unite-custom/ut-theme-menu-buttons.php:1008
+#: unite-custom/ut-theme-menu.php:1535
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:317
+#: unite-custom/ut-theme-menu-buttons.php:1021
+#: unite-custom/ut-theme-menu.php:1548
+msgid "Remove"
+msgstr ""
+
+#: inc/ut-menu-walker-onepage.php:318
+#: unite-custom/ut-theme-menu-buttons.php:1022
+#: unite-custom/ut-theme-menu.php:1549
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:43
+msgid "Cancel"
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:139
+#: partials/blog-grid/content-audio.php:41
+#: partials/blog-grid/content-audio.php:55
+#: partials/blog-grid/content-gallery.php:38
+#: partials/blog-grid/content-gallery.php:69
+#: partials/blog-grid/content-quote.php:7 partials/blog-grid/content.php:122
+#: partials/blog-list/content-audio.php:11
+#: partials/blog-list/content-audio.php:32
+#: partials/blog-list/content-gallery.php:18
+#: partials/blog-list/content-quote.php:7
+#: partials/blog-list/content-video.php:13
+#: partials/blog-list/content-video.php:29 partials/blog-list/content.php:11
+#: partials/blog-mixed-grid/large/content-audio.php:35
+#: partials/blog-mixed-grid/large/content-audio.php:49
+#: partials/blog-mixed-grid/large/content-audio.php:75
+#: partials/blog-mixed-grid/large/content-audio.php:88
+#: partials/blog-mixed-grid/large/content-gallery.php:34
+#: partials/blog-mixed-grid/large/content-gallery.php:48
+#: partials/blog-mixed-grid/large/content-gallery.php:74
+#: partials/blog-mixed-grid/large/content-quote.php:34
+#: partials/blog-mixed-grid/large/content-quote.php:50
+#: partials/blog-mixed-grid/large/content-video.php:36
+#: partials/blog-mixed-grid/large/content-video.php:65
+#: partials/blog-mixed-grid/large/content-video.php:93
+#: partials/blog-mixed-grid/large/content-video.php:106
+#: partials/blog-mixed-grid/large/content.php:38
+#: partials/blog-mixed-grid/large/content.php:52
+#: partials/blog-mixed-grid/large/content.php:83
+#: partials/blog-mixed-grid/small/content-audio.php:29
+#: partials/blog-mixed-grid/small/content-audio.php:42
+#: partials/blog-mixed-grid/small/content-gallery.php:26
+#: partials/blog-mixed-grid/small/content-gallery.php:57
+#: partials/blog-mixed-grid/small/content-quote.php:7
+#: partials/blog-mixed-grid/small/content-video.php:29
+#: partials/blog-mixed-grid/small/content-video.php:42
+#: partials/blog-mixed-grid/small/content.php:34
+#: partials/blog/content-audio.php:45 partials/blog/content-audio.php:92
+#: partials/blog/content-audio.php:107 partials/blog/content-audio.php:140
+#: partials/blog/content-gallery.php:45 partials/blog/content-gallery.php:93
+#: partials/blog/content-gallery.php:110 partials/blog/content-quote.php:45
+#: partials/blog/content-quote.php:67 partials/blog/content-video.php:45
+#: partials/blog/content-video.php:92 partials/blog/content-video.php:105
+#: partials/blog/content-video.php:138 partials/blog/content.php:45
+#: partials/blog/content.php:127 partials/blog/content.php:156
+#: partials/search-result.php:7 partials/search-result.php:28
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:673
+msgid "Photo Taken: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:683
+msgid "Copyright: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:693
+msgid "Credit: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:703
+msgid "Title: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:713
+msgid "Caption: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:723
+msgid "Camera: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:733
+msgid "Focal Length: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:735
+msgid "mm"
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:744
+msgid "Aperture: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:754
+msgid "ISO: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:765
+msgid "Shutter Speed: "
+msgstr ""
+
+#: inc/ut-theme-postformat-tools.php:767
+msgid "seconds"
+msgstr ""
+
+#: js/simplebar/simplebar.js:11
+msgid "entries"
+msgstr ""
+
+#: js/simplebar/simplebar.js:11
+msgid "values"
+msgstr ""
+
+#: js/simplebar/simplebar.js:11
+msgid "keys"
+msgstr ""
+
+#: no-results.php:15 partials/content-none.php:10 partials/hero-search.php:19
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20 partials/content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28 partials/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: partials/blog-grid/content-audio.php:19
+#: partials/blog-grid/content-gallery.php:19
+#: partials/blog-grid/content-video.php:18 partials/blog-grid/content.php:98
+#: partials/blog-list/content-audio.php:51
+#: partials/blog-list/content-gallery.php:32
+#: partials/blog-list/content-video.php:63 partials/blog-list/content.php:49
+#: partials/blog-mixed-grid/large/content-audio.php:25
+#: partials/blog-mixed-grid/large/content-gallery.php:24
+#: partials/blog-mixed-grid/large/content-quote.php:24
+#: partials/blog-mixed-grid/large/content-video.php:26
+#: partials/blog-mixed-grid/large/content.php:28
+#: partials/blog-mixed-grid/small/content-audio.php:9
+#: partials/blog-mixed-grid/small/content-gallery.php:9
+#: partials/blog-mixed-grid/small/content-video.php:9
+#: partials/blog-mixed-grid/small/content.php:9
+#: partials/blog/content-audio.php:35 partials/blog/content-audio.php:188
+#: partials/blog/content-gallery.php:35 partials/blog/content-gallery.php:148
+#: partials/blog/content-quote.php:35 partials/blog/content-quote.php:95
+#: partials/blog/content-video.php:35 partials/blog/content-video.php:190
+#: partials/blog/content.php:35 partials/blog/content.php:193
+msgid ", "
+msgstr ""
+
+#: partials/blog-grid/content-audio.php:23
+#: partials/blog-grid/content-gallery.php:23
+#: partials/blog-grid/content-video.php:22 partials/blog-grid/content.php:102
+#: partials/blog-list/content.php:53
+#: partials/blog-mixed-grid/large/content-audio.php:28
+#: partials/blog-mixed-grid/large/content-gallery.php:27
+#: partials/blog-mixed-grid/large/content-quote.php:27
+#: partials/blog-mixed-grid/large/content-video.php:29
+#: partials/blog-mixed-grid/large/content.php:31
+#: partials/blog-mixed-grid/small/content-audio.php:13
+#: partials/blog-mixed-grid/small/content-gallery.php:13
+#: partials/blog-mixed-grid/small/content-video.php:13
+#: partials/blog-mixed-grid/small/content.php:13
+#: partials/blog/content-audio.php:38 partials/blog/content-audio.php:192
+#: partials/blog/content-gallery.php:38 partials/blog/content-gallery.php:152
+#: partials/blog/content-quote.php:38 partials/blog/content-quote.php:99
+#: partials/blog/content-video.php:38 partials/blog/content-video.php:194
+#: partials/blog/content.php:38 partials/blog/content.php:196
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: partials/blog-grid/content-audio.php:157
+#: partials/blog-grid/content-gallery.php:156
+#: partials/blog-grid/content-video.php:111 partials/blog-grid/content.php:209
+#: partials/blog-list/content-audio.php:94
+#: partials/blog-list/content-gallery.php:75
+#: partials/blog-list/content-video.php:106 partials/blog-list/content.php:92
+#: partials/blog-mixed-grid/large/content-audio.php:32
+#: partials/blog-mixed-grid/large/content-audio.php:59
+#: partials/blog-mixed-grid/large/content-gallery.php:31
+#: partials/blog-mixed-grid/large/content-gallery.php:58
+#: partials/blog-mixed-grid/large/content-quote.php:31
+#: partials/blog-mixed-grid/large/content-video.php:33
+#: partials/blog-mixed-grid/large/content-video.php:75
+#: partials/blog-mixed-grid/large/content.php:35
+#: partials/blog-mixed-grid/large/content.php:62
+#: partials/blog-mixed-grid/small/content-audio.php:142
+#: partials/blog-mixed-grid/small/content-gallery.php:142
+#: partials/blog-mixed-grid/small/content-video.php:126
+#: partials/blog-mixed-grid/small/content.php:119
+#: partials/blog/content-audio.php:42 partials/blog/content-audio.php:150
+#: partials/blog/content-gallery.php:42 partials/blog/content-gallery.php:120
+#: partials/blog/content-quote.php:42 partials/blog/content-video.php:42
+#: partials/blog/content-video.php:148 partials/blog/content.php:42
+#: partials/blog/content.php:166
+msgid "No Comments"
+msgstr ""
+
+#: partials/blog-grid/content-audio.php:157
+#: partials/blog-grid/content-gallery.php:156
+#: partials/blog-grid/content-video.php:111 partials/blog-grid/content.php:209
+#: partials/blog-list/content-audio.php:94
+#: partials/blog-list/content-gallery.php:75
+#: partials/blog-list/content-video.php:106 partials/blog-list/content.php:92
+#: partials/blog-mixed-grid/large/content-audio.php:32
+#: partials/blog-mixed-grid/large/content-audio.php:59
+#: partials/blog-mixed-grid/large/content-gallery.php:31
+#: partials/blog-mixed-grid/large/content-gallery.php:58
+#: partials/blog-mixed-grid/large/content-quote.php:31
+#: partials/blog-mixed-grid/large/content-video.php:33
+#: partials/blog-mixed-grid/large/content-video.php:75
+#: partials/blog-mixed-grid/large/content.php:35
+#: partials/blog-mixed-grid/large/content.php:62
+#: partials/blog-mixed-grid/small/content-audio.php:142
+#: partials/blog-mixed-grid/small/content-gallery.php:142
+#: partials/blog-mixed-grid/small/content-video.php:126
+#: partials/blog-mixed-grid/small/content.php:119
+#: partials/blog/content-audio.php:42 partials/blog/content-audio.php:150
+#: partials/blog/content-gallery.php:42 partials/blog/content-gallery.php:120
+#: partials/blog/content-quote.php:42 partials/blog/content-video.php:42
+#: partials/blog/content-video.php:148 partials/blog/content.php:42
+#: partials/blog/content.php:166
+msgid "1 Comment"
+msgstr ""
+
+#: partials/blog-grid/content-audio.php:157
+#: partials/blog-grid/content-gallery.php:156
+#: partials/blog-grid/content-video.php:111 partials/blog-grid/content.php:209
+#: partials/blog-list/content-audio.php:94
+#: partials/blog-list/content-gallery.php:75
+#: partials/blog-list/content-video.php:106 partials/blog-list/content.php:92
+#: partials/blog-mixed-grid/large/content-audio.php:32
+#: partials/blog-mixed-grid/large/content-audio.php:59
+#: partials/blog-mixed-grid/large/content-gallery.php:31
+#: partials/blog-mixed-grid/large/content-gallery.php:58
+#: partials/blog-mixed-grid/large/content-quote.php:31
+#: partials/blog-mixed-grid/large/content-video.php:33
+#: partials/blog-mixed-grid/large/content-video.php:75
+#: partials/blog-mixed-grid/large/content.php:35
+#: partials/blog-mixed-grid/large/content.php:62
+#: partials/blog-mixed-grid/small/content-audio.php:142
+#: partials/blog-mixed-grid/small/content-gallery.php:142
+#: partials/blog-mixed-grid/small/content-video.php:126
+#: partials/blog-mixed-grid/small/content.php:119
+#: partials/blog/content-audio.php:42 partials/blog/content-audio.php:150
+#: partials/blog/content-gallery.php:42 partials/blog/content-gallery.php:120
+#: partials/blog/content-quote.php:42 partials/blog/content-video.php:42
+#: partials/blog/content-video.php:148 partials/blog/content.php:42
+#: partials/blog/content.php:166
+msgid "% Comments"
+msgstr ""
+
+#: partials/blog-list/content-audio.php:55
+#: partials/blog-list/content-gallery.php:36
+#: partials/blog-list/content-video.php:67
+#: unite-custom/ut-theme-template-tags.php:500
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: partials/blog-mixed-grid/large/content-audio.php:35
+#: partials/blog-mixed-grid/large/content-gallery.php:34
+#: partials/blog-mixed-grid/large/content-quote.php:34
+#: partials/blog-mixed-grid/large/content-video.php:36
+#: partials/blog-mixed-grid/large/content.php:38
+#: partials/blog/content-audio.php:45 partials/blog/content-gallery.php:45
+#: partials/blog/content-quote.php:45 partials/blog/content-video.php:45
+#: partials/blog/content.php:45
+msgid "Permalink"
+msgstr ""
+
+#: partials/blog-mixed-grid/large/content-audio.php:110
+#: partials/blog-mixed-grid/large/content-audio.php:114
+#: partials/blog-mixed-grid/large/content-gallery.php:87
+#: partials/blog-mixed-grid/large/content-gallery.php:91
+#: partials/blog-mixed-grid/large/content-quote.php:63
+#: partials/blog-mixed-grid/large/content-quote.php:67
+#: partials/blog-mixed-grid/large/content-video.php:128
+#: partials/blog-mixed-grid/large/content-video.php:132
+#: partials/blog-mixed-grid/large/content.php:98
+#: partials/blog-mixed-grid/large/content.php:102
+#: partials/blog/content-audio.php:175 partials/blog/content-audio.php:179
+#: partials/blog/content-gallery.php:135 partials/blog/content-gallery.php:139
+#: partials/blog/content-quote.php:82 partials/blog/content-quote.php:86
+#: partials/blog/content-video.php:177 partials/blog/content-video.php:181
+#: partials/blog/content.php:181 partials/blog/content.php:185
+#: partials/hero-slider.php:137 partials/search-result.php:44
+msgid "Read more"
+msgstr ""
+
+#: partials/blog/content-audio.php:196 partials/blog/content-gallery.php:156
+#: partials/blog/content-link.php:40 partials/blog/content-quote.php:103
+#: partials/blog/content-video.php:198 partials/blog/content.php:201
+msgid "Edit Article"
+msgstr ""
+
+#: partials/content-front-page.php:139 partials/content-page.php:163
+msgid "Pages:"
+msgstr ""
+
+#: partials/content-front-page.php:146 partials/content-page.php:170
+#: templates/template-archive.php:28 woocommerce.php:63
+msgid "Edit Page"
+msgstr ""
+
+#: partials/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: partials/hero-404.php:15
+msgid "Uh-Oh! 404"
+msgstr ""
+
+#: partials/hero-404.php:22
+msgid "The page you are looking for can't be found."
+msgstr ""
+
+#: partials/hero-404.php:30
+msgid "Back"
+msgstr ""
+
+#: partials/hero-archive.php:117
+msgid "Asides"
+msgstr ""
+
+#: partials/hero-archive.php:120
+msgid "Images"
+msgstr ""
+
+#: partials/hero-archive.php:123
+msgid "Videos"
+msgstr ""
+
+#: partials/hero-archive.php:126
+msgid "Quotes"
+msgstr ""
+
+#: partials/hero-archive.php:129
+msgid "Links"
+msgstr ""
+
+#: partials/hero-archive.php:140
+msgid "Archives"
+msgstr ""
+
+#: partials/hero-archive.php:167
+msgid "View all authors posts further down below."
+msgstr ""
+
+#: partials/hero-archive.php:180
+msgid "View all on this date written articles further down below."
+msgstr ""
+
+#: partials/hero-post.php:171
+msgid "by"
+msgstr ""
+
+#: partials/hero-search.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. <br /> Please try again with "
+"some different keywords."
+msgstr ""
+
+#: partials/hero-search.php:43
+msgid "Results For:"
+msgstr ""
+
+#: partials/hero-transition.php:139
+msgid "Previous item"
+msgstr ""
+
+#: partials/hero-transition.php:142
+msgid "Next item"
+msgstr ""
+
+#: partials/navigation/nav-mobile.php:65 partials/navigation/nav-mobile.php:91
+#: unite-custom/ut-theme-header.php:844 unite-custom/ut-theme-header.php:875
+msgid "View your shopping cart"
+msgstr ""
+
+#: searchform.php:10 searchform.php:11
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single-portfolio.php:218
+msgid "Share:"
+msgstr ""
+
+#: single-portfolio.php:230
+msgid "Edit Portfolio"
+msgstr ""
+
+#: templates/template-archive.php:36
+msgid "Filter by Tags"
+msgstr ""
+
+#: templates/template-archive.php:43
+msgid "Archive by Day"
+msgstr ""
+
+#: templates/template-archive.php:48
+msgid "Archive By Month"
+msgstr ""
+
+#: templates/template-archive.php:53
+msgid "Archive by Year"
+msgstr ""
+
+#: templates/template-archive.php:60
+msgid "Contributors"
+msgstr ""
+
+#: templates/template-archive.php:65
+msgid "Categories"
+msgstr ""
+
+#: templates/template-archive.php:72
+msgid "Latest Posts"
+msgstr ""
+
+#: templates/template-team.php:118
+msgid "View Details"
+msgstr ""
+
+#: unite-custom/ut-maintenance-mode.php:54
+msgid "Maintenance Mode"
+msgstr ""
+
+#: unite-custom/ut-maintenance-mode.php:143
+msgid "Sign in to Dashboard"
+msgstr ""
+
+#: unite-custom/ut-theme-ajax.php:115 unite-custom/ut-theme-header.php:940
+msgid "item(s)"
+msgstr ""
+
+#: unite-custom/ut-theme-ajax.php:159 unite-custom/ut-theme-header.php:924
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: unite-custom/ut-theme-extras.php:156
+msgid "&hellip;"
+msgstr ""
+
+#. translators: If your word count is based on single characters (East Asian characters),
+#. enter 'characters'. Otherwise, enter 'words'. Do not translate into your own language.
+#: unite-custom/ut-theme-extras.php:164
+msgid "words"
+msgstr ""
+
+#: unite-custom/ut-theme-extras.php:267
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:716
+msgid "More"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:821
+msgid "Cart"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:954 unite-custom/ut-theme-header.php:970
+msgid "View Cart"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:961 unite-custom/ut-theme-header.php:977
+msgid "Checkout"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:1071
+msgid "View your account"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:1102
+msgid "My Account"
+msgstr ""
+
+#: unite-custom/ut-theme-header.php:1249
+msgid "Hit enter to search or ESC to close"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:21 unite-custom/ut-theme-menu.php:43
+msgid "Button successfully added!"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:149
+msgid "Navigation Buttons"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:181
+#: unite-custom/ut-theme-menu-buttons.php:574
+#: unite-custom/ut-theme-menu.php:870
+msgid "Button Text"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:182
+msgid "Enter Button Text"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:182
+msgid "Button Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:203
+msgid "Add Button"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:224
+#: unite-custom/ut-theme-menu-buttons.php:514
+#: unite-custom/ut-theme-menu.php:783
+msgid "Button"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:518
+#: unite-custom/ut-theme-menu.php:807
+msgid "sub item"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:555
+msgid "Edit menu item"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:597
+msgid "Open link in a new tab"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:623
+#: unite-custom/ut-theme-menu.php:1523
+msgid "Move"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:624
+#: unite-custom/ut-theme-menu.php:1524
+msgid "Up one"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:625
+#: unite-custom/ut-theme-menu.php:1525
+msgid "Down one"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:628
+#: unite-custom/ut-theme-menu.php:1528
+msgid "To the top"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:639
+#: unite-custom/ut-theme-menu.php:956
+msgid "Button Settings"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:647
+#: unite-custom/ut-theme-menu.php:964
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1200
+msgid "General"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:650
+#: unite-custom/ut-theme-menu.php:967
+msgid "Colors"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:653
+#: unite-custom/ut-theme-menu.php:970
+msgid "Border"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:656
+#: unite-custom/ut-theme-menu.php:973
+msgid "Padding"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:662
+#: unite-custom/ut-theme-menu.php:979 unite-custom/ut-theme-menu.php:1467
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:112
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:190
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1291
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1337
+msgid "Link"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:680
+#: unite-custom/ut-theme-menu.php:997 unite-custom/ut-theme-menu.php:1485
+msgid "Link Target"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:713
+#: unite-custom/ut-theme-menu.php:1030
+msgid "Text Color"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:733
+#: unite-custom/ut-theme-menu.php:1050
+msgid "Text Hover Color"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:753
+#: unite-custom/ut-theme-menu.php:1070
+msgid "Background Color"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:775
+#: unite-custom/ut-theme-menu.php:1092
+msgid "Background Hover Color"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:801
+#: unite-custom/ut-theme-menu.php:1118
+msgid "Activate Border Radius"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:830
+#: unite-custom/ut-theme-menu.php:1147
+msgid "Border Radius"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:849
+#: unite-custom/ut-theme-menu.php:1166
+msgid "Activate Border?"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:878
+#: unite-custom/ut-theme-menu.php:1195
+msgid "Border Color"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:898
+#: unite-custom/ut-theme-menu.php:1215
+msgid "Border Color Hover"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:918
+#: unite-custom/ut-theme-menu.php:1235
+msgid "Border Style"
+msgstr ""
+
+#: unite-custom/ut-theme-menu-buttons.php:956
+#: unite-custom/ut-theme-menu.php:1273
+msgid "Border Width"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:21
+msgid "Navigation Sidebar does not support this widget!"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:64
+#, php-format
+msgid "%1$s needs to be root level item!"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:64 unite-custom/ut-theme-menu.php:66
+#: unite-custom/ut-theme-menu.php:67 unite-custom/ut-theme-menu.php:499
+#: unite-custom/ut-theme-menu.php:795
+msgid "Megamenu"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:65
+#, php-format
+msgid "%1$s needs to be level 1 item!"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:65 unite-custom/ut-theme-menu.php:66
+#: unite-custom/ut-theme-menu.php:67 unite-custom/ut-theme-menu.php:68
+#: unite-custom/ut-theme-menu.php:69 unite-custom/ut-theme-menu.php:70
+#: unite-custom/ut-theme-menu.php:503 unite-custom/ut-theme-menu.php:799
+msgid "Column"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:66 unite-custom/ut-theme-menu.php:69
+#, php-format
+msgid "%1$s needs to child of %2$s"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:67 unite-custom/ut-theme-menu.php:68
+#, php-format
+msgid "Do not forget to make %1$s a child of %2$s"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:68 unite-custom/ut-theme-menu.php:374
+#: unite-custom/ut-theme-menu.php:507 unite-custom/ut-theme-menu.php:791
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:84
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:138
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1285
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1331
+msgid "Image"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:69 unite-custom/ut-theme-menu.php:70
+#: unite-custom/ut-theme-menu.php:787
+msgid "Widget"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:70
+#, php-format
+msgid ""
+"Please use only %1$s %2$s inside a %3$s Using more widgets may result in "
+"layout issues."
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:70
+msgid "one"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:257 unite-custom/ut-theme-menu.php:1324
+msgid "Megamenu Settings"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:289 unite-custom/ut-theme-menu.php:324
+#: unite-custom/widgets/ut_contact.php:25
+#: unite-custom/widgets/ut_video_widget.php:20
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1554
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1713
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1241
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4481
+#: unite/core/admin/option-tree/includes/ot-meta-box-api.php:1381
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:1031
+msgid "Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:290
+msgid "Enter Mega Menu Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:290
+msgid "Mega Menu Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:310
+msgid "Add Mega Menu"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:325
+msgid "Enter Column Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:325
+msgid "Column Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:345
+msgid "Add Column"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:361
+msgid "Upload Image"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:395
+msgid "Add Image"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:516 unite-custom/ut-theme-menu.php:803
+msgid "Highlight Link"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:924
+msgid "Description Color"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:940
+msgid "This color will overwrite the global color set in Theme Options."
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:1328
+msgid "Megamenu Content Width"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:1372
+msgid "Megamenu Column Settings"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:1376
+msgid "Hide Column Title"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:1412
+msgid "Megamenu Image Settings"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:1416
+msgid "Mega Menu Image"
+msgstr ""
+
+#: unite-custom/ut-theme-menu.php:1433
+msgid "Image Align"
+msgstr ""
+
+#: unite-custom/ut-theme-setup.php:38
+msgid "Primary Menu"
+msgstr ""
+
+#: unite-custom/ut-theme-setup.php:39
+msgid "Secondary Menu"
+msgstr ""
+
+#: unite-custom/ut-theme-setup.php:40
+msgid "Side Menu"
+msgstr ""
+
+#: unite-custom/ut-theme-setup.php:41
+msgid "Mobile Menu"
+msgstr ""
+
+#: unite-custom/ut-theme-setup.php:42
+msgid "Overlay Menu"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:10
+msgid "Blog Sidebar"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:19
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:21
+msgid "The first footer widget area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:29
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:31
+msgid "The second footer widget area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:39
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:41
+msgid "The third footer widget area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:49
+msgid "Fourth Footer Widget Area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:51
+msgid "The fourth footer widget area"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:59
+msgid "Page Default Sidebar"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:80
+msgid "Shop Sidebar"
+msgstr ""
+
+#: unite-custom/ut-theme-sidebars.php:102
+msgid "Sidebar without Name"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:47
+msgid "Previous"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:55
+msgid "Next"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:86
+msgid "Pingback:"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:86
+#: unite-custom/ut-theme-template-tags.php:146
+msgid "Edit Comment"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:121
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:128
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:137
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:144
+msgid "Reply"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:210
+msgid "Next page"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:211
+msgid "Previous page"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:230
+msgid "Pages"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:322
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: unite-custom/ut-theme-template-tags.php:416
+#: unite-custom/ut-theme-template-tags.php:443
+#: unite-custom/ut-theme-template-tags.php:492
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:8
+msgid "Insert your contact data in here!"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:9
+msgid "United Themes - Contact"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:26
+msgid "Address"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:27
+msgid "Phone"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:28
+msgid "Fax"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:29
+msgid "Internet"
+msgstr ""
+
+#: unite-custom/widgets/ut_contact.php:30
+msgid "Email"
+msgstr ""
+
+#: unite-custom/widgets/ut_flickr_widget.php:10
+msgid "Displays Flickr images by user or tags."
+msgstr ""
+
+#: unite-custom/widgets/ut_flickr_widget.php:11
+msgid "United Themes - Flickrstream"
+msgstr ""
+
+#: unite-custom/widgets/ut_flickr_widget.php:28
+#: unite-custom/widgets/ut_social.php:258
+msgid "Title:"
+msgstr ""
+
+#: unite-custom/widgets/ut_flickr_widget.php:33
+msgid "Flickr ID:"
+msgstr ""
+
+#: unite-custom/widgets/ut_flickr_widget.php:37
+msgid "Limit:"
+msgstr ""
+
+#: unite-custom/widgets/ut_logo_widget.php:8
+#: unite-custom/widgets/ut_video_widget.php:8
+msgid "Insert your embedded code in here!"
+msgstr ""
+
+#: unite-custom/widgets/ut_logo_widget.php:9
+msgid "United Themes - Simple Logo Widget"
+msgstr ""
+
+#: unite-custom/widgets/ut_logo_widget.php:37
+msgid "Logo Max Height"
+msgstr ""
+
+#: unite-custom/widgets/ut_social.php:172
+msgid "Displays Social Icons!"
+msgstr ""
+
+#: unite-custom/widgets/ut_social.php:173
+msgid "United Themes - Social Media Widget"
+msgstr ""
+
+#: unite-custom/widgets/ut_social.php:264
+msgid "Style:"
+msgstr ""
+
+#: unite-custom/widgets/ut_social.php:267
+msgid "Style 1 (horizontal)"
+msgstr ""
+
+#: unite-custom/widgets/ut_social.php:268
+msgid "Style 2 (vertical)"
+msgstr ""
+
+#: unite-custom/widgets/ut_video_widget.php:9
+msgid "United Themes - Embedded Video"
+msgstr ""
+
+#: unite-custom/widgets/ut_video_widget.php:21
+msgid "Text"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:17
+msgid "Lightbox Option"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:21
+msgid "Lightbox"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:24
+#: unite/core/admin/helpers/ut-admin-loader.php:40
+#: unite/core/admin/unite-theme-info.class.php:943
+msgid "On"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:25
+#: unite/core/admin/helpers/ut-admin-loader.php:39
+#: unite/core/admin/unite-theme-info.class.php:953
+msgid "Off"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:28
+msgid ""
+"Please make sure you are linking to the \"Media File\" when turning this "
+"option \"on\". See \"Link to\" Option above!"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:33
+#: unite/core/admin/helpers/ut-admin-loader.php:36
+msgid "Image Border"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:47
+msgid "Radius"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:50
+msgid "Please insert a value in pixel: e.g. \"3px\"."
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:54
+msgid ""
+"These settings do not work with the WordPress Gallery Widget. We are working "
+"on a solution."
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:167
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:220
+#: unite/theme/unite-plugin-activation.php:2687
+msgid "Type"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:198
+msgid "section"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:202
+msgid "page"
+msgstr ""
+
+#: unite/core/admin/helpers/ut-admin-loader.php:1084
+msgid "Brooklyn Themes"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:56
+msgid "Post Format Settings"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:77
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:127
+msgid "Standard"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:91
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:147
+msgid "Video"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:98
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:158
+msgid "Quote"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:105
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:179
+msgid "Audio"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:119
+msgid "Gallery"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:128
+msgid "This post format does not need any settings."
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:139
+msgid "Please upload a featured image."
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:148
+msgid "Paste a video link, embed or video shortcode into the box."
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:159
+msgid "Please insert a quote inside the editor or use these boxes."
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:180
+msgid "Paste down a audio link, embed or audio shortcode into the box."
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metabox-post-format-manager.php:191
+msgid ""
+"Paste down a link to a website. Please do not forget to add http:// in front."
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metaboxes.php:49
+msgid "One Page Portfolio Type"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metaboxes.php:50
+msgid "Hero Type"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metaboxes.php:482
+msgid "Slide Up Portfolio Settings"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-metaboxes.php:483
+msgid "Lightbox Portfolio Settings"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-secondary-title.php:24
+msgid "Secondary Title"
+msgstr ""
+
+#: unite/core/admin/metaboxes/ut-secondary-title.php:43
+msgid "Sub Title"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:47
+#: unite/core/admin/option-tree/includes/ot-ui-theme-options.php:37
+msgid "Theme Options updated."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:48
+#: unite/core/admin/option-tree/includes/ot-ui-theme-options.php:38
+msgid "Theme Options reset."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:49
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:508
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:1298
+#: unite/core/admin/option-tree/includes/ot-ui-theme-options.php:39
+msgid "Save Changes"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:267
+msgid "Option Tree"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:407
+msgid "Settings updated."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:411
+msgid "Settings could not be saved."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1154
+#: unite/core/helper/unite-filters.php:254
+#: unite/core/helper/unite-filters.php:386
+#: unite/core/helper/unite-filters.php:411 vc/vc-params.php:379
+#: vc/vc-params.php:1324
+msgid "none"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1155
+#: unite/core/helper/unite-filters.php:257
+msgid "solid"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1156
+#: unite/core/helper/unite-filters.php:255
+msgid "dotted"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1157
+#: unite/core/helper/unite-filters.php:256
+msgid "dashed"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1158
+#: unite/core/helper/unite-filters.php:258
+msgid "double"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1188
+msgid "Aylen"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1189
+msgid "Winona"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1216
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:40
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:42
+msgid "Upload"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1217
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1490
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1491
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1680
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1791
+msgid "Delete"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1218
+msgid "Submit"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1219
+msgid "Refresh"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1220
+msgid "Bookmark"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1221
+msgid "Subscribe"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1222
+msgid "Add to Cart"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1223
+msgid "Pause"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1224
+msgid "Register"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1225
+#: unite/core/admin/unite-import-export.class.php:196
+msgid "Export"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1487
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1488
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1679
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1790
+msgid "Edit"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1497
+msgid "Label"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1507
+msgid "Value"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1517
+msgid "Image Source (Radio Image only)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-admin.php:1936
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:105
+msgid "Done"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:41
+msgid "Sorry, this function does not exist"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:118
+#: unite/core/helper/unite-filters.php:588
+msgid "Edit Images"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:119
+#: unite/core/helper/unite-filters.php:589
+msgid "Delete Images"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:125
+msgid "Add Images"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:162
+#, php-format
+msgid "Image %s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:166
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:284
+msgid "background-position"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:223
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4120
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4171
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4827
+#: unite/core/helper/unite-filters.php:577
+msgid "X"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:248
+msgid "background-repeat"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:266
+msgid "background-attachment"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:302
+msgid "background-size"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:321
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4105
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4158
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4834
+msgid "Add Media"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:366
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:412
+msgid "No Categories Found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:402
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1814
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2070
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2123
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2289
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2657
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2751
+msgid "Choose One"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:617
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:846
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1417
+msgid "Select Icon"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:669
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1203
+msgid "Button Colors"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:672
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1206
+msgid "Button Border"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:675
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:842
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1209
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1413
+msgid "Button Icon"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:678
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1212
+msgid "Button Font"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:681
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1215
+msgid "Button Spacing"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:684
+msgid "Button Effect"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:698
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1281
+msgid "Button Background Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:706
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1289
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:716
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1299
+msgid "Button Text Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:724
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1307
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:736
+msgid "Button Hover Effect"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:740
+msgid "Select Button Effect"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:759
+msgid "Button Background Hover 2 Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:777
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1325
+msgid "Button Border Radius"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:793
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1365
+msgid "Button Border Width"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:812
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1384
+msgid "Button Border Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:822
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1393
+msgid "Button Border Hover Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:866
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1437
+msgid "Button Icon Position"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:870
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1441
+msgid "before"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:871
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1442
+msgid "after"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:881
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1453
+msgid "Icon Size"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:909
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1516
+msgid "Button Font Size"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:933
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1540
+msgid "Button Letter Spacing"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:957
+msgid "Button Line height"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:981
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1564
+msgid "Button Font Weight"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1005
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1588
+msgid "Button Text Transform"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1056
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1639
+msgid "0 = default"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1090
+msgid "Button Particle Effect"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1094
+msgid "Select Button Particle Effect"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1113
+msgid "Button Particle Effect Direction"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1117
+#: unite/core/helper/unite-filters.php:334 vc/vc-params.php:1331
+msgid "left"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1118
+#: unite/core/helper/unite-filters.php:335 vc/vc-params.php:1327
+msgid "right"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1119
+#: vc/vc-params.php:1325
+msgid "top"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1120
+#: vc/vc-params.php:1329
+msgid "bottom"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1131
+msgid "Button Particle Effect Color Color"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1142
+msgid "Should Button re-appear after its disintegration?"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1146
+#: vc/vc-params.php:299 vc/vc-params.php:460 vc/vc-params.php:497
+#: vc/vc-params.php:850 vc/vc-params.php:861 vc/vc-params.php:872
+#: vc/vc-params.php:1820 vc/vc-params.php:2428 vc/vc-params.php:2456
+#: vc/vc-params.php:2516 vc/vc-params.php:2576 vc/vc-params.php:2700
+#: vc/vc-params.php:2793 vc/vc-params.php:2970 vc/vc-params.php:3030
+#: vc/vc-params.php:3090 vc/vc-params.php:3214 vc/vc-params.php:3307
+#: vc/vc-params.php:3800 vc/vc-params.php:3846 vc/vc-params.php:3877
+msgid "yes, please!"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1147
+#: vc/vc-params.php:298 vc/vc-params.php:459 vc/vc-params.php:496
+#: vc/vc-params.php:849 vc/vc-params.php:860 vc/vc-params.php:871
+#: vc/vc-params.php:1819 vc/vc-params.php:2427 vc/vc-params.php:2455
+#: vc/vc-params.php:2515 vc/vc-params.php:2575 vc/vc-params.php:2699
+#: vc/vc-params.php:2792 vc/vc-params.php:2969 vc/vc-params.php:3029
+#: vc/vc-params.php:3089 vc/vc-params.php:3213 vc/vc-params.php:3306
+#: vc/vc-params.php:3799 vc/vc-params.php:3845 vc/vc-params.php:3878
+msgid "no, thanks!"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1234
+msgid "Button Link"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1251
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4491
+msgid "Target"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1255
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4495
+msgid "Select URL"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1263
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4501
+msgid "Visual Composer Plugin is missing!"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1344
+msgid "Button Border Style"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1471
+msgid "Font Awesome Vertical Alignment Correction (top)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1487
+msgid "Font Awesome Vertical Alignment Correction (bottom)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1774
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1822
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2252
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2299
+msgid "No Posts Found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1888
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:1951
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2208
+msgid "Add New"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2033
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2082
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2139
+msgid "No Pages Found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2078
+msgid "Custom Link"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2149
+msgid ""
+"Information: There are no Pages are assigned to the menu yet or the assigned "
+"pages are not set to menutype \"Section\"! Please read the delivered "
+"documentation carefully. We recommend to start with the \"Start from Scratch "
+"Setup\" documentation part."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2211
+msgid "You can re-order with drag & drop, the order will update after saving."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2575
+msgid "Choose Sidebar"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2623
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2662
+msgid "No Tags Found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2709
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2759
+msgid "No Taxonomies Found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2825
+msgid "Consumer Key"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2831
+msgid "Consumer Secret"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2837
+msgid "Access Token"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:2843
+msgid "Access Token Secret"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:3119
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:3161
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:3197
+#: vc/vc-params.php:520 vc/vc-params.php:525 vc/vc-params.php:783
+#: vc/vc-params.php:815
+msgid "Default"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:3254
+msgid "View available fonts"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:3468
+msgid "The quick brown fox jumps over the lazy dog."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:3848
+msgid "No Custom Fonts Found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4632
+msgid "No Portfolio Categories created yet!"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4686
+msgid "Select Menu"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4698
+msgid "No Menu found, please create a menu first."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4728
+msgid "Clear Transients"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4766
+msgid "Raleway Bold"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4767
+msgid "Raleway Extralight"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4768
+msgid "Raleway Light"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4769
+msgid "Raleway Medium"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4770
+msgid "Raleway Regular"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-functions-option-types.php:4771
+msgid "Raleway Semibold"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-meta-box-api.php:644
+msgid "custom"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-meta-box-api.php:644
+#: vc/vc-params.php:1432
+msgid "global"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:274
+msgid " days ago"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:278
+msgid " hours ago"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:282
+msgid " minutes ago"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:286
+msgid " seconds ago"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:507
+msgid "Theme Options."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:509
+msgid "Load Theme Defaults"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:563
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/header.php:54
+#: unite/core/admin/unite-home.class.php:395
+#: unite/core/admin/unite-theme-info.class.php:693
+#: unite/core/admin/unite-video.class.php:172
+#, php-format
+msgid "Howdy, %1$s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:609
+msgid "Latest News"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/ot-settings-api.php:1251
+msgid "Menu"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-logger-html.php:17
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:47
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:124
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused "
+"by a permissions problem."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:161
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:205
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:216
+msgid "Invalid media item ID."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:224
+msgid "You cannot access the selected media item."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:264
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:308
+msgid "Could not cache information on the import."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:328
+msgid "Missing import file ID from request."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:495
+msgid "Import author:"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:512
+msgid "or create new user with login name:"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:515
+msgid "as a new user:"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:527
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:529
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-import-ui.php:535
+msgid "- Select -"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:139
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:179
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:295
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:371
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:577
+msgid "Invalid author mapping"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:678
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:766
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:776
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:861
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:882
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:914
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1748
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:919
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1063
+msgid "Invalid file type"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1554
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1575
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1579
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1724
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1753
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1806
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1819
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1824
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1830
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1852
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1865
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1870
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1884
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1889
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1915
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1926
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1971
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1976
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:1998
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:2002
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:2016
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:2020
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/class-wxr-importer.php:2037
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/header.php:34
+msgid "Website Installer."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:33
+msgid "Import complete!"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:66
+msgid "Total Progress"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:84
+#: unite/core/admin/unite-import-export.class.php:234
+msgid "Import Theme Options"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:87
+msgid "Set Navigation Locations"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:90
+msgid "Adjust Reading Settings"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:93
+msgid "Polish Portfolio Showcases"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:98
+msgid "Import Slider Revolution"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:103
+msgid "Update Site URLs"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:106
+msgid "Not Done"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:123
+msgid "Posts Pages and Menus"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:145
+msgid "Media Items"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:169
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/select-options.php:39
+msgid "Comments"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:191
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/select-options.php:46
+msgid "Terms"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/import.php:221
+msgid "Message"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/intro.php:17
+#, php-format
+msgid ""
+"Please keep in mind. As clearly stated on our %s Images are not included "
+"with your purchase! Some demos will have free images but most of them will "
+"display image placeholders. You can find a great service for free images "
+"here: %s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/intro.php:57
+msgid "Preparing XML"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/intro.php:62
+msgid "Preview Demo"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/select-options.php:16
+msgid "Some Facts about this Demo"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/select-options.php:25
+msgid "Posts and Pages"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/select-options.php:32
+msgid "Media Files"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:13
+msgid "Drop files here"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:14
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:15
+msgid "Select Files"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:58
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:65
+#, php-format
+msgid "Uploading %s&#8230;"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:78
+msgid "Success! Your import file is ready, let&#8217;s get started."
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:79
+msgid "Start Import"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:86
+#, php-format
+msgid "Whoops, could not upload file: %s"
+msgstr ""
+
+#: unite/core/admin/option-tree/includes/plugins/importer-reloaded/templates/upload.php:89
+msgid "Try Again"
+msgstr ""
+
+#: unite/core/admin/option-tree/ut-loader.php:271
+#: unite/core/helper/unite-filters.php:576
+msgid "Send to Theme Options"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:22 vc/vc-params.php:2400
+#: vc/vc-params.php:2914
+msgid "Design Waves"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:26 vc/vc-params.php:2401
+#: vc/vc-params.php:2915
+msgid "Double Wave (1)"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:30 vc/vc-params.php:2402
+#: vc/vc-params.php:2916
+msgid "Triple Wave (1)"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:34 vc/vc-params.php:2403
+#: vc/vc-params.php:2917
+msgid "Triple Wave (2)"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:38 vc/vc-params.php:2404
+#: vc/vc-params.php:2918
+msgid "Abstract Waves"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:42 vc/vc-params.php:2405
+#: vc/vc-params.php:2919
+msgid "Simple Clouds"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:46 vc/vc-params.php:2406
+#: vc/vc-params.php:2920
+msgid "Triangle with Shadow"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:50 vc/vc-params.php:2407
+#: vc/vc-params.php:2921
+msgid "Triangle Asymmetrical"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:54 vc/vc-params.php:2408
+#: vc/vc-params.php:2922
+msgid "Diagonal"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:58 vc/vc-params.php:2409
+#: vc/vc-params.php:2923
+msgid "Half Circle"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:62 vc/vc-params.php:2410
+#: vc/vc-params.php:2924
+msgid "Curve"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:66 vc/vc-params.php:2411
+#: vc/vc-params.php:2925
+msgid "Curve Asymmetrical"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:70 vc/vc-params.php:2412
+#: vc/vc-params.php:2926
+msgid "Slit"
+msgstr ""
+
+#: unite/core/admin/options/ut-theme-options.php:74 vc/vc-params.php:2413
+#: vc/vc-params.php:2927
+msgid "Snow"
+msgstr ""
+
+#: unite/core/admin/unite-admin-functions.php:127 vc/vc-params.php:184
+#: vc/vc-params.php:954 vc/vc-params.php:974 vc/vc-params.php:1036
+#: vc/vc-params.php:1173 vc/vc-params.php:1191 vc/vc-params.php:1208
+#: vc/vc-params.php:1224 vc/vc-params.php:1254 vc/vc-params.php:1307
+#: vc/vc-params.php:3423 vc/vc-params.php:3433 vc/vc-params.php:3443
+msgid "on"
+msgstr ""
+
+#: unite/core/admin/unite-admin-functions.php:127 vc/vc-params.php:183
+#: vc/vc-params.php:953 vc/vc-params.php:973 vc/vc-params.php:1035
+#: vc/vc-params.php:1174 vc/vc-params.php:1190 vc/vc-params.php:1207
+#: vc/vc-params.php:1225 vc/vc-params.php:1255 vc/vc-params.php:1308
+#: vc/vc-params.php:3422 vc/vc-params.php:3432 vc/vc-params.php:3442
+msgid "off"
+msgstr ""
+
+#: unite/core/admin/unite-admin-functions.php:594
+msgid "Duplicate this item"
+msgstr ""
+
+#: unite/core/admin/unite-admin-functions.php:594
+msgid "Duplicate"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:29
+msgid "Theme Headers"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:84
+msgid "Header"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:293
+msgid "Header Builder."
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:314
+msgid "Desktop"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:315
+msgid "Tablet"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:316
+msgid "Mobile"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:326
+msgid "Upper Header Area"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:360
+msgid "Middle Header Area"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:394
+msgid "Lower Header Area"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:440
+msgid "Upper Tablet Header Area"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:478
+msgid "Lower Tablet Header Area"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:519
+msgid "Mobile Header Area"
+msgstr ""
+
+#: unite/core/admin/unite-header-manager.class.php:562
+msgid "Settings"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:38
+msgid "Welcome"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:187
+#, php-format
+msgid "New theme update available. %s. %s"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:187
+#: unite/core/admin/unite-home.class.php:208
+msgid "Update Now"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:208
+#, php-format
+msgid "New updates are available for the following plugins: %s. %s"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:241
+#: unite/theme/unite-plugin-activation.php:2855
+msgid "Install"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:269
+#: unite/theme/unite-plugin-activation.php:2864
+msgid "Activate"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:294
+#: unite/theme/unite-plugin-activation.php:2861
+msgid "Update"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:320
+msgid "Deactivate"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:376
+msgid "dashboard."
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:433
+#: unite/core/admin/unite-theme-info.class.php:731
+msgid ""
+"Thank you for purchasing our theme. We're as excited as you are about the "
+"possibilities before you. Finally, its going to be far less complicated to "
+"make your WordPress website pages look and feel the way you want. We’ve "
+"assembled some links to get you started with the theme, maintain your site "
+"and help you to get an overview of all features available."
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:535
+msgid "Required Plugins"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:537
+msgid ""
+"These are the needed theme core plugins for Brooklyn and required for the "
+"use of Brookyln. You can easily install, activate and deactivate these "
+"plugins but using the actions button."
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:560
+msgid "required"
+msgstr ""
+
+#: unite/core/admin/unite-home.class.php:571
+#: unite/core/admin/unite-theme-info.class.php:1171
+msgid "Version:"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:27
+msgid "Import / Export"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:163
+msgid "Import / Export Tool."
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:180
+msgid "Brooklyn Theme Options Tool"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:183
+#, php-format
+msgid ""
+"Note that this export / export tool is only designed to migrate Theme "
+"Options. %s If you are looking for an entire site migration please use for "
+"example %s or %s"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:197
+msgid ""
+"Theme Options to export. Place the content of this field inside the import "
+"field of your new installation."
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:201
+msgid "Copy Theme Option"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:207
+msgid "Import"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:208
+msgid ""
+"Theme Options to import. Place the content of the old installation export "
+"field inside this one and hit \"Import\"."
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:216
+msgid "or load a default config"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:232
+msgid "Place the \"Export\" Data of the other Installation here."
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:476
+msgid ""
+"An Error occured during your import, please contact your site administrator!"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:485
+msgid "You are not allowed to import theme options!"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:494
+msgid "Import was successful!"
+msgstr ""
+
+#: unite/core/admin/unite-import-export.class.php:514
+msgid "Are you sure? The import will start immediately!"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:111
+msgid "Licensing"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:244
+msgid "Registered"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:251
+msgid "Registered and Supported"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:258
+msgid "Unregistered"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:265
+msgid "Connection Issue"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:387
+msgid "Brooklyn License"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:403
+msgid ""
+"After buying and installing Brooklyn from ThemeForest, registering is an "
+"important step to ensure you will receive valuable theme updates that "
+"include new features and keep your website secure."
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:513
+msgid "Register Purchase Code"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:534
+#, php-format
+msgid "Yes, I acknowledge that I have read and agree to the %s."
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:544
+#: unite/core/admin/unite-license.class.php:1270
+#: unite/core/admin/unite-license.class.php:1326
+msgid "Register Brooklyn"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:551
+msgid "Deregister Domain"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:1242
+msgid "CONNECTING"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:1270
+#: unite/core/admin/unite-license.class.php:1326
+#, php-format
+msgid ""
+"You need a valid license for automatic updates!  %s or register your license "
+"here %s"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:1270
+#: unite/core/admin/unite-license.class.php:1326
+msgid "Purchase Brooklyn"
+msgstr ""
+
+#: unite/core/admin/unite-license.class.php:1380
+msgid "Are you sure?"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:44
+msgid "Theme Sidebars"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:45
+msgid "Unlimited Sidebars"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:46
+msgid "Blog Sidebar Settings"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:47
+msgid "Blog Single Post Sidebar Settings"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:48
+msgid "Page Sidebar Settings"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:49
+msgid "Woocommerce Sidebar Settings"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:272
+msgid "Sidebars:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:282
+msgid "Blog Primary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:293
+msgid "Blog Secondary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:305
+msgid "Blog Sidebar Align:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:315
+msgid "Blog Single Post Primary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:326
+msgid "Blog Single Post Secondary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:338
+msgid "Blog Single Post Sidebar Align:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:348
+msgid "Page Primary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:359
+msgid "Page Secondary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:371
+msgid "Page Sidebar Align:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:385
+msgid "Woocommerce Secondary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:396
+msgid "Woocommerce Primary Sidebar:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:405
+msgid "Woocommerce Sidebar Align:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:532
+#: unite/core/admin/unite-sidebars.class.php:567
+msgid "Optional description:"
+msgstr ""
+
+#: unite/core/admin/unite-sidebars.class.php:644
+msgid "Save"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:58
+msgid "Server Health"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:228
+msgid "not available"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:293
+msgid "Max Upload Size"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:334
+#: unite/core/admin/unite-theme-info.class.php:882
+msgid "Memory Limit"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:345
+msgid "We recommend setting the memory limit at least to 96MB."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:359
+msgid "MB"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:405
+msgid "Post Max Size"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:416
+msgid "Set to 8 MB or higher."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:426
+#: unite/core/admin/unite-theme-info.class.php:480
+#: unite/core/admin/unite-theme-info.class.php:536
+msgid "Your setting is good."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:449
+msgid "Max Input Vars"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:460
+#: unite/core/admin/unite-theme-info.class.php:470
+msgid "Set to 3000 or higher."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:505
+msgid "Max Execution Time"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:516
+#: unite/core/admin/unite-theme-info.class.php:526
+msgid "Set to 90 or higher."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:556
+msgid "PHP Extension mbstring"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:561
+msgid "Activate mbstring php extension."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:571
+msgid "mbstring extension found!."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:587
+msgid "Learn how to fix it."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:597
+msgid "Learn more about it."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:614
+msgid ""
+"Attention: Please check \"Server Health\" admin page first and make sure no "
+"values are marked yellow or red! This will guarantee that theme and plugins "
+"will work with best performance."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:615
+msgid "View Server Health Status"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:675
+msgid "Server Health."
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:750
+msgid "Megabyte"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:794
+msgid "Seconds"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:838
+msgid "Variables"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:906
+msgid "Memory Usage Normal"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:913
+msgid "Memory Usage Exhausted"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:920
+msgid "Memory Usage Critical"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:942
+msgid "Debug Mode"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:952
+msgid "DEBUG MODE"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:974
+msgid "About Brooklyn"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:982
+msgid "Theme Version:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:987
+msgid "Framework Version:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:992
+msgid "User Agent:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:997
+msgid "Site Mode:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1018
+msgid "WordPress Environment"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1026
+msgid "WordPress Version:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1032
+msgid "Home URL:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1037
+msgid "Site URL:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1042
+msgid "Installed Theme:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1047
+msgid "Multisite Installation:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1052
+msgid "Current Language:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1077
+msgid "Server Environment"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1085
+msgid "Server Info:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1090
+msgid "PHP Version:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1161
+msgid "Plugin Environment"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1169
+msgid "Plugin Name:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1170
+msgid "Author:"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1197
+msgid "Visit"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1229
+msgid "Create System Report"
+msgstr ""
+
+#: unite/core/admin/unite-theme-info.class.php:1233
+msgid ""
+"Please paste down these information when starting a support inquiry in our "
+"supportforum."
+msgstr ""
+
+#: unite/core/admin/unite-video.class.php:46
+#: unite/core/admin/unite-video.class.php:204
+msgid "Video Tutorials"
+msgstr ""
+
+#: unite/core/admin/unite-video.class.php:153
+msgid "Video Tutorials."
+msgstr ""
+
+#: unite/core/admin/unite-video.class.php:206
+msgid ""
+"In future you will find all available video tutorials inside this admin page."
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1290
+#, php-format
+msgid ""
+"Do not run the Website Installer multiple times one after another, it will "
+"result in double content. %s To reset your installation we can recommend to "
+"use: %s"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1290
+msgid "WordPress Reset by Matt Martz"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1295
+msgid "Start Installation now!"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1306
+msgid "<span class=\"ut-modal-highlight\">Shortcode Plugin</span>"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1312
+msgid "<span class=\"ut-modal-highlight\">Portfolio Plugin</span>"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1318
+msgid "<span class=\"ut-modal-highlight\">Pricing Plugin</span>"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1324
+msgid "<span class=\"ut-modal-highlight\">Visual Composer Plugin</span>"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1330
+msgid "<span class=\"ut-modal-highlight\">Contact Form 7 Plugin</span>"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1341
+msgid ""
+"The following plugins are not active or installed, please activate / install "
+"them before importing the demo content."
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1352
+msgid ""
+"Importing a Demo Website is only possible with a valid and registered "
+"license. Activating Brooklyn unlocks the following benefits:"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1378
+msgid "Brooklyn is unregistered!"
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:1412
+msgid "Invalid Demo File."
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:2015
+#: unite/core/admin/unite-website-installer.php:2051
+#: unite/core/admin/unite-website-installer.php:2088
+msgid ""
+"Could not save demo xml. Please make sure PHP \"XML\" and \"fileinfo\" "
+"extension are active. Please contact your hosting provider. If the error "
+"persists, please contact theme support."
+msgstr ""
+
+#: unite/core/admin/unite-website-installer.php:2140
+msgid ""
+"Could not cache information on the import. Please contact theme support."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:42
+#: unite/core/helper/unite-custom-fonts.class.php:43
+msgid "Theme Custom Fonts"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:107
+msgid "The name of the font used in the attached CSS file."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:123
+msgid "ID"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:183
+msgid "Custom Fonts"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:184
+msgid "Font"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:185
+msgctxt "Admin menu name"
+msgid "Custom Fonts"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:186
+msgid "Search Fonts"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:187
+msgid "All Fonts"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:188
+msgid "Parent Font"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:189
+msgid "Parent Font:"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:190
+msgid "Edit Font"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:191
+msgid "Update Font"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:192
+msgid "Add New Font"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:193
+msgid "New Font Name"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:219
+#: unite/core/helper/unite-custom-fonts.class.php:257
+msgid "Font .woff"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:220
+msgid "Upload the font's woff file."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:225
+#: unite/core/helper/unite-custom-fonts.class.php:264
+msgid "Font .woff2"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:226
+msgid "Upload the font's woff2 file."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:231
+#: unite/core/helper/unite-custom-fonts.class.php:271
+msgid "Font .ttf"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:232
+msgid "Upload the font's ttf file."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:237
+#: unite/core/helper/unite-custom-fonts.class.php:277
+msgid "Font .eot"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:238
+msgid "Upload the font's eot file."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:243
+#: unite/core/helper/unite-custom-fonts.class.php:284
+msgid "Font .svg"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:244
+msgid "Upload the font's svg file."
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:258
+msgid "Upload the font's woff file"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:265
+msgid "Upload the font's woff2 file"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:272
+msgid "Upload the font's ttf file"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:278
+msgid "Upload the font's eot file"
+msgstr ""
+
+#: unite/core/helper/unite-custom-fonts.class.php:285
+msgid "Upload the font's svg file"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:20
+msgid "Twitter"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:21
+#: unite/core/helper/unite-filters.php:25
+msgid "Twitch"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:22
+msgid "Facebook"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:23
+msgid "Google Plus"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:24
+msgid "instagram"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:26
+msgid "LinkedIn"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:27
+msgid "Tumblr"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:28
+msgid "Pinterest"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:29
+msgid "Github"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:30
+msgid "Dribbble"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:31
+msgid "Flickr"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:32
+msgid "Skype"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:33
+msgid "Youtube"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:34
+msgid "Vimeo"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:35
+msgid "RSS"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:90
+msgid "Default Align"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:91
+msgid "No Sidebar"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:117
+msgid "No repeat"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:118
+msgid "Repeat all"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:119
+msgid "Repeat only horizontally"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:120
+msgid "Repeat only vertically"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:121
+#: unite/core/helper/unite-filters.php:146
+#: unite/core/helper/unite-filters.php:202
+#: unite/core/helper/unite-filters.php:363
+#: unite/core/helper/unite-filters.php:413
+#: unite/core/helper/unite-filters.php:451 vc/vc-params.php:153
+#: vc/vc-params.php:1734
+msgid "Inherit"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:144 vc/vc-params.php:1732
+msgid "Scroll"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:145 vc/vc-params.php:1733
+msgid "Fixed"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:169 vc/vc-params.php:1617
+msgid "left top"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:170 vc/vc-params.php:1618
+msgid "left center"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:171 vc/vc-params.php:1619
+msgid "left bottom"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:172 vc/vc-params.php:1620
+msgid "center top"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:173 vc/vc-params.php:1621
+msgid "center center"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:174 vc/vc-params.php:1622
+msgid "center bottom"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:175 vc/vc-params.php:1623
+msgid "right top"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:176 vc/vc-params.php:1624
+msgid "right center"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:177 vc/vc-params.php:1625
+msgid "right bottom"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:200
+msgid "Cover"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:201
+msgid "Contain"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:225
+msgid "Arial"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:226
+msgid "Georgia"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:227
+msgid "Helvetica"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:228
+msgid "Palatino"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:229
+msgid "Tahoma"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:230
+msgid "Times New Roman"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:231
+msgid "Trebuchet"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:232
+msgid "Verdana"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:280
+msgid "Latin"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:281
+msgid "Latin Extended"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:282
+msgid "Greek"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:283
+msgid "Greek Extended"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:284
+msgid "Cyrillic"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:285
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:286
+msgid "Khmer"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:287
+msgid "Vietnamese"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:309 vc/vc-params.php:2683
+#: vc/vc-params.php:2776 vc/vc-params.php:2869 vc/vc-params.php:3197
+#: vc/vc-params.php:3290 vc/vc-params.php:3383
+msgid "px"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:310
+msgid "em"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:311 vc/vc-params.php:2682
+#: vc/vc-params.php:2775 vc/vc-params.php:2868 vc/vc-params.php:3196
+#: vc/vc-params.php:3289 vc/vc-params.php:3382
+msgid "%"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:312
+msgid "rem"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:336
+msgid "center"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:337
+msgid "justify"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:338
+msgid "inherit"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:360
+#: unite/core/helper/unite-filters.php:438
+msgid "Normal"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:361
+msgid "Italic"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:362
+msgid "Oblique"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:387 vc/vc-params.php:152
+msgid "Capitalize"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:388 vc/vc-params.php:155
+msgid "Uppercase"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:389 vc/vc-params.php:154
+msgid "Lowercase"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:412
+msgid "Blink"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:414
+msgid "Line Through"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:415
+msgid "Overline"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:416
+msgid "Underline"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:439
+msgid "Bold"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:440
+msgid "Bolder"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:441
+msgid "Lighter"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:574
+msgid "OK"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:575
+msgid "Information"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:578
+msgid "Are you sure you want to reset back to the defaults?"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:579
+msgid "You can't remove this! But you can edit the values."
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:580
+msgid "Are you sure you want to remove this?"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:581
+msgid "Distortion Effect active"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:582
+msgid ""
+"Adding more than 3 Images to our Hero Image Fader is not possible. This is "
+"connected to performance related aspects."
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:583
+msgid ""
+"The selected header layout does not support more than 1 item. The available "
+"space in this case is limited."
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:584
+msgid ""
+"The selected header layout does not support more than 2 items. The available "
+"space in this case is limited."
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:585
+msgid "Load Global Settings?"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:586
+msgid "You can optionally load the global settings for further modifications."
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:587
+msgid "These Settings are outdated."
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:590
+#, php-format
+msgid ""
+"The Server Health Page indicates, that some PHP values need your attention! "
+"If you do not adjust these values before working with the theme, you might "
+"experience issues with performance and data saving processes. We highly "
+"recommend not to save any data at the current stage. Please follow the "
+"instructions on the Server Health page first. %s"
+msgstr ""
+
+#: unite/core/helper/unite-filters.php:590
+msgid "Visit Server Health Status now!"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: unite/theme/unite-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: unite/theme/unite-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: unite/theme/unite-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: unite/theme/unite-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: unite/theme/unite-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: unite/theme/unite-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: unite/theme/unite-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: unite/theme/unite-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: unite/theme/unite-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: unite/theme/unite-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: unite/theme/unite-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: unite/theme/unite-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:393
+#: unite/theme/unite-plugin-activation.php:2671
+#: unite/theme/unite-plugin-activation.php:3718
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:394
+#: unite/theme/unite-plugin-activation.php:3297
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:395
+#: unite/theme/unite-plugin-activation.php:3090
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: unite/theme/unite-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: unite/theme/unite-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: unite/theme/unite-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:647
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:648
+msgid "Update Required"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:956
+#: unite/theme/unite-plugin-activation.php:963
+msgid "Return to the Brooklyn Dashboard"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:1069
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:1069
+#: unite/theme/unite-plugin-activation.php:1072
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:1072
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:1257
+#: unite/theme/unite-plugin-activation.php:3086
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: unite/theme/unite-plugin-activation.php:2120
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2411
+msgid "Required"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2414
+msgid "Recommended"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2430
+msgid "WordPress Repository"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2433
+msgid "External Source"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2436
+msgid "Pre-Packaged"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2453
+msgid "Not Installed"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2457
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2459
+msgid "Active"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2465
+msgid "Required Update not Available"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2468
+msgid "Requires Update"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2471
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: unite/theme/unite-plugin-activation.php:2480
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: unite/theme/unite-plugin-activation.php:2526
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: unite/theme/unite-plugin-activation.php:2530
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: unite/theme/unite-plugin-activation.php:2534
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: unite/theme/unite-plugin-activation.php:2538
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: unite/theme/unite-plugin-activation.php:2620
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2628
+msgid "Installed version:"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2636
+msgid "Minimum required version:"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2648
+msgid "Available version:"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2671
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2685
+msgid "Plugin"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2686
+msgid "Source"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2691
+msgid "Version"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2692
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: unite/theme/unite-plugin-activation.php:2741
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: unite/theme/unite-plugin-activation.php:2746
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: unite/theme/unite-plugin-activation.php:2752
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2822
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2895
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2897
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2938
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:2940
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3046
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3072
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3296
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: unite/theme/unite-plugin-activation.php:3636
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: unite/theme/unite-plugin-activation.php:3639
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: unite/theme/unite-plugin-activation.php:3641
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3645
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: unite/theme/unite-plugin-activation.php:3647
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3647
+#: unite/theme/unite-plugin-activation.php:3655
+msgid "Show Details"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3647
+#: unite/theme/unite-plugin-activation.php:3655
+msgid "Hide Details"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3648
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: unite/theme/unite-plugin-activation.php:3650
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3653
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: unite/theme/unite-plugin-activation.php:3655
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: unite/theme/unite-plugin-activation.php:3656
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: unite/theme/unite-plugin-activation.php:3658
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: unite/unite-init.php:939
+msgid "Choose whether to crop the medium and large size images"
+msgstr ""
+
+#: unite/unite-init.php:959
+msgid "Crop medium to exact dimensions"
+msgstr ""
+
+#: unite/unite-init.php:979
+msgid "Crop large to exact dimensions"
+msgstr ""
+
+#: vc/vc-params.php:147
+msgid "Text Transform"
+msgstr ""
+
+#: vc/vc-params.php:150
+msgid "Select Text Transform"
+msgstr ""
+
+#: vc/vc-params.php:151 vc/vc-params.php:1528
+msgid "None"
+msgstr ""
+
+#: vc/vc-params.php:179
+msgid "Force Padding?"
+msgstr ""
+
+#: vc/vc-params.php:180
+msgid ""
+"Once activated this option will overwrite the padding Settings in \"Design "
+"Options\""
+msgstr ""
+
+#: vc/vc-params.php:190
+msgid "Force Padding Desktop"
+msgstr ""
+
+#: vc/vc-params.php:207
+msgid "Overwrite Padding Size on Tablet?"
+msgstr ""
+
+#: vc/vc-params.php:210 vc/vc-params.php:240 vc/vc-params.php:912
+#: vc/vc-params.php:1126 vc/vc-params.php:3835 vc/vc-params.php:3890
+msgid "Yes"
+msgstr ""
+
+#: vc/vc-params.php:219
+msgid "Force Padding Tablet"
+msgstr ""
+
+#: vc/vc-params.php:237
+msgid "Overwrite Padding Size on Mobile?"
+msgstr ""
+
+#: vc/vc-params.php:249
+msgid "Force Padding Mobile"
+msgstr ""
+
+#: vc/vc-params.php:294
+msgid "Distortion Hover Effect"
+msgstr ""
+
+#: vc/vc-params.php:295
+msgid ""
+"Add distortion hover effect to background. This requires 2 images! Please "
+"make sure to upload to images."
+msgstr ""
+
+#: vc/vc-params.php:306
+msgid "First Background Image. This one will display by default!"
+msgstr ""
+
+#: vc/vc-params.php:317
+msgid "Second Background Image. This one will display on mouse over!"
+msgstr ""
+
+#: vc/vc-params.php:328
+msgid "Distortion Effect"
+msgstr ""
+
+#: vc/vc-params.php:331
+msgid "Mosaic"
+msgstr ""
+
+#: vc/vc-params.php:332
+msgid "Scales"
+msgstr ""
+
+#: vc/vc-params.php:333
+msgid "Canvas"
+msgstr ""
+
+#: vc/vc-params.php:334
+msgid "Clouds"
+msgstr ""
+
+#: vc/vc-params.php:335
+msgid "Stripes"
+msgstr ""
+
+#: vc/vc-params.php:336
+msgid "Wood"
+msgstr ""
+
+#: vc/vc-params.php:337
+msgid "Leather"
+msgstr ""
+
+#: vc/vc-params.php:338
+msgid "Particles"
+msgstr ""
+
+#: vc/vc-params.php:339
+msgid "Concreate"
+msgstr ""
+
+#: vc/vc-params.php:340
+msgid "Patchwork"
+msgstr ""
+
+#: vc/vc-params.php:341
+msgid "ZigZag"
+msgstr ""
+
+#: vc/vc-params.php:342
+msgid "Waves"
+msgstr ""
+
+#: vc/vc-params.php:343
+msgid "Digital"
+msgstr ""
+
+#: vc/vc-params.php:344
+msgid "Abstract"
+msgstr ""
+
+#: vc/vc-params.php:345
+msgid "Zebra"
+msgstr ""
+
+#: vc/vc-params.php:346
+msgid "Disco"
+msgstr ""
+
+#: vc/vc-params.php:358
+msgid "Intensity"
+msgstr ""
+
+#: vc/vc-params.php:359
+msgid "Using negative values will also invert the animation direction."
+msgstr ""
+
+#: vc/vc-params.php:376
+msgid "Animation Easing Effect"
+msgstr ""
+
+#: vc/vc-params.php:380
+msgid "Sine"
+msgstr ""
+
+#: vc/vc-params.php:381
+msgid "Circ"
+msgstr ""
+
+#: vc/vc-params.php:382
+msgid "Power2"
+msgstr ""
+
+#: vc/vc-params.php:383
+msgid "Elastic"
+msgstr ""
+
+#: vc/vc-params.php:393
+msgid "Speed In"
+msgstr ""
+
+#: vc/vc-params.php:394 vc/vc-params.php:413
+msgid "Lower value = quicker. Higher value = slower."
+msgstr ""
+
+#: vc/vc-params.php:412
+msgid "Speed Out"
+msgstr ""
+
+#: vc/vc-params.php:455
+msgid "Early Distortion Effect Animation"
+msgstr ""
+
+#: vc/vc-params.php:456
+msgid ""
+"By default the distortion effec animates when users move their mouse over "
+"the column. By activating this option the animation starts when moving the "
+"mouse over the outer row. This way you can create for example split "
+"sections, where users move their mouse over a textarea on the right and the "
+"image to the left animates as well."
+msgstr ""
+
+#: vc/vc-params.php:491
+msgid "Reveal FX"
+msgstr ""
+
+#: vc/vc-params.php:492
+msgid "Add Reveal FX to Element."
+msgstr ""
+
+#: vc/vc-params.php:502
+msgid "Reveal FX Direction"
+msgstr ""
+
+#: vc/vc-params.php:507
+msgid "Left to Right"
+msgstr ""
+
+#: vc/vc-params.php:508
+msgid "Right to Left"
+msgstr ""
+
+#: vc/vc-params.php:509
+msgid "Top to Bottom"
+msgstr ""
+
+#: vc/vc-params.php:510
+msgid "Bottom to Top"
+msgstr ""
+
+#: vc/vc-params.php:519
+msgid "Reveal FX Speed"
+msgstr ""
+
+#: vc/vc-params.php:520
+#, php-format
+msgid "%s = 1800ms, %s = 2800ms, %s = 1000ms"
+msgstr ""
+
+#: vc/vc-params.php:520 vc/vc-params.php:526
+msgid "Slow"
+msgstr ""
+
+#: vc/vc-params.php:520 vc/vc-params.php:527
+msgid "Fast"
+msgstr ""
+
+#: vc/vc-params.php:536 vc/vc-params.php:537
+msgid "Reveal in Front or Back"
+msgstr ""
+
+#: vc/vc-params.php:542
+msgid "in front"
+msgstr ""
+
+#: vc/vc-params.php:543
+msgid "in back"
+msgstr ""
+
+#: vc/vc-params.php:552
+msgid "Reveal Layer"
+msgstr ""
+
+#: vc/vc-params.php:553
+msgid "Amount of Layers used for Reveal"
+msgstr ""
+
+#: vc/vc-params.php:558
+msgid "Double Layer Reveal"
+msgstr ""
+
+#: vc/vc-params.php:559
+msgid "Single Layer Reveal"
+msgstr ""
+
+#: vc/vc-params.php:568
+msgid "Reveal FX Easing"
+msgstr ""
+
+#: vc/vc-params.php:573
+msgid "quantic"
+msgstr ""
+
+#: vc/vc-params.php:574
+msgid "ease"
+msgstr ""
+
+#: vc/vc-params.php:575
+msgid "ease in"
+msgstr ""
+
+#: vc/vc-params.php:576
+msgid "ease out"
+msgstr ""
+
+#: vc/vc-params.php:577
+msgid "ease in out"
+msgstr ""
+
+#: vc/vc-params.php:586
+msgid "Reveal Animation Type"
+msgstr ""
+
+#: vc/vc-params.php:591
+msgid "animate in and out"
+msgstr ""
+
+#: vc/vc-params.php:592
+msgid "animate in and stay"
+msgstr ""
+
+#: vc/vc-params.php:601
+msgid "Reveal FX Color Part 1"
+msgstr ""
+
+#: vc/vc-params.php:611
+msgid "Reveal FX Color Part 2"
+msgstr ""
+
+#: vc/vc-params.php:752
+msgid "Linking ID"
+msgstr ""
+
+#: vc/vc-params.php:753
+#, php-format
+msgid ""
+"Enter ID (Note: make sure it is unique and valid according to <a href=\"%s\" "
+"target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: vc/vc-params.php:780
+msgid "Section stretch"
+msgstr ""
+
+#: vc/vc-params.php:784
+msgid "Stretch section"
+msgstr ""
+
+#: vc/vc-params.php:785
+msgid "Stretch section and content"
+msgstr ""
+
+#: vc/vc-params.php:788
+msgid ""
+"Select stretching options for section and content (Note: stretched may not "
+"work properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: vc/vc-params.php:812
+msgid "Row stretch"
+msgstr ""
+
+#: vc/vc-params.php:816
+msgid "Stretch row"
+msgstr ""
+
+#: vc/vc-params.php:817
+msgid "Stretch row and content"
+msgstr ""
+
+#: vc/vc-params.php:818
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: vc/vc-params.php:821
+msgid ""
+"Select stretching options for row and content (Note: stretched may not work "
+"properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: vc/vc-params.php:843
+msgid "Deactivate Overflow Hidden on Desktop?"
+msgstr ""
+
+#: vc/vc-params.php:844
+msgid ""
+"By default, sections and rows do have an overflow hidden. This can cause "
+"elements to be cut off especially when animated. Using this option will turn "
+"off the overflow."
+msgstr ""
+
+#: vc/vc-params.php:855
+msgid "Deactivate Overflow Hidden on Tablets?"
+msgstr ""
+
+#: vc/vc-params.php:866
+msgid "Deactivate Overflow Hidden on Mobiles?"
+msgstr ""
+
+#: vc/vc-params.php:909
+msgid "Activate Video Background?"
+msgstr ""
+
+#: vc/vc-params.php:911
+msgid ""
+"If checked, video will be used as section background. If Parallax is "
+"activated in \"Design Options\" the video will parallax as well."
+msgstr ""
+
+#: vc/vc-params.php:917
+msgid "Video Link"
+msgstr ""
+
+#: vc/vc-params.php:919
+msgid ""
+"Add Video Link. Can be youtube or vimeo. Only insert the video URL not the "
+"embed code."
+msgstr ""
+
+#: vc/vc-params.php:950
+msgid "Activate Overlay?"
+msgstr ""
+
+#: vc/vc-params.php:960
+msgid "Overlay Color"
+msgstr ""
+
+#: vc/vc-params.php:970
+msgid "Activate Overlay Pattern?"
+msgstr ""
+
+#: vc/vc-params.php:984
+msgid "Overlay Style"
+msgstr ""
+
+#: vc/vc-params.php:988
+msgid "Style One"
+msgstr ""
+
+#: vc/vc-params.php:989
+msgid "Style Two"
+msgstr ""
+
+#: vc/vc-params.php:990
+msgid "Style Three"
+msgstr ""
+
+#: vc/vc-params.php:991
+msgid "Style For (Circuit Board)"
+msgstr ""
+
+#: vc/vc-params.php:1032
+msgid "Activate Particle Effect?"
+msgstr ""
+
+#: vc/vc-params.php:1043
+msgid "Number of Particles"
+msgstr ""
+
+#: vc/vc-params.php:1044
+msgid "The higher the number of particles, the more CPU Performance is needed."
+msgstr ""
+
+#: vc/vc-params.php:1063
+msgid "Density of Particles"
+msgstr ""
+
+#: vc/vc-params.php:1064
+msgid ""
+"The space between particles. If you already have a high number of particles, "
+"try to avoid lowering this value. It might end up with high CPU Usage."
+msgstr ""
+
+#: vc/vc-params.php:1083
+msgid "Speed of Particles"
+msgstr ""
+
+#: vc/vc-params.php:1084
+msgid "Animation Speed."
+msgstr ""
+
+#: vc/vc-params.php:1102
+msgid "Particle Shape?"
+msgstr ""
+
+#: vc/vc-params.php:1103
+msgid "Select your desired particle shape."
+msgstr ""
+
+#: vc/vc-params.php:1107
+msgid "circle"
+msgstr ""
+
+#: vc/vc-params.php:1108
+msgid "star"
+msgstr ""
+
+#: vc/vc-params.php:1109
+msgid "triangle"
+msgstr ""
+
+#: vc/vc-params.php:1110
+msgid "edge"
+msgstr ""
+
+#: vc/vc-params.php:1111
+msgid "polygon"
+msgstr ""
+
+#: vc/vc-params.php:1122
+msgid "Randomize Particle Colors?"
+msgstr ""
+
+#: vc/vc-params.php:1135
+msgid "Particle Color"
+msgstr ""
+
+#: vc/vc-params.php:1136
+msgid "Select your desired particle color."
+msgstr ""
+
+#: vc/vc-params.php:1148
+msgid "Particle Size"
+msgstr ""
+
+#: vc/vc-params.php:1149
+msgid "Drag the handle to set the particle size."
+msgstr ""
+
+#: vc/vc-params.php:1168
+msgid "Randomize Particle Size?"
+msgstr ""
+
+#: vc/vc-params.php:1169
+msgid ""
+"If activated, the selected particle size is the maximum size for particles. "
+"Each particle size can vary up to the set particle size."
+msgstr ""
+
+#: vc/vc-params.php:1185
+msgid "Randomize Particle Opacity?"
+msgstr ""
+
+#: vc/vc-params.php:1186
+msgid "If activated, the particle opacity will be randomly for each particle."
+msgstr ""
+
+#: vc/vc-params.php:1202
+msgid "Change Particle Opacity while moving?"
+msgstr ""
+
+#: vc/vc-params.php:1203
+msgid "If activated, the particle opacity will while moving on the screen."
+msgstr ""
+
+#: vc/vc-params.php:1219
+msgid "Connect Particles?"
+msgstr ""
+
+#: vc/vc-params.php:1220
+msgid "Nearby particles are connecting each other with a thin line."
+msgstr ""
+
+#: vc/vc-params.php:1236
+msgid "Particles Line Color"
+msgstr ""
+
+#: vc/vc-params.php:1237
+msgid "Optional line color. Default Colors is white."
+msgstr ""
+
+#: vc/vc-params.php:1249
+msgid "Activate Particle Mouse Interaction?"
+msgstr ""
+
+#: vc/vc-params.php:1250
+msgid ""
+"If activated particles are interacting with mouse movement and mouse click."
+msgstr ""
+
+#: vc/vc-params.php:1266
+msgid "Particle Mouse Interaction"
+msgstr ""
+
+#: vc/vc-params.php:1267
+msgid ""
+"<strong>Repulse</strong> = Particles are moving away from curser.<br /> "
+"<strong>Grab</strong> = Creates a connection between cursor and particles in "
+"a specific range.<br /> <strong>Bubble</strong> = Increases all particles to "
+"specific size within a given range."
+msgstr ""
+
+#: vc/vc-params.php:1270
+msgid "repulse"
+msgstr ""
+
+#: vc/vc-params.php:1271
+msgid "grab"
+msgstr ""
+
+#: vc/vc-params.php:1272
+msgid "bubble"
+msgstr ""
+
+#: vc/vc-params.php:1283
+msgid "Bubble Size"
+msgstr ""
+
+#: vc/vc-params.php:1284
+msgid "The size the bubble will increase to."
+msgstr ""
+
+#: vc/vc-params.php:1302
+msgid "Activate Boundaries?"
+msgstr ""
+
+#: vc/vc-params.php:1303
+msgid "If activated particles will bounce back instead of leaving the screen."
+msgstr ""
+
+#: vc/vc-params.php:1319
+msgid "Particles Moving Direction"
+msgstr ""
+
+#: vc/vc-params.php:1320
+msgid ""
+"If set to none, particles will move into all dirctions randomyly. Otherwise "
+"they move all into the selected direction."
+msgstr ""
+
+#: vc/vc-params.php:1326
+msgid "top right"
+msgstr ""
+
+#: vc/vc-params.php:1328
+msgid "bottom right"
+msgstr ""
+
+#: vc/vc-params.php:1330
+msgid "bottom left"
+msgstr ""
+
+#: vc/vc-params.php:1332
+msgid "top left"
+msgstr ""
+
+#: vc/vc-params.php:1367
+msgid "Add Box Shadow?"
+msgstr ""
+
+#: vc/vc-params.php:1370 vc/vc-params.php:1406 vc/vc-params.php:1749
+#: vc/vc-params.php:1761 vc/vc-params.php:1773 vc/vc-params.php:2373
+#: vc/vc-params.php:2385 vc/vc-params.php:2887 vc/vc-params.php:2899
+#: vc/vc-params.php:2941 vc/vc-params.php:3712 vc/vc-params.php:3724
+#: vc/vc-params.php:3736 vc/vc-params.php:3748
+msgid "no"
+msgstr ""
+
+#: vc/vc-params.php:1371 vc/vc-params.php:1407 vc/vc-params.php:1750
+#: vc/vc-params.php:1762 vc/vc-params.php:1774 vc/vc-params.php:2374
+#: vc/vc-params.php:2386 vc/vc-params.php:2888 vc/vc-params.php:2900
+#: vc/vc-params.php:2942 vc/vc-params.php:3711 vc/vc-params.php:3725
+#: vc/vc-params.php:3737 vc/vc-params.php:3749
+msgid "yes"
+msgstr ""
+
+#: vc/vc-params.php:1378
+msgid "Shadow Color"
+msgstr ""
+
+#: vc/vc-params.php:1390
+msgid "Shadow Hover Color"
+msgstr ""
+
+#: vc/vc-params.php:1402
+msgid "Force Shadow Spacing?"
+msgstr ""
+
+#: vc/vc-params.php:1403
+msgid ""
+"If box shadow is cut off due to overflow issues, please activate this option."
+msgstr ""
+
+#: vc/vc-params.php:1433
+msgid "dark"
+msgstr ""
+
+#: vc/vc-params.php:1434
+msgid "light"
+msgstr ""
+
+#: vc/vc-params.php:1471
+msgid "Custom Cursor Skin"
+msgstr ""
+
+#: vc/vc-params.php:1472
+msgid ""
+"Only applies when custom cursor is active. Check Theme Options > Advanced > "
+"Custom Cursor."
+msgstr ""
+
+#: vc/vc-params.php:1524
+msgid "Parallax"
+msgstr ""
+
+#: vc/vc-params.php:1525
+msgid "Add parallax type background."
+msgstr ""
+
+#: vc/vc-params.php:1529
+msgid "Simple"
+msgstr ""
+
+#: vc/vc-params.php:1530
+msgid "Zoom"
+msgstr ""
+
+#: vc/vc-params.php:1531
+msgid "Zoom + Parallax"
+msgstr ""
+
+#: vc/vc-params.php:1538
+msgid "Parallax Speed"
+msgstr ""
+
+#: vc/vc-params.php:1556
+msgid "Parallax Threshold"
+msgstr ""
+
+#: vc/vc-params.php:1557
+msgid ""
+"Sometimes it can happen, that an element, which has nearly bypassed the "
+"viewport has a small whitegap at the top or bottom. In this case try to "
+"reduce this gap with adjusting this value."
+msgstr ""
+
+#: vc/vc-params.php:1575
+msgid "Parallax Zoom Factor"
+msgstr ""
+
+#: vc/vc-params.php:1613
+msgid "Background Position"
+msgstr ""
+
+#: vc/vc-params.php:1616
+msgid "Select Background Position"
+msgstr ""
+
+#: vc/vc-params.php:1626
+msgid "Custom Position (Advanced User)"
+msgstr ""
+
+#: vc/vc-params.php:1632
+msgid "Background Position X (Desktop)"
+msgstr ""
+
+#: vc/vc-params.php:1633 vc/vc-params.php:1645
+#, php-format
+msgid ""
+"Learn more about background positions here: <a href=\"%s\" target=\"_blank"
+"\">w3c specification</a>."
+msgstr ""
+
+#: vc/vc-params.php:1644
+msgid "Background Position Y (Desktop)"
+msgstr ""
+
+#: vc/vc-params.php:1656
+msgid "Background Position X (Medium Desktop)"
+msgstr ""
+
+#: vc/vc-params.php:1657 vc/vc-params.php:1669
+msgid "Screen width between 1025px and 1600px."
+msgstr ""
+
+#: vc/vc-params.php:1668
+msgid "Background Position Y (Medium Desktop)"
+msgstr ""
+
+#: vc/vc-params.php:1680
+msgid "Background Position X (Tablet)"
+msgstr ""
+
+#: vc/vc-params.php:1681 vc/vc-params.php:1693
+msgid "Screen width between 768px and 1024px."
+msgstr ""
+
+#: vc/vc-params.php:1692
+msgid "Background Position Y (Tablet)"
+msgstr ""
+
+#: vc/vc-params.php:1704
+msgid "Background Position X (Mobile)"
+msgstr ""
+
+#: vc/vc-params.php:1705 vc/vc-params.php:1717
+msgid "Screen width up to 767px."
+msgstr ""
+
+#: vc/vc-params.php:1716
+msgid "Background Position Y (Mobile)"
+msgstr ""
+
+#: vc/vc-params.php:1728
+msgid "Background Attachment"
+msgstr ""
+
+#: vc/vc-params.php:1731
+msgid "Select Background Attachment"
+msgstr ""
+
+#: vc/vc-params.php:1745
+msgid "Hide Background on Medium Desktop?"
+msgstr ""
+
+#: vc/vc-params.php:1757
+msgid "Hide Background on Tablet?"
+msgstr ""
+
+#: vc/vc-params.php:1769
+msgid "Hide Background on Mobile?"
+msgstr ""
+
+#: vc/vc-params.php:1812
+msgid "Automatic Spacing System"
+msgstr ""
+
+#: vc/vc-params.php:1816
+msgid "Deactivate Fill Detection"
+msgstr ""
+
+#: vc/vc-params.php:2369
+msgid "Add Section Separator at Top?"
+msgstr ""
+
+#: vc/vc-params.php:2380
+msgid "Force Top Separator to be in front."
+msgstr ""
+
+#: vc/vc-params.php:2381 vc/vc-params.php:2895
+msgid ""
+"By default section separators are loacted behind the content. Use this "
+"option to add bring it to the front."
+msgstr ""
+
+#: vc/vc-params.php:2396
+msgid "Separator Top Style"
+msgstr ""
+
+#: vc/vc-params.php:2423
+msgid "Flip Top Separator?"
+msgstr ""
+
+#: vc/vc-params.php:2439 vc/vc-params.php:2953
+msgid "SVG Color Part 1"
+msgstr ""
+
+#: vc/vc-params.php:2451 vc/vc-params.php:2965
+msgid "Add Gradient for SVG Color Part 1"
+msgstr ""
+
+#: vc/vc-params.php:2467 vc/vc-params.php:2981
+msgid "SVG Color Part 1 Gradient Color"
+msgstr ""
+
+#: vc/vc-params.php:2479 vc/vc-params.php:2539 vc/vc-params.php:2599
+#: vc/vc-params.php:2993 vc/vc-params.php:3053 vc/vc-params.php:3113
+msgid "Gradient Direction"
+msgstr ""
+
+#: vc/vc-params.php:2483 vc/vc-params.php:2543 vc/vc-params.php:2603
+#: vc/vc-params.php:2997 vc/vc-params.php:3057 vc/vc-params.php:3117
+msgid "Default (left to right)"
+msgstr ""
+
+#: vc/vc-params.php:2484 vc/vc-params.php:2544 vc/vc-params.php:2604
+#: vc/vc-params.php:2998 vc/vc-params.php:3058 vc/vc-params.php:3118
+msgid "Diagonal (top left to bottom right)"
+msgstr ""
+
+#: vc/vc-params.php:2485 vc/vc-params.php:2545 vc/vc-params.php:2605
+#: vc/vc-params.php:2999 vc/vc-params.php:3059 vc/vc-params.php:3119
+msgid "Diagonal (top right to bottom left)"
+msgstr ""
+
+#: vc/vc-params.php:2486 vc/vc-params.php:2546 vc/vc-params.php:2606
+#: vc/vc-params.php:3000 vc/vc-params.php:3060 vc/vc-params.php:3120
+msgid "Top to Down"
+msgstr ""
+
+#: vc/vc-params.php:2499 vc/vc-params.php:3013
+msgid "SVG Color Part 2"
+msgstr ""
+
+#: vc/vc-params.php:2511 vc/vc-params.php:3025
+msgid "Add Gradient for SVG Color Part 2"
+msgstr ""
+
+#: vc/vc-params.php:2527 vc/vc-params.php:3041 vc/vc-params.php:3101
+msgid "SVG Color Part 2 Gradient Color"
+msgstr ""
+
+#: vc/vc-params.php:2559 vc/vc-params.php:3073
+msgid "SVG Color Part 3"
+msgstr ""
+
+#: vc/vc-params.php:2571 vc/vc-params.php:3085
+msgid "Add Gradient for SVG Color Part 3"
+msgstr ""
+
+#: vc/vc-params.php:2587
+msgid "SVG Color Part 3 Gradient Color"
+msgstr ""
+
+#: vc/vc-params.php:2619
+msgid "Top Separator Width"
+msgstr ""
+
+#: vc/vc-params.php:2620 vc/vc-params.php:2713 vc/vc-params.php:2806
+#: vc/vc-params.php:3134 vc/vc-params.php:3227 vc/vc-params.php:3320
+msgid "default: 100%"
+msgstr ""
+
+#: vc/vc-params.php:2639 vc/vc-params.php:2659
+msgid "Top Separator Height"
+msgstr ""
+
+#: vc/vc-params.php:2640 vc/vc-params.php:2660
+msgid "0 = default height of separator."
+msgstr ""
+
+#: vc/vc-params.php:2679 vc/vc-params.php:2772 vc/vc-params.php:2865
+#: vc/vc-params.php:3193 vc/vc-params.php:3286 vc/vc-params.php:3379
+msgid "Unit"
+msgstr ""
+
+#: vc/vc-params.php:2696
+msgid "Hide Top Separator on Tablet?"
+msgstr ""
+
+#: vc/vc-params.php:2712
+msgid "Top Separator Width on Tablets"
+msgstr ""
+
+#: vc/vc-params.php:2732 vc/vc-params.php:2752
+msgid "Top Separator Height on Tablets"
+msgstr ""
+
+#: vc/vc-params.php:2733 vc/vc-params.php:2753 vc/vc-params.php:2826
+#: vc/vc-params.php:2846 vc/vc-params.php:3154 vc/vc-params.php:3174
+#: vc/vc-params.php:3247 vc/vc-params.php:3267 vc/vc-params.php:3340
+#: vc/vc-params.php:3360
+msgid "0 = default height of Separator"
+msgstr ""
+
+#: vc/vc-params.php:2789
+msgid "Hide Top Separator on Mobile?"
+msgstr ""
+
+#: vc/vc-params.php:2805
+msgid "Top Separator Width on Mobiles"
+msgstr ""
+
+#: vc/vc-params.php:2825 vc/vc-params.php:2845
+msgid "Top Separator Height on Mobiles"
+msgstr ""
+
+#: vc/vc-params.php:2883
+msgid "Add Section Separator at Bottom?"
+msgstr ""
+
+#: vc/vc-params.php:2894
+msgid "Force Bottom Separator to be in front."
+msgstr ""
+
+#: vc/vc-params.php:2910
+msgid "Bottom Separator Style"
+msgstr ""
+
+#: vc/vc-params.php:2937
+msgid "Flip Bottom Separator?"
+msgstr ""
+
+#: vc/vc-params.php:3133
+msgid "Bottom Separator Width"
+msgstr ""
+
+#: vc/vc-params.php:3153 vc/vc-params.php:3173
+msgid "Bottom Separator Height"
+msgstr ""
+
+#: vc/vc-params.php:3210
+msgid "Hide Bottom Separator on Tablet?"
+msgstr ""
+
+#: vc/vc-params.php:3226
+msgid "Bottom Separator Width on Tablets"
+msgstr ""
+
+#: vc/vc-params.php:3246 vc/vc-params.php:3266
+msgid "Bottom Separator Height on Tablets"
+msgstr ""
+
+#: vc/vc-params.php:3303
+msgid "Hide Bottom Separator on Mobile?"
+msgstr ""
+
+#: vc/vc-params.php:3319
+msgid "Bottom Separator Width on Mobiles"
+msgstr ""
+
+#: vc/vc-params.php:3339 vc/vc-params.php:3359
+msgid "Bottom Separator Height on Mobiles"
+msgstr ""
+
+#: vc/vc-params.php:3419
+msgid "Hide on Desktop?"
+msgstr ""
+
+#: vc/vc-params.php:3429
+msgid "Hide on Tablet?"
+msgstr ""
+
+#: vc/vc-params.php:3439
+msgid "Hide on Mobile?"
+msgstr ""
+
+#: vc/vc-params.php:3470 vc/vc-params.php:3506
+msgid "Gap"
+msgstr ""
+
+#: vc/vc-params.php:3488 vc/vc-params.php:3524
+msgid "Select gap between grid elements."
+msgstr ""
+
+#: vc/vc-params.php:3551
+msgid "Height"
+msgstr ""
+
+#: vc/vc-params.php:3556
+msgid "Enter empty space height (Note: CSS measurement units allowed)."
+msgstr ""
+
+#: vc/vc-params.php:3565
+msgid "Height on Tablet"
+msgstr ""
+
+#: vc/vc-params.php:3568
+msgid ""
+"Enter empty space height for tablets. Leave empty to inherit from larger. "
+"(Note: CSS measurement units allowed)."
+msgstr ""
+
+#: vc/vc-params.php:3577
+msgid "Height on Mobile"
+msgstr ""
+
+#: vc/vc-params.php:3580
+msgid ""
+"Enter empty space height for mobiles. Leave empty to inherit from larger. "
+"(Note: CSS measurement units allowed)."
+msgstr ""
+
+#: vc/vc-params.php:3589
+msgid "Element ID"
+msgstr ""
+
+#: vc/vc-params.php:3591
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: vc/vc-params.php:3595
+msgid "Extra class name"
+msgstr ""
+
+#: vc/vc-params.php:3597
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: vc/vc-params.php:3601
+msgid "CSS box"
+msgstr ""
+
+#: vc/vc-params.php:3603
+msgid "Design Options"
+msgstr ""
+
+#: vc/vc-params.php:3634
+msgid "Arrow Color"
+msgstr ""
+
+#: vc/vc-params.php:3640
+msgid "Arrow Hover Color"
+msgstr ""
+
+#: vc/vc-params.php:3646
+msgid "Dot Color"
+msgstr ""
+
+#: vc/vc-params.php:3652
+msgid "Dot Color Active"
+msgstr ""
+
+#: vc/vc-params.php:3682
+msgid "Animation Effect"
+msgstr ""
+
+#: vc/vc-params.php:3683
+msgid "Select animation effect."
+msgstr ""
+
+#: vc/vc-params.php:3698
+msgid "Animation Duration"
+msgstr ""
+
+#: vc/vc-params.php:3699
+msgid "Animation time in seconds  e.g. 1s"
+msgstr ""
+
+#: vc/vc-params.php:3706
+msgid "Animate Once?"
+msgstr ""
+
+#: vc/vc-params.php:3707
+msgid ""
+"Animate only once when reaching the viewport, animate everytime when "
+"reaching the viewport or make the animation infinite? By default the "
+"animation executes everytime when the element becomes visible in viewport, "
+"means when leaving the viewport the animation will be reseted and starts "
+"again when reaching the viewport again. By setting this option to yes, the "
+"animation executes exactly once. By setting it to infinite, the animation "
+"loops all the time, no matter if the element is in viewport or not."
+msgstr ""
+
+#: vc/vc-params.php:3713
+msgid "infinite"
+msgstr ""
+
+#: vc/vc-params.php:3719
+msgid "Animate on Tablet?"
+msgstr ""
+
+#: vc/vc-params.php:3731
+msgid "Animate on Mobile?"
+msgstr ""
+
+#: vc/vc-params.php:3743
+msgid "Delay Animation?"
+msgstr ""
+
+#: vc/vc-params.php:3755
+msgid "Delay Timer"
+msgstr ""
+
+#: vc/vc-params.php:3756
+msgid "Time in milliseconds until the animation starts. e.g. 200"
+msgstr ""
+
+#: vc/vc-params.php:3794
+msgid "Make Sticky on Scroll?"
+msgstr ""
+
+#: vc/vc-params.php:3795
+msgid ""
+"Deactivated on Mobiles and Tablets. Also not combinable with parallax scroll "
+"effect."
+msgstr ""
+
+#: vc/vc-params.php:3832
+msgid "Activate Preview Video?"
+msgstr ""
+
+#: vc/vc-params.php:3840
+msgid "Play Preview Video only?"
+msgstr ""
+
+#: vc/vc-params.php:3841
+msgid ""
+"This will deactivate all other video settings and only play the preview "
+"video without any further interactions."
+msgstr ""
+
+#: vc/vc-params.php:3855
+msgid "Preview Video Play Event"
+msgstr ""
+
+#: vc/vc-params.php:3856
+msgid ""
+"Choose when the video should start playing. There are 3 different events "
+"available."
+msgstr ""
+
+#: vc/vc-params.php:3861
+msgid "Autoplay Video on Load?"
+msgstr ""
+
+#: vc/vc-params.php:3862
+msgid "Autoplay Video on Scroll (Appear)?"
+msgstr ""
+
+#: vc/vc-params.php:3863
+msgid "Autoplay Video on Mouse Hover?"
+msgstr ""
+
+#: vc/vc-params.php:3872
+msgid "Loop Preview Video?"
+msgstr ""
+
+#: vc/vc-params.php:3873
+msgid ""
+"When present, it specifies that the video will start over again, every time "
+"it is finished."
+msgstr ""
+
+#: vc/vc-params.php:3887
+msgid "Add WebM / OGG Support?"
+msgstr ""
+
+#: vc/vc-params.php:3901
+msgid "Video MP4"
+msgstr ""
+
+#: vc/vc-params.php:3912
+msgid "Video OGG"
+msgstr ""
+
+#: vc/vc-params.php:3923
+msgid "Video WEBM"
+msgstr ""
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:43
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Brooklyn"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.unitedthemes.com/brooklyn"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Multi-Purpose Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "United Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.unitedthemes.com"
+msgstr ""

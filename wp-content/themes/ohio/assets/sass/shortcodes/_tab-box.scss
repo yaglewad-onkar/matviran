@@ -1,0 +1,166 @@
+.tab {
+	width: 100%;
+	@include clearfix();
+
+	.tabNav {
+		width: 100%;
+		white-space: nowrap;
+		margin-bottom: 10px;
+		overflow: auto;
+		position: relative;
+		list-style-type: none;
+
+		&_wrapper {
+			width: 100%;
+			position: relative;
+		}
+
+		&:after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+
+		&_line {
+			width: 0;
+			height: 2px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 0;
+			@include animate();
+		}
+
+		&_link {
+			width: auto;
+			margin: 0 25px 0 0;
+			padding: 12px 0;
+			font-weight: 600;
+			display: inline-block;
+			clear: none;
+			cursor: pointer;
+			@include animate();
+
+			&.active {
+				font-weight: bold;
+			}
+		}
+	}
+
+	.tabItems {
+		position: relative;
+		overflow: hidden;
+		transition: height .3s cubic-bezier(.2,.35,.25,1);
+
+		&_item {
+			width: 100%;
+			opacity: 0;
+			overflow: hidden;
+			transition: .2s cubic-bezier(.2,.35,.25,1);
+			transition-property: opacity, visibility;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			&.active {
+				opacity: 1;
+				overflow: visible;
+				z-index: 2;
+			}
+		}
+	}
+
+	&.filled {
+		background-color: $color_fill;
+		padding: 10px 30px 30px 30px;
+		@include border_radius();
+	}
+
+	@include md_screen() {
+		&.vertical {
+			@include flex_top();
+	
+			.tabNav_wrapper {
+				width: auto;
+				white-space: nowrap;
+				border-bottom: none;
+			}
+	
+			.tabNav {
+				overflow: visible;
+				display: flex;
+				flex-direction: column;
+	
+				.tabNav_line {
+					width: 2px !important;
+					top: 0;
+					left: auto;
+					right: 0;
+				}
+			}
+	
+			.tabItems {
+				flex-grow: 2;
+			}
+	
+			.tabItems_item {
+				top: 0;
+				padding-left: 25px;
+			}
+	
+			&.filled {
+				padding: 25px 30px;
+	
+				.tabNav_wrapper {
+					border-color: rgba(#fff,.3);
+				}
+		
+				.tabItems {
+					width: calc(100% - 180px);
+					min-width: 60%;
+					float: right;
+				}
+		
+				.tabItems_item {
+					top: 0;
+					padding-left: 10px;
+				}
+		
+				&.filled {
+					padding: 25px 30px;
+		
+					.tabNav_wrapper {
+						border-color: rgba(#fff,.3);
+					}
+				}
+			}	
+		}
+	}
+
+	@include sm_screen() {
+		&.vertical {
+			.tabNav {
+				.tabNav_line {
+					height: 2px !important;
+				}
+			}
+		}	
+	}
+	
+	&.tabs-center {
+		.tabNav {
+			text-align: center;
+
+			.tabNav_link {
+				margin-left: 12px;
+				margin-right: 12px;
+			}
+		}
+	}
+
+	&.tabs-right {
+		.tabNav {
+			text-align: right;
+		}
+	}
+}

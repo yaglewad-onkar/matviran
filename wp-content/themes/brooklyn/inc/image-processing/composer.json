@@ -1,0 +1,5 @@
+{
+    "require": {
+        "deliciousbrains/wp-image-processing-queue": "^1.0"
+    }
+}

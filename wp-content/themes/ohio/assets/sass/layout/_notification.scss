@@ -1,0 +1,65 @@
+.notification-bar {
+	padding: 10px 15px;
+	position: fixed;
+	@include spacer40(bottom);
+	background-color: #f9f9f9;
+	z-index: 100;
+	opacity: 0;
+	visibility: hidden;
+	@include animate();
+	@include border_radius();
+	@include shape_shadow();
+	max-width: 700px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	@include sm_screen() {
+		max-width: 100%;
+		left: 20px;
+		right: 20px;
+		transform: none;
+	}
+
+	.notification {
+		&-text {
+			font-size: $font_size_small;
+			padding-right: 30px;
+			color: inherit;
+
+			a {
+				font-weight: 600;
+			}
+		}
+
+		&-link {
+			display: inline-block;
+			font-weight: 600;
+
+			a:not(:hover) {
+				color: currentColor;
+			}
+		}
+
+		&-btn {
+			margin-top: 10px;
+		}
+	}
+
+	.clb-close {
+		position: absolute;
+		top: 2px;
+		right: 2px;
+
+		.ion {
+			height: 40px;
+			width: 40px;
+			line-height: 40px;
+			font-size: 18px;
+		}
+	}
+
+	&.active {
+		opacity: 1;
+		visibility: visible;
+	}
+}

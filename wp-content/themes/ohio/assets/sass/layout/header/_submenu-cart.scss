@@ -1,0 +1,276 @@
+.submenu_cart {
+    position: absolute;
+    text-align: left;
+    right: -10px;
+    top: 120%;
+    line-height: 1.4;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 101;
+    width: 420px;
+    background-color: #fff;
+    @include dropdown_shadow();
+    @include flip_up();
+    @include border_radius(6px);
+
+    .btn-round {
+        margin-right: 15px;
+    }
+
+    .widget_shopping_cart_content {
+        @include spacer30(padding-left);
+        @include spacer30(padding-right);
+        @include spacer30(padding-bottom);
+        width: 100%;
+    }
+
+    &.visible {
+        @include flip_up_active();
+
+        .cart_heading {
+            position: relative;
+        }
+    }
+
+    .cart_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+
+        .btn-round {
+            .ion {
+                color: initial;
+            }
+        }
+    }
+
+    .cart_heading {
+        color: $color_dark;
+        @include spacer30(padding-left);
+
+        h6 {
+            font-size: 1.2em;
+        }
+    }
+
+    @include sm_screen(){
+        & {
+            width: calc(100% - 40px);
+            position: fixed;
+            left: $spacer_20;
+            right: $spacer_20;
+            top: 80px; 
+        }
+    }
+}
+
+.widget_shopping_cart_content {
+    .mini_cart_item {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        padding: 15px 0 !important;
+        border-top: 1px solid $color_border;
+        @include clearfix();
+
+        .font-titles {
+            font-weight: 600;
+            display: inline-block;
+            max-width: 90%;
+            line-height: 1.1;
+        }
+
+        &:hover {
+            a.remove {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    .woocommerce-mini-cart {
+        max-height: 300px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    .mini-cart-image {
+        position: relative;
+
+        img {
+            width: 70px;
+            max-width: 70px;
+            height: 70px;
+            vertical-align: top;
+
+            @include sm_screen() {
+                width: 60px;
+                max-width: 60px;
+                height: 60px;
+            }
+        }
+
+        a.remove {
+            opacity: 0;
+            visibility: hidden;
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            @include animate();
+
+            .ion {
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .mini-cart-description {
+        padding-left: 15px;
+        width: calc(100% - 70px);
+        @include flex_center();
+        justify-content: space-between;
+        line-height: 1.25;
+
+        .mini-cart-item-title {
+            width: calc(100% - 90px);
+
+            > * {
+                max-width: 100%;
+            }
+
+            @include sm_screen() {
+                padding-right: 10px;
+            }
+
+            > a {
+                display: inline-block;
+                @include crop_string();
+                font-weight: 600;
+                font-size: 1.1em;
+                font-family: $font_titles;
+            }
+
+            .quantity {
+                position: absolute;
+                top: 0;
+                right: 0;
+                white-space: nowrap;
+
+                .ion {
+                    font-size: 13px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .quantity {
+        span {
+            font-weight: 600;
+        }
+    }
+
+    .mini-cart-price {
+        .amount {
+            font-weight: 600;
+        }
+    }
+
+    .total {
+        border-top: 1px solid $color_border;
+        padding: 15px 0px;
+        margin: 0;
+
+        strong {
+            font-weight: 500;
+        }
+
+        .amount {
+            float: right;
+            font-weight: 600;
+        }
+    }
+
+    .buttons {
+        margin: 0;
+        text-align: center;
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-transform: capitalize;
+
+        a.button {
+            display: block;
+
+            &:hover {
+                text-decoration: none;
+                opacity: 1 !important;
+            }
+
+            &:first-child {
+                display: inline-block;
+                width: auto;
+                position: relative;
+                background: transparent;
+                border: none;
+                line-height: 1;
+                margin-top: 20px;
+                padding: 0;
+                box-shadow: none;
+
+                &:before {
+                    display: block;
+                    bottom: 0;
+                }
+            }
+            
+            &:last-child {
+                width: 100%;
+                position: relative;
+                color: #fff;
+
+                &:before {
+                    content: "\f287";
+                    font-family: "Ionicons";
+                    color: #fff;
+                    position: absolute;
+                    right: 16px;
+                    z-index: 1;
+                    top: 10px;
+                    line-height: 1;
+                    font-weight: normal;
+                    font-size: 20px;
+                }
+
+                &:hover {
+                    &:before {
+                        color: inherit;
+                    }
+                }
+            }
+        }
+    }
+
+    .wcppec-cart-widget-button {
+        margin-top: 15px;
+        float: left;
+    }
+
+    .woo-cart-empty {
+        padding: 0;
+        max-height: 300px;
+    }
+}
+
+.blockOverlay {
+    background: rgba($color_error, .2) !important;
+    @include border_radius();
+}

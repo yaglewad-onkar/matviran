@@ -1,0 +1,93 @@
+.site-footer {
+	background-color: $color_fill;
+	
+	@include lg_screen() {
+		&.sticky {
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+			visibility: hidden;
+
+			&.visible {
+				visibility: visible;
+			}
+		}
+	}
+
+	// Widgets overrides
+	
+	.widgets {
+		@include spacer80(padding-top);
+		@include spacer80(padding-bottom);
+		list-style: none;
+
+		// Subscribe
+
+		.subscribe-form {
+			input[type="email"] {
+				background-color: rgba($color_neutral, .06);
+			}
+
+			.btn {
+				.text {
+					@include animate();
+				}
+
+				&:hover,
+				&:focus {
+					.text {
+						color: #fff;
+					}
+				}
+			}
+		}
+
+		//Icons
+		.socialbar {
+			a:hover {
+				color: #fff;
+			}
+
+			i:hover {
+				opacity: 1;
+			}
+		}
+	}
+
+	.page-container {
+	 	& + .site-info {
+	 		.site-info-holder {
+		 		border-top: 1px solid $color_border;
+		 	}
+	 	}
+
+	 	&.full {
+	 		@include spacer40(padding-left);
+	    	@include spacer40(padding-right);
+	 	}
+	}
+
+	.site-info {
+		font-size: $font_size_small;
+
+		&-holder {
+			@include spacer30(padding-top);
+			@include spacer30(padding-bottom);
+			@include clearfix();
+		}
+	}
+
+	@include sm_screen() {
+		.left, 
+		.right {
+			width: 100%;
+			text-align: left;
+		}
+
+		.right {
+			margin-top: 10px;
+		}
+	}
+}

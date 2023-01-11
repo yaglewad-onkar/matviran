@@ -1,0 +1,33 @@
+&.-sticky {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0);
+
+    .header-wrap {
+        height: 9vh;
+    }
+
+    &.showed {
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        z-index: 1000;
+
+        @include animate(.5s);
+        transition-delay: 0.2s;
+    }
+    
+    &.with-header-cap {
+        margin: 0;
+    }
+
+    .branding {
+
+        img {
+            max-height: 4.5vh;
+        }
+    }
+}

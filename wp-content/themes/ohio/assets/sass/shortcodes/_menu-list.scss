@@ -1,0 +1,35 @@
+.menu-list {
+	&-headline {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	&-price {
+		.regular-price,
+		.discount-price {
+			font-weight: 600;
+		}
+
+		.discount-price {
+			color: $color_light;
+			margin-right: 5px;
+			text-decoration: line-through;
+		}
+	}
+
+	&-details {
+		display: flex;
+		justify-content: space-between;
+
+		p {
+			margin: 0;
+		}
+
+		.tag {
+			color: #fff;
+			background-color: $color_brand;
+			margin: 5px 0px 0px 20px;
+		}
+	}
+}

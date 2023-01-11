@@ -1,0 +1,39 @@
+<svg width="252" height="150" viewBox="0 0 252 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect opacity="0.4" width="252" height="150" fill="#677A9E"/>
+<rect opacity="0.15" x="126" y="36" width="96" height="60" rx="1" fill="#677A9E"/>
+<rect opacity="0.15" x="126" y="98" width="96" height="60" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="162" y="114" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="162" y="114" width="26" height="26">
+<rect opacity="0.3" x="162" y="114" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M164 124.167C164 122.357 165.348 121 167.145 121C168.942 121 170.29 122.357 170.29 124.167C170.29 125.976 168.942 127.333 167.145 127.333C165.348 127.333 164 125.976 164 124.167ZM183.094 124.167L177.928 132.31L173.884 127.333L164 140H195L183.094 124.167Z" fill="#677A9E"/>
+</g>
+<path d="M70 66H30V70H70V66Z" fill="white"/>
+<path d="M40 93H30V97H40V93Z" fill="white"/>
+<path d="M90 76H30V79H90V76Z" fill="white"/>
+<path d="M70 82H30V85H70V82Z" fill="white"/>
+<rect x="14" y="16.3636" width="18" height="3.27273" fill="white"/>
+<rect x="97" y="17" width="12" height="2" fill="white"/>
+<rect x="115" y="17" width="12" height="2" fill="white"/>
+<rect x="133" y="17" width="12" height="2" fill="white"/>
+<rect x="151" y="17" width="12" height="2" fill="white"/>
+<rect x="169" y="17" width="12" height="2" fill="white"/>
+<rect x="187" y="17" width="12" height="2" fill="white"/>
+<rect x="220" y="17.1818" width="6" height="1.63636" fill="white"/>
+<rect x="232" y="17.1818" width="6" height="1.63636" fill="white"/>
+<rect opacity="0.3" x="162" y="53" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="162" y="53" width="26" height="26">
+<rect opacity="0.3" x="162" y="53" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M164 63.1667C164 61.3571 165.348 60 167.145 60C168.942 60 170.29 61.3571 170.29 63.1667C170.29 64.9762 168.942 66.3333 167.145 66.3333C165.348 66.3333 164 64.9762 164 63.1667ZM183.094 63.1667L177.928 71.3095L173.884 66.3333L164 79H195L183.094 63.1667Z" fill="#677A9E"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="252" height="150" fill="white"/>
+</clipPath>
+</defs>
+</svg>

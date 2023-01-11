@@ -1,0 +1,10 @@
+/* logo background fix */
+#header-section .site-logo .ut-site-logo-background {
+
+}
+
+/* no custom cursor support */
+.ut-deactivate-browser-cursor,
+.ut-deactivate-browser-cursor * {
+    cursor: auto  !important;
+}

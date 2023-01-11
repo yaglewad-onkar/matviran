@@ -1,0 +1,73 @@
+.sticky-nav {
+	max-width: 270px;
+	position: fixed;
+	@include spacer40(right);
+	@include spacer40(bottom);
+	z-index: 100;
+	@include animate();
+
+	&-holder {
+		@include spacer30(padding);
+		padding-top: 20px;
+		height: 100%;
+		background: #fff;
+		@include border_radius(6px);
+	}
+
+	&-image {
+		height: 120px;
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		position: absolute;
+		top: -100px;
+		left: 0;
+		@include border_top_radius(6px);
+		overflow: hidden;
+		z-index: -1;
+		opacity: 0;
+		transform: translateY(10%);
+		@include animate();
+
+		img {
+			margin-top: -25%;
+		}
+	}
+
+	&_heading {
+		margin: 5px 0 0;
+		color: inherit;
+	}
+
+	&_item {
+		@include flex_center();
+		justify-content: space-between;
+		right: 16px;
+		top: 16px;
+
+		.nav-holder {
+			@include flex_center();
+
+			a {
+				margin-left: 6px;
+			}
+		}
+	}
+
+	@include sm_screen {
+		position: static;
+		max-width: 100%;
+		padding: 20px 0;
+	}
+
+	&:hover {
+		.sticky-nav-image {
+			opacity: 1;
+			transform: translateY(2%);
+		}
+	}
+
+	&-products {
+		@include animate();
+	}
+}

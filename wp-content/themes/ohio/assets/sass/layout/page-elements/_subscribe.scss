@@ -1,0 +1,94 @@
+.clb-subscribe {
+	overflow: hidden;
+	max-width: 760px;
+	height: auto;
+	animation: 0.4s slide_up_inner $transition_function;
+
+	.vc_row {
+		display: flex;
+		align-items: stretch;
+		margin: 0;
+		overflow: hidden;
+		@include border_radius(6px);
+
+		@include sm_screen() {
+			display: block;
+		}
+	}
+
+	.clb-subscribe-img {
+		background-size: cover;
+		background-color: #fff;
+		min-height: 20vh;
+		@include border_left_radius(6px);
+		background-position: center center;
+
+		@include sm_screen() {
+			border-bottom-left-radius: 0px;
+		}
+	}
+
+	&-content {
+		&.vc_col-sm-6 {
+			@include spacer40();
+			background-color: #fff;
+		}
+		
+		&-headline {
+			margin: 0px 0px 20px 0px;
+		}
+	}
+
+	div.wpcf7-validation-errors, 
+	div.wpcf7-acceptance-missing, 
+	div.wpcf7-response-output {
+		padding: 0;
+		text-align: center;
+	}
+
+	/*Sent form state*/
+
+	.wpcf7-form.sent {
+		.subscribe-form {
+			display: none;
+		}
+
+		.wpcf7-mail-sent-ok {
+			&:before {
+				content: "\f2bc";
+				font-family: Ionicons;
+				font-size: 1.6em;
+				display: block;
+				margin: 20px auto;
+				height: 56px;
+				width: 56px;
+				line-height: 56px;
+				@include border_radius(50%);
+				color: $color_success;
+				background-color: rgba($color_success, .15);
+			}
+		}
+	}
+
+	.subscribe-form {
+		margin: 20px 0px;
+
+		input[type="email"] {
+			@include sm_screen() {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+@keyframes slide_up_inner {
+	0% { 
+		transform: translateY(100%);
+		opacity: .5;
+	}
+
+	100% { 
+		transform: translateY(0%);
+		opacity: 1;
+	}
+}

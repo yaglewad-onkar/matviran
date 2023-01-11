@@ -1,0 +1,21 @@
+&.header-6 {
+
+    // General
+
+  
+
+    // Desktop
+
+    &:not(.-mobile) {
+        
+        .branding {
+            top: 66px;
+        }
+    }
+
+    // Mobile
+
+    &.-mobile {
+        
+    }
+}

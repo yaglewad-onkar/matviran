@@ -1,0 +1,304 @@
+.page-preloader {
+	background-color: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 100%;
+    height: 100vh;
+	z-index: 999999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	opacity: 1;
+	visibility: visible;
+	transition: .6s ease-in-out;
+	transition-property: opacity, visibility;
+
+	.loader {
+		width: 6px;
+		height: 6px;
+		@include border_radius(50%);
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		animation: typing 1s linear infinite alternate;
+	}
+
+	&.hidden {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+    &.hide {
+        display: none;
+    }
+
+    &.percentage-preloader {
+        .sk-percentage {
+            height: 100%;
+            width: 0;
+            background-color: #fceef1;
+            left: 0;
+            position: fixed;
+
+            &-percent {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                font-size: 6em;
+                font-weight: 600;
+                letter-spacing: -.02rem;
+            }
+        }
+    }
+}
+
+@include tablet_screen() {
+    .page-preloader {
+        display: none;
+    }
+}
+
+// Preloader type1
+
+.spinner {
+    animation: anim1 2s linear infinite;
+    z-index: 2;
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+    .path {
+        opacity: .75;
+        stroke: $color_dark;
+        stroke-linecap: round;
+        animation: dash 1.5s ease-in-out infinite;
+    }
+}
+
+@keyframes anim1 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes dash {
+    0% {
+        stroke-dasharray: 1, 150;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -35;
+    }
+
+    100% {
+        stroke-dasharray: 90, 150;
+        stroke-dashoffset: -124;
+    }
+}
+
+.sk-fading-circle,
+.sk-double-bounce,
+.sk-circle,
+.sk-folding-cube {
+    width: 50px;
+    height: 50px;
+}
+
+// Fading circle loader
+
+.sk-fading-circle {
+    $circleCount: 12;
+    $animationDuration: 1.2s;
+    position: relative;
+
+    .sk-circle {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+  .sk-circle:before {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+        height: 15%;
+        background-color: $color_dark;
+        @include border_radius(50%);
+        animation: sk-circleFadeDelay $animationDuration infinite ease-in-out both;
+  }
+
+    @for $i from 2 through $circleCount {
+        .sk-circle#{$i} { transform: rotate(360deg / $circleCount * ($i - 1)); }
+    }
+
+    @for $i from 2 through $circleCount {
+        .sk-circle#{$i}:before { animation-delay: - $animationDuration + $animationDuration / $circleCount * ($i - 1); }
+    }
+
+}
+
+@keyframes sk-circleFadeDelay {
+    0%, 39%, 100% { opacity: 0 }
+    40% { opacity: 1 }
+}
+
+// Double bounce loader
+
+.sk-double-bounce {
+    position: relative;
+
+.sk-child {
+    width: 100%;
+    height: 100%;
+    @include border_radius(50%);
+    background-color: $color_dark;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: sk-doubleBounce 2.0s infinite ease-in-out;
+}
+
+.sk-double-bounce2 {
+        animation-delay: -1.0s;
+    }
+}
+
+@keyframes sk-doubleBounce {
+    0%, 100% { transform: scale(0) }
+    50% { transform: scale(1.0) }
+}
+
+// Waves loader
+
+.sk-wave {
+    $rectCount: 5;
+    $animationDuration: 1.2s;
+    $delayRange: 0.4s;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+
+    .sk-rect {
+        background-color: $color_dark;
+        height: 100%;
+        width: 5px;
+        display: inline-block;
+        animation: sk-waveStretchDelay $animationDuration infinite ease-in-out;
+    }
+
+    @for $i from 1 through $rectCount {
+        .sk-rect#{$i} { animation-delay: - $animationDuration + $delayRange / ($rectCount - 1) * ($i - 1); }
+    }
+}
+
+@keyframes sk-waveStretchDelay {
+    0%, 40%, 100% { transform: scaleY(0.4) }
+    20% { transform: scaleY(1.0) }
+}
+
+
+
+// Circle loader
+
+.sk-circle {
+    $circleCount: 12;
+    $animationDuration: 1.2s;
+    position: relative;
+
+    .sk-child {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .sk-child:before {
+        content: '';
+        display: block;
+        margin: 0 auto;
+        width: 15%;
+        height: 15%;
+        background-color: $color_dark;
+        @include border_radius(50%);
+        animation: sk-circleBounceDelay $animationDuration infinite ease-in-out both;
+    }
+
+    @for $i from 2 through $circleCount {
+        .sk-circle#{$i} { transform: rotate(360deg / $circleCount * ($i - 1)); }
+    }
+
+    @for $i from 2 through $circleCount {
+        .sk-circle#{$i}:before { animation-delay: - $animationDuration + $animationDuration / $circleCount * ($i - 1); }
+    }
+}
+
+@keyframes sk-circleBounceDelay {
+    0%, 80%, 100% { transform: scale(0) }
+    40% { transform: scale(1.0) }
+}
+
+// Folding Cube loader
+
+.sk-folding-cube {
+        $cubeCount: 4;
+        $animationDuration: 2.4s;
+        $delayRange: $animationDuration/2;
+        position: relative;
+        transform: rotateZ(45deg);
+
+    .sk-cube {
+        float: left;
+        width: 50%;
+        height: 50%;
+        position: relative;
+        transform: scale(1.1);
+    }
+
+    .sk-cube:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: $color_dark;
+        animation: sk-foldCubeAngle $animationDuration infinite linear both;
+        transform-origin: 100% 100%;
+    }
+
+    // Rotation / angle
+    @for $i from 2 through $cubeCount {
+        .sk-cube#{$i} {
+          transform: scale(1.1) rotateZ(90deg * ($i - 1));
+        }
+    }
+
+    @for $i from 2 through $cubeCount {
+        .sk-cube#{$i}:before {
+          animation-delay: $delayRange / $cubeCount * ($i - 1);
+        }
+    }
+}
+
+@keyframes sk-foldCubeAngle {
+    0%, 10% {
+        transform: perspective(140px) rotateX(-180deg);
+        opacity: 0;
+    } 25%, 75% {
+        transform: perspective(140px) rotateX(0deg);
+        opacity: 1;
+    } 90%, 100% {
+        transform: perspective(140px) rotateY(180deg);
+        opacity: 0;
+    }
+}

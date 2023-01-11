@@ -1,0 +1,217 @@
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+// Pages links color and spacings
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 0 auto;
+}
+
+.entry-content {
+	> *:not(.vc_row):not(.vc_clearfix):not(.vc_section) {
+		margin-top: 25px;
+		margin-bottom: 25px;
+
+		&.alignleft {
+			margin-top: 0;
+		}
+	}
+
+	> *:not(.vc_row):not(.vc_clearfix):first-child {
+		margin-top: 0;
+	}
+
+	> *:not(.vc_row):not(.vc_clearfix):last-child {
+		margin-bottom: 0;
+	}
+
+	figcaption {
+		padding: 0.3rem;
+		font-size: .98em;
+		margin: 0;
+	}
+
+	.wp-block-pullquote p {
+	    font-size: 1.6875em;
+	    font-style: italic;
+	    line-height: 1.3;
+	    margin-bottom: .5em;
+	    margin-top: .5em;
+	}
+}
+
+// Single post
+
+.single-post {
+	.entry-content {
+		@include spacer60(margin-bottom);
+
+		a:not(.wp-block-button__link) {
+			color: $color_brand;
+			font-weight: 500;
+
+			&:hover {
+				opacity: .6;
+			}
+		}
+
+		@include lg_screen() {
+			> h2, > h3 {
+			    margin-top: 3rem !important;
+			}
+		}
+
+		.wp-block-pullquote.is-style-solid-color {
+			blockquote {
+			    color: #fff;
+			
+			    @include sm_screen() {
+					max-width: 100%;
+				    padding-left: 0;
+				    margin-left: 1rem;
+				    margin-right: 1rem;
+				}
+			}
+		}
+
+		.wp-block-archives,
+		.wp-block-categories,
+		.wp-block-latest-posts {
+			li {
+				font-weight: 600;
+			}
+
+			@include lg_screen() {
+				.select-holder {
+				    display: inline-block;
+				}
+			}
+		}
+
+		.blog-slider {
+			.blog-metro-image {
+				padding-bottom: 100%;
+				min-width: 100%;
+			}
+		}
+	}
+
+	.clb-page-headline {
+		.category-holder:after {
+			margin-left: 4px;
+		}
+	}
+
+	.wpb_single_image   {
+		margin-bottom: 50px;
+	}
+
+	// Tags block
+
+	.entry-footer {
+		@include flex_center();
+		justify-content: space-between;
+
+		&-tags {
+			.tags-holder {
+				@include spacer60(margin-bottom);
+
+				.tag {
+					margin: 2px 5px 2px 0;
+				}
+			}
+		}
+
+		.post-edit-link,
+		.vc_inline-link {
+			display: inline-block;
+			@include spacer60(margin-bottom);
+		}
+	}
+
+	// Author widget
+
+	.page-content {
+		.widget_ohio_widget_about_author {
+			background-color: $color_fill;
+			@include spacer30();
+			@include spacer60(margin-bottom);
+
+			@include lg_screen() {
+				@include flex_top();
+
+				.author-avatar {
+					margin-bottom: 0;
+				}
+
+				.content {
+					margin: 8px 0 0 20px;
+				}
+			}
+		}
+	}
+
+	// Related posts block
+
+	.related-posts {
+		@include spacer40(padding-bottom);
+
+		.blog-grid {
+			margin-bottom: 30px;
+		}
+	}
+
+	// Share bar
+
+	.post-share {
+		position: relative;
+		
+		.clb-share-bar {
+			left: -1vw;
+			margin-top: 10px;
+			z-index: 10;
+
+			@include note_screen() {
+				left: 0;
+			}
+
+			@include tablet_screen() {
+				left: 0;
+				position: relative;
+
+				.socialbar {
+					flex-direction: row;
+				}
+			}
+		}
+	}
+}
+
+article.page {
+	margin: 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	padding-top: 15px;
+	font-size: 110%;
+}
+
+.post-widget {
+	@include spacer30(padding-top);
+	position: relative;
+}
+
+.post {
+	margin-top: 0;
+
+	.comments-link a {
+		font-size: $font_size_small;
+		margin-left: 15px;
+	}
+}

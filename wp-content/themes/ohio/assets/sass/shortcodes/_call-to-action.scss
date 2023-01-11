@@ -1,0 +1,38 @@
+.cta {
+	background: $color_brand;
+	color: #fff;
+	width: 100%;
+	@include spacer60();
+	@include border_radius();
+	position: relative;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+
+	* {
+		color: #fff;
+	}
+
+	.subtitle {
+		font-size: 1.25em;
+		margin: 10px 0px 0px 0px;
+		font-weight: 500;
+	}
+
+	.btn {
+		white-space: nowrap;
+
+		span,
+		i {
+			@include animate();
+		}
+	}
+
+	@include sm_screen() {
+		display: block;
+
+		.btn {
+			margin-top: 20px;
+		}
+	}
+}

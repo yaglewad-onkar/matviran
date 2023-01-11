@@ -1,0 +1,276 @@
+/*---------------------------------
+## Ohio logo widget
+---------------------------------*/
+.widget_ohio_widget_logo {
+	a {
+		margin: 0;
+		display: inline-block;
+	}	
+
+	h3 {
+		font-size: 1.6em;
+		font-weight: bold;
+		line-height: 30px;
+		color: $color_text;
+	}
+}
+
+/*---------------------------------
+## Ohio recent posts widget
+---------------------------------*/
+.widget_ohio_widget_recent_posts {
+	ul.recent-posts-list {
+		list-style: none;
+		margin: 0;
+
+		li {
+			min-height: 20px;
+			margin-bottom: 15px;
+			position: relative;
+			overflow: hidden;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		img {
+			width: 70px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		h4 {
+			font-weight: 600;
+		}
+
+		.content-wrap {
+			float: left;
+			padding-left: 85px;
+			margin-top: -5px;
+
+			.comments + .author,
+			.date + .categories {
+
+				&:before {
+					content: '•';
+					display: inline-block;
+					vertical-align: middle;
+					color: $color_text;
+					margin-right: 4px;
+				}
+			}
+
+			&.no-thumb {
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+/*---------------------------------
+## Ohio about author widget
+---------------------------------*/
+.widget_ohio_widget_about_author {
+	max-width: 100%;
+	position: relative;
+	@include border_radius();
+
+	.author-avatar {
+		margin-bottom: 15px;
+		height: 56px;
+		min-width: 56px;
+	}
+
+	.content {
+		&-details {
+			h6 {
+				margin: 0;
+			}
+
+			.site {
+				color: $color_light;
+			}
+		}
+
+		.socialbar {
+			a {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+/*---------------------------------
+## Ohio login widget
+---------------------------------*/
+.widget_ohio_widget_login {
+	overflow: hidden;
+
+	.login-wrap {
+		overflow: hidden;
+		position: relative;
+		transition: height .25s ease-in-out;
+	}
+
+	form {
+		overflow: hidden;
+	}
+
+	.login-form {
+		position: relative;
+		left: 0;
+		opacity: 1;
+		transition: opacity .25s ease-in-out;
+		z-index: 2;
+
+		&.hidden {
+			display: block;
+			opacity: 0;
+			position: absolute;
+			z-index: 1;
+		}
+	}
+
+	.reg-form {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: opacity .25s ease-in-out;
+		z-index: 1;
+
+		&.visible {
+			opacity: 1;
+			z-index: 2;
+		}
+	}
+
+	.reg-success {
+		color: #0a6;
+	}
+
+	.login-error,
+	.reg-error {
+		color: #c22;
+	}
+
+	.login-submit {
+		float: left;
+		margin-top: 2px;
+
+		&.with-registration {
+			width: 48%;
+		}
+
+		button {
+			margin-top: 0;
+		}
+	}
+
+	.btn {
+		.text-loading {
+			display: none;
+		}
+
+		&.loading {
+			background: transparent;
+			color: $color_dark;
+			opacity: .6;
+			cursor: default;
+
+			.text-loading {
+				display: block;
+			}
+
+			.text {
+				display: none;
+			}
+		}
+	}
+
+	.login-registration {
+		width: 48%;
+		margin-top: 2px;
+		float: right;
+
+		a {
+			width: 100%;
+
+			&:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.login-remember {
+		float: left;
+	}
+
+	.login-lost-password {
+		float: right;
+	}
+
+	.login-remember,
+	.login-lost-password {
+		width: auto;
+	}
+
+	.reg-submit {
+		margin-top: 12px;
+
+		button {
+			margin-top: 0;
+		}
+	}
+
+	.back-to-login {
+		margin-top: 20px;
+	}
+
+	.logged-in {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		opacity: 0;
+		transition: opacity .25s ease-in-out;
+
+		&.visible {
+			position: relative;
+			opacity: 1;
+			z-index: 2;
+			padding: 5px 0px;
+			@include clearfix();
+		}
+	}
+}
+
+/*---------------------------------
+## Ohio contact widget
+---------------------------------*/
+.widget_ohio_widget_contact {
+	ul.list-box {
+		margin: 0;
+	}
+
+	li {
+		padding: 0;
+		font-weight: 600;
+		list-style: none;
+		line-height: 2.3;
+
+		&:after {
+			display: none;
+		}
+
+		address {
+			display: inline;
+			font-weight: 400;
+		}
+	}
+}

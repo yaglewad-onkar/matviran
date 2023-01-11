@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.2" x="6" y="6" width="48" height="48" rx="4" fill="#586A74"/>
+<path opacity="0.2" d="M6 30H54V50C54 52.2091 52.2091 54 50 54H10C7.79086 54 6 52.2091 6 50V30Z" fill="#586A74"/>
+<circle cx="39" cy="34" r="5" stroke="#586A74" stroke-width="4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M42 26H46C46 22.134 42.866 19 39 19C35.134 19 32 22.134 32 26H36C36 24.3431 37.3431 23 39 23C40.6569 23 42 24.3431 42 26Z" fill="#586A74"/>
+<rect x="32" y="25" width="4" height="10" fill="#586A74"/>
+<circle cx="21" cy="26" r="5" transform="rotate(180 21 26)" stroke="#586A74" stroke-width="4"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M18 34L14 34C14 37.866 17.134 41 21 41C24.866 41 28 37.866 28 34L24 34C24 35.6569 22.6569 37 21 37C19.3431 37 18 35.6569 18 34Z" fill="#586A74"/>
+<rect x="28" y="35" width="4" height="10" transform="rotate(180 28 35)" fill="#586A74"/>
+</svg>

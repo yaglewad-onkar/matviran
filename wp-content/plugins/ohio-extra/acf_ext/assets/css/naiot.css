@@ -1,0 +1,44 @@
+.ohio-acf-image-option-type {
+	padding: 0 10px 10px 10px;
+	font-family: sans-serif;
+}
+
+.ohio-acf-image-option-type .naiot-item {
+	display: inline-block;
+	margin: 6px 8px;
+	width: 104px;
+	height: 134px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.ohio-acf-image-option-type .naiot-item.naiot-item--active .naiot-container {
+	border-color: blue !important;
+	box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
+}
+
+.ohio-acf-image-option-type .naiot-container {
+	height: 100px;
+	width: 100px;
+	border: 2px solid #eaeaea;
+	background: #f2f2f2;
+}
+
+.ohio-acf-image-option-type .naiot-item:hover .naiot-container {
+	border-color: #aeaeae;
+}
+
+.ohio-acf-image-option-type .naiot-description {
+	margin-top: 2px;
+	height: 28px;
+	width: 100px;
+	text-align: center;
+	font-size: 0.94em;
+	line-height: 14px;
+	font-style: italic;
+	color: #808080;
+}
+
+.ohio-acf-image-option-type .naiot-item:hover .naiot-description {
+	color: #343434;
+}

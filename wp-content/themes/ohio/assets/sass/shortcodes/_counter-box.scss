@@ -1,0 +1,64 @@
+.counter-box {
+	&-icon {
+	    font-size: 38px;
+    	margin-top: -10px;
+		display: inline-flex;
+	}
+
+	&-count {
+		font-size: $font_size_h3;
+		font-weight: bold;
+		font-family: $font_titles;
+		@include flex_center();
+		height: 40px;
+		justify-content: center;
+	}
+
+	.plus-symbol {
+	    font-size: .75em;
+    	margin-left: 3px;
+	}
+
+	i {
+		@include animate();
+
+		&.top-icon {
+			margin-bottom: 10px;
+		}
+	}
+
+	.left-icon {
+		margin-right: 10px;
+	}
+
+	.right-icon {
+		margin-left: 10px;
+	}
+
+	&-headline {
+		display: inline-block;
+		font-weight: 600;
+	}
+
+	// Hover state
+
+	&:hover {
+		i {
+			color: $color_brand;
+		}
+	}
+
+	// Alignment
+
+	&.text-left {
+		.counter-box-count {
+			justify-content: flex-start;
+		}
+	}
+
+	&.text-right {
+		.counter-box-count {
+			justify-content: flex-end;
+		}
+	}
+}

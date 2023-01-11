@@ -1,0 +1,171 @@
+&.header-5 {
+
+    // Desktop
+
+    &:not(.-mobile) {
+        width: 33vh;
+        min-height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 0;
+        // background-color: #fff;
+
+        .header-wrap {
+            height: 100vh;
+
+            @include spacer40(padding-bottom);
+
+            .top-part {
+                justify-content: flex-start;
+
+                @include header_height;
+            }
+
+            .bottom-part {
+                justify-content: flex-start;
+            }
+        }
+
+        .middle-part,
+        .mbl-overlay {
+            width: 100%;
+        }
+
+        // Menu
+
+        .menu {
+            width: 100%;
+            flex-direction: column;
+
+            // All menu items
+
+            li {
+                font-size: 18px;
+                font-weight: 600;
+                width: 100%;
+
+                a {
+                    width: 100%;
+                    padding-top: 0.3rem;
+                    padding-bottom: 0.3rem;
+
+                    .has-submenu-icon {
+                        position: absolute;
+                    }
+                }
+
+                .sub-menu {
+
+                    @include spacer40(margin-left);
+                }
+
+                // Sub menu items
+
+                > ul {
+                    box-shadow: none;
+                    min-width: 33vh;
+                    position: absolute;
+                    top: 0;
+                    left: calc(100% - 0.8rem);
+                    color: #fff;
+                    background-color: transparent;
+                    padding: 0;
+                    transform: none;
+
+                    li {
+                        transition-duration: $transition_duration;
+                    }
+                }
+
+                &:hover {
+                    
+                    > ul,
+                    > ul > *,
+                    &:after {
+                        transform: translateX(0);
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+
+            // 1st level menu items
+
+            > .nav-item {
+
+                > a {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+
+                &.has-submenu {
+
+                    .menu-plus {
+                        display: initial;
+                    }
+
+                    .menu-chevron {
+                        display: none;
+                    }
+                }
+
+                li {
+                    @include spacer40(padding-left);
+                }
+
+                &:after {
+                    content: "";
+                    height: 100vh;
+                    background: rgba($color_dark, .99);
+                    position: fixed;
+                    left: 33vh;
+                    right: 0;
+                    top: 0;
+                    z-index: -1;
+                    pointer-events: none;
+                    visibility: hidden;
+                    opacity: 0;
+
+                    @include animate();
+                }
+            }
+        }
+
+        // Menu optional
+
+        .menu-optional {
+            position: relative;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .cart-holder {
+                flex-direction: row-reverse;
+                justify-content: flex-end;
+            }
+
+            > li {
+                margin-top: 0.5rem;
+                width: 100%;
+
+                &,
+                &:first-child {
+                    padding-left: 0;
+                }
+
+                // Cart position
+
+                .submenu_cart {
+                    top: auto;
+                    right: auto;
+                    left: 0;
+                    margin-bottom: calc(56px + 30px);
+                    position: fixed;
+
+                    @include spacer40(bottom);
+                    @include spacer40(margin-left);
+                }
+            }
+        }
+    }
+}

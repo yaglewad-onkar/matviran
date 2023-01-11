@@ -1,0 +1,41 @@
+&.header-7 {
+
+    // Desktop
+
+    &:not(.-mobile) {
+
+        .header-wrap {
+
+            &-inner {
+                align-items: center;
+            }
+        }
+
+        .branding {
+            top: 0;
+        }
+
+        .middle-part {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+
+    // Mobile
+
+    &.-mobile {
+
+        .top-part {
+            order: 2;
+        }
+
+        .middle-part {
+            order: 1;
+        }
+
+        .bottom-part {
+            order: 3;
+        }
+    }
+}

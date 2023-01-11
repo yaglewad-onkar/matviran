@@ -1,0 +1,58 @@
+.page-sidebar {
+	float: right;
+	position: relative;
+	z-index: 1;
+	width: calc(25% - 50px);
+	margin-bottom: 50px;
+
+	@include sm_screen() {
+		width: 100%;
+		order: 10;
+		margin: 40px 0px 0px 0px;
+	}
+
+	&.sidebar-right {
+		float: right;
+	}
+
+	&.sidebar-left {
+		float: left;
+	}
+
+	.widget:first-child {
+		padding-top: 0;
+
+		> *:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.select2 {
+		.select2-selection {
+			.select2-selection__rendered {
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+// Boxed sidebar
+
+	&.sidebar-boxed {
+		background-color: $color_fill;
+		@include spacer40();
+
+		&.sidebar-left
+		&.sidebar-right {
+			
+		}
+	}
+}
+
+@include sm_screen() {
+	.page-container:not(.top-part),
+	.page-container .content-area {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+}

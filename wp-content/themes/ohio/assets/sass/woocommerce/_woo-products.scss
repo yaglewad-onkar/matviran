@@ -1,0 +1,306 @@
+.woo_c-products {
+	@include clearfix();
+
+	.product {
+		padding: 0px $grid_spacer;
+		@include spacer40(margin-bottom);
+		float: left;
+
+		@include sm_screen() {
+			margin-bottom: $grid_spacer;
+		}
+	}
+
+	.product-item {
+		&-thumbnail {
+			overflow: hidden;
+			position: relative;
+
+			a {
+				display: block;
+				
+				img {
+					vertical-align: top;
+					min-width: 100%;
+					position: absolute;
+					@include animate();
+				}
+
+				&:first-child {
+					img {
+						position: relative;
+					}
+				}
+			}
+
+			.btn-lightbox {
+				@include spacer30(left);
+				@include spacer30(top);
+				position: absolute;
+				@include fade_up();
+				z-index: 10;
+			}
+
+			.clb-slider-nav-btn {
+				@include fade_up();
+			}
+
+			.slider {
+				text-align: left;
+
+				.main-img {
+					min-width: 100%;
+				}
+
+				> a {
+					min-width: 100%;
+				}
+			}
+		}
+
+		.clb-slider {
+			&-nav-btn {
+				@include spacer30(padding);
+				flex-direction: column;
+				top: 0;
+				bottom: auto;
+				min-width: 100px;
+
+				@include sm_screen() {
+					display: none;
+				}
+				
+				.prev-btn,
+				.next-btn {
+					transform: rotate(90deg);
+					margin: 0;
+				}
+			}
+
+			.clb-slider-item.active {
+				img {
+					z-index: 10;
+				}
+			}
+		}
+
+		.tag {
+			position: absolute;
+			@include spacer30(left);
+			@include spacer30(top);
+			z-index: 1;
+			@include fade_up_active();
+		}
+
+		&-details {
+			@include spacer30(padding-top);
+
+			* {
+				line-height: 22px;
+				min-height: 22px;
+				margin: 4px 0px;
+
+				&:first-child {
+					margin-top: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+
+			.category-holder:after {
+				display: none;
+			}
+
+			.product-item-title {
+				@include fluid-type($font_size_large, 20px);
+			}
+
+			.product-item-price {
+				font-size: 1.1em;
+				font-weight: 600;
+			}
+		}
+
+		.product-buttons {
+			@include spacer25();
+			@include spacer30(padding-bottom);
+			position: absolute;
+			width: 100%;
+			z-index: 10;
+			bottom: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			@include fade_up();
+
+			&-item {
+				width: 100%;
+				cursor: pointer;
+				padding: 0px 5px;
+
+				.btn {
+					width: 100%;
+					color: #fff;
+					text-transform: capitalize;
+				}
+
+				.btn-small.btn-loading {
+					span {
+						vertical-align: text-bottom;
+					}
+				}
+
+				.yith-wcwl-add-to-wishlist {
+					margin: 0;
+				}
+			}
+		}
+
+		.hide {
+			display: none;
+		}
+
+		.show {
+			display: block;
+		}
+
+		&.product-item-boxed {
+			.product-item-details {
+				@include spacer30(padding);
+				background: $color_fill;
+			}	
+		}
+
+		// Hover state
+		&:hover {
+			@include md_screen {
+				.btn-lightbox,
+				.product-buttons,
+				.clb-slider-nav-btn {
+					@include fade_up_active();
+				}
+			}
+
+			@include sm_screen() {
+				.product-buttons {
+					display: none;
+				}
+			}
+
+			.tag {
+				@include fade_up();
+			}
+		}
+
+		&:active {
+			@include lg_screen() {
+				@include active_image();
+			}
+		}
+	}
+}
+
+// Shop Grid
+
+$columns: ( "2": calc(100% / 2), "3": calc(100% / 3), "4": calc(100% / 4), "5": calc(100% / 5), "6": calc(100% / 6));
+
+.woo_c-products .product,
+.woo_c-products li {
+	width: 100%;
+}
+
+@media screen and (min-width: 1025px) {
+	@each $name, $value in $columns {
+		.columns-#{$name} .product {
+			width: $value;
+
+			&:nth-child(#{$name}n + 1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	@each $name, $value in $columns {
+		.columns-md-#{$name} .product {
+			width: $value;
+
+			&:nth-child(#{$name}n + 1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 769px) {
+	@each $name, $value in $columns {
+		.columns-sm-#{$name} .product {
+			width: $value;
+			
+			&:nth-child(odd) {
+			  padding-right: 10px;
+			}
+
+			&:nth-child(even) {
+			  padding-left: 10px;
+			}
+
+			&:nth-child(#{$name}n + 1) {
+				clear: both;
+			}
+		}
+	}
+}
+
+// Double width product
+
+.columns-2, .columns-md-2 {
+	.double_width {
+		width: calc((100% / 2) * 2 - 1px);
+	}
+}
+
+.columns-3, .columns-md-3 {
+	.double_width {
+		width: calc((100% / 3) * 2 - 1px);
+	}
+}
+
+.columns-4, .columns-md-4 {
+	.double_width {
+		width: calc((100% / 4) * 2 - 1px);
+	}
+}
+
+.columns-5, .columns-md-5 {
+	.double_width {
+		width: calc((100% / 5) * 2 - 1px);
+	}
+}
+
+.columns-6, .columns-md-6 {
+	.double_width {
+		width: calc((100% / 6) * 2 - 1px);
+	}
+}
+
+.columns-12 {
+	.double_width {
+		width: calc((100% / 12) * 2 - 1px);
+	}
+}
+
+@include sm_screen {
+	.columns-2,
+	.columns-3,
+	.columns-4,
+	.columns-5,
+	.columns-6 {
+		.double_width {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,77 @@
+<svg width="252" height="150" viewBox="0 0 252 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect opacity="0.15" width="252" height="150" rx="1" fill="#677A9E"/>
+<rect opacity="0.15" x="35" y="40" width="54" height="54" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="49" y="54" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="49" y="54" width="26" height="26">
+<rect opacity="0.3" x="49" y="54" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M51 64.1667C51 62.3571 52.3478 61 54.1449 61C55.942 61 57.2899 62.3571 57.2899 64.1667C57.2899 65.9762 55.942 67.3333 54.1449 67.3333C52.3478 67.3333 51 65.9762 51 64.1667ZM70.0942 64.1667L64.9275 72.3095L60.8841 67.3333L51 80H82L70.0942 64.1667Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.8" x="45" y="102" width="34" height="3" fill="#677A9E"/>
+<rect opacity="0.6" x="45" y="108" width="24" height="2" fill="#677A9E"/>
+<rect opacity="0.15" x="35" y="118" width="54" height="54" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="49" y="132" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="49" y="132" width="26" height="26">
+<rect opacity="0.3" x="49" y="132" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M51 142.167C51 140.357 52.3478 139 54.1449 139C55.942 139 57.2899 140.357 57.2899 142.167C57.2899 143.976 55.942 145.333 54.1449 145.333C52.3478 145.333 51 143.976 51 142.167ZM70.0942 142.167L64.9275 150.31L60.8841 145.333L51 158H82L70.0942 142.167Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.15" x="99" y="118" width="54" height="54" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="113" y="132" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="113" y="132" width="26" height="26">
+<rect opacity="0.3" x="113" y="132" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask2)">
+<path d="M115 142.167C115 140.357 116.348 139 118.145 139C119.942 139 121.29 140.357 121.29 142.167C121.29 143.976 119.942 145.333 118.145 145.333C116.348 145.333 115 143.976 115 142.167ZM134.094 142.167L128.928 150.31L124.884 145.333L115 158H146L134.094 142.167Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.15" x="163" y="118" width="54" height="54" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="177" y="132" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="177" y="132" width="26" height="26">
+<rect opacity="0.3" x="177" y="132" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask3)">
+<path d="M179 142.167C179 140.357 180.348 139 182.145 139C183.942 139 185.29 140.357 185.29 142.167C185.29 143.976 183.942 145.333 182.145 145.333C180.348 145.333 179 143.976 179 142.167ZM198.094 142.167L192.928 150.31L188.884 145.333L179 158H210L198.094 142.167Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.15" x="99" y="40" width="54" height="54" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="113" y="54" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="113" y="54" width="26" height="26">
+<rect opacity="0.3" x="113" y="54" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask4)">
+<path d="M115 64.1667C115 62.3571 116.348 61 118.145 61C119.942 61 121.29 62.3571 121.29 64.1667C121.29 65.9762 119.942 67.3333 118.145 67.3333C116.348 67.3333 115 65.9762 115 64.1667ZM134.094 64.1667L128.928 72.3095L124.884 67.3333L115 80H146L134.094 64.1667Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.8" x="109" y="102" width="34" height="3" fill="#677A9E"/>
+<rect opacity="0.6" x="109" y="108" width="24" height="2" fill="#677A9E"/>
+<rect opacity="0.15" x="163" y="40" width="54" height="54" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="177" y="54" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask5" mask-type="alpha" maskUnits="userSpaceOnUse" x="177" y="54" width="26" height="26">
+<rect opacity="0.3" x="177" y="54" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask5)">
+<path d="M179 64.1667C179 62.3571 180.348 61 182.145 61C183.942 61 185.29 62.3571 185.29 64.1667C185.29 65.9762 183.942 67.3333 182.145 67.3333C180.348 67.3333 179 65.9762 179 64.1667ZM198.094 64.1667L192.928 72.3095L188.884 67.3333L179 80H210L198.094 64.1667Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.8" x="173" y="102" width="34" height="3" fill="#677A9E"/>
+<rect opacity="0.6" x="173" y="108" width="24" height="2" fill="#677A9E"/>
+<rect opacity="0.5" x="15" y="16" width="18" height="4" fill="#677A9E"/>
+<g opacity="0.5">
+<rect x="74" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="92" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="110" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="128" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="146" y="17" width="12" height="2" fill="#677A9E"/>
+<rect x="164" y="17" width="12" height="2" fill="#677A9E"/>
+</g>
+<g opacity="0.5">
+<rect x="219" y="17" width="6" height="2" fill="#677A9E"/>
+<rect x="231" y="17" width="6" height="2" fill="#677A9E"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="252" height="150" fill="white"/>
+</clipPath>
+</defs>
+</svg>

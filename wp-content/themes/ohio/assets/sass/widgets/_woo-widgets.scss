@@ -1,0 +1,279 @@
+/*/*---------------------------------
+## Product tag cloud widget
+---------------------------------*/
+.widget_product_tag_cloud {
+	@extend .widget_tag_cloud;
+}
+
+/*---------------------------------
+## Product categories widget
+---------------------------------*/
+.widget_product_categories {
+	@include widget-list-box;
+
+	li.cat-parent:after {
+		background: transparent;
+	}
+}
+
+/*---------------------------------
+## Products widgets
+---------------------------------*/
+.widget_products,
+.widget_top_rated_products,
+.widget.widget_recently_viewed_products {
+	.image {
+		position: absolute;
+
+		img {
+			width: 60px;
+			height: auto;
+			vertical-align: top;
+			margin-top: 5px;
+		}
+	}
+
+	.content {
+		padding-left: 75px;
+		margin-bottom: 20px;
+	}
+
+	li {
+		padding: 0;
+	}
+
+	li:last-child .content {
+		margin-bottom: 0;
+	}
+
+	h4 {
+		display: block;
+		padding: 0;
+		font-family: $font_titles;
+
+		a {
+			display: inline-block;
+		}
+	}
+
+	span.price {
+		font-weight: 600;
+	}
+
+	div.star-rating {
+		width: 100%;
+	}
+	div.category {
+		display: inline-block;
+	}
+}
+
+/*---------------------------------
+## Recent reviews widget
+---------------------------------*/
+.widget_recent_reviews {
+	li {
+		margin-bottom: 15px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+	}
+
+	img {
+		max-width: 60px;
+		margin-right: 15px;
+		display: block;
+		float: left;
+	}
+
+	li > a {
+		width: 100%;
+		display: block;
+		line-height: 1.4;
+		font-weight: 600;
+	}
+
+	.reviewer {
+		padding-left: 75px;
+		display: block;
+	}
+}
+
+/*---------------------------------
+## Price filter widget
+---------------------------------*/
+.widget_price_filter {
+	.price_slider {
+		background-color: darken($color_fill, 5%);
+		height: 4px;
+		margin-top: 20px;
+		@include border_radius();
+		position: relative;
+	}
+
+	.ui-slider-range {
+		background: $color_brand;
+		height: 4px;
+		position: absolute;
+	}
+
+	.ui-slider-handle {
+		background: #fff;
+		width: 24px;
+		height: 24px;
+		margin-left: -0px;
+		@include border_radius(50%);
+		outline: none;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+		position: absolute;
+		top: -10px;
+		z-index: 5;
+		cursor: ew-resize;
+
+		&:after {
+			content: "";
+			background-color: $color_brand;
+			width: 10px;
+			height: 10px;
+			@include border_radius(50%);
+			position: absolute;
+			top: 7px;
+			left: 7px;
+		}
+
+		&:last-child {
+			margin-left: -22px;
+		}
+	}
+
+	.price_slider_amount {
+		margin-top: 30px;
+	}
+
+	.button {
+		background: none;
+		border: none;
+		float: right;
+		padding: 0;
+		font-weight: 600;
+		font-size: 0.78em;
+		text-transform: uppercase;
+		box-shadow: none;
+		color: inherit;
+		font-family: inherit;
+	}
+
+	.price_label {
+		float: left;    
+		min-height: 20px;
+    	line-height: 20px;
+		font-size: 0.78em;
+		text-transform: uppercase;
+		font-weight: 600;
+
+		.from, .to {
+			color: $color_text;
+		}
+	}
+}
+
+/*---------------------------------
+## Woo layered nav widget
+---------------------------------*/
+.widget_layered_nav {
+	@include widget-list-box;
+}
+
+/*---------------------------------
+## Woo rating filter
+---------------------------------*/
+.widget_rating_filter {
+	li .star-rating {
+		&:after {
+			content: '•';
+			color: $color_light;
+			font-size: 16px;
+			position: absolute;
+			line-height: 0;
+			top: 10px;
+			right: -8px;
+		}
+	}
+}
+
+/*---------------------------------
+## Woo product search
+---------------------------------*/
+.widget_product_search {
+	.woocommerce-product-search {
+
+		label {
+			.search-field	{
+				padding-right: 160px;
+			}
+		}
+
+		select {
+			position: absolute;
+			opacity: 0;
+		}
+
+		.select-holder {
+			position: absolute;
+			top: 1px;
+			right: 30px;
+			width: 125px;
+			
+			select {
+				background: transparent;
+                box-shadow: none;
+                position: relative;
+                top: 0;
+                opacity: 1;
+			}
+		}
+
+	}
+}
+/*---------------------------------
+## Woo widgets
+---------------------------------*/
+.widget_recent_reviews .product_list_widget > li > a{
+	&:before {
+		display: none;
+	}
+
+	span {
+		position: relative;
+
+		&:before  {
+			content: '';
+			background: currentColor;
+			width: 30%;
+			height: 2px;
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			opacity: 0;
+			@include animate;
+		}
+	}
+
+	&:hover {
+		span:before {
+			opacity: 1;
+			width: 100%;
+		}
+	} 
+}
+
+.widget-woocommerce-currency-switcher {
+	overflow-x: hidden;
+}

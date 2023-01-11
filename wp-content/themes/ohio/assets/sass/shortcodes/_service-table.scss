@@ -1,0 +1,79 @@
+.service {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+	@include spacer40();
+	@include animate();
+	@include border_radius();
+
+	.service_icon {
+		margin-bottom: 10px;
+		font-size: 42px;
+
+		.ion {
+			font-size: 42px;
+		}
+
+		img {
+			max-width: 36px;
+		}
+	}
+
+	&_title {
+		margin: 0;
+	}
+
+	&_subtitle {
+		margin-top: 15px;
+		margin-bottom: $spacer_20;
+		font-size: $font_size_small;
+	}
+
+	&_list {
+		margin: 0;
+		list-style-type: none;
+	}
+
+	&_list + .btn {
+		margin-top: 25px;
+	}
+	
+	.btn {
+		background: $color_dark;
+		border-color: $color_dark;
+	}
+
+	&_list {
+		&_item {
+			&:first-child {
+				padding-top: 0;
+			}
+
+			&:last-child {
+				padding-bottom: 0;
+			}
+
+			.ion {
+				font-size: 22px;
+				vertical-align: -3px;
+				color: $color_brand;
+
+				& + .title {
+					margin-left: 10px;
+				}
+			}
+
+			&.disabled {
+				color: $color_light;
+
+				.ion {
+					color: inherit;
+				}
+			}
+		}
+	}
+
+	&:hover {
+		background-color: $color_fill;
+	}
+}

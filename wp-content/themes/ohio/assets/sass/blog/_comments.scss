@@ -1,0 +1,264 @@
+.comments-container {
+	background-color: $color_fill;
+}
+
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+.comment-meta {
+	a {
+		color: $color_light;
+
+		&:hover {
+				text-decoration: none !important;
+		}
+	}
+}
+
+.comment-notes,
+.comment-form-cookies-consent {
+	color: $color_light;
+	font-size: $font_size_small;
+	margin-bottom: 20px;
+	@include flex_center();
+
+	label {
+		margin: 0 0 0 8px;
+	}
+}
+
+.comments-area {
+	@include spacer60(padding-top);
+	@include spacer60(padding-bottom);
+
+	&.no-comments {
+		.comment-respond:after {
+			display: none;
+		}
+	}
+
+	.nav-links {
+		margin: 15px 0;
+
+		div {
+			display: inline-block;
+			margin-right: 15px;
+		}
+	}
+
+	.comment-list {
+		@include spacer60(margin-bottom);
+		padding: 0;
+		list-style: none;
+
+		li {
+			&.trackback,
+			&.pingback,
+			.depth-5 {
+				.comment-date-and-time:after {
+					display: none;
+				}
+			}
+		}
+
+		> li:last-child {
+			.comment-respond {
+				margin: 0;
+				padding-bottom: 0;
+
+				&:before {
+					display: none;
+				}
+			}
+		}
+	}
+
+	.pingback {
+		p {
+			display: none;
+		}
+	}
+
+	.comment-list {
+		> li {
+			padding: 0;
+
+			&:first-child {
+				border: none !important;
+			}
+		}
+
+		li.depth-1:first-child {
+			> .comment-body {
+				border: none;
+			}
+		}
+	}
+
+	ul.children {
+		margin-left: 0;
+		padding-left: 75px;
+		list-style: none;
+	}
+
+	.pingback, .trackback {
+		.comment-body {
+			padding-left: 0;
+		}
+	}
+
+	.comment-body {
+		padding-left: 75px;
+		@include spacer40(padding-bottom);
+		position: relative;
+
+		.comment-awaiting-moderation {
+			font-size: $font_size_small;
+		}
+
+		.comment-author {
+			img {
+    			max-width: 56px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			h4 {
+				display: inline-block;
+				font-size: 1em;
+				letter-spacing: 0;
+			}
+
+			.says {
+				display: none;
+			}
+		}
+
+		.comment-meta {
+			font-size: $font_size_small;
+			margin-bottom: 2px;
+		}
+
+		.comment-content {
+			p {
+				margin: 0;
+			}
+		}
+
+		.reply {
+			display: inline-block;
+			
+			a {
+				color: inherit;
+
+				&:hover {
+					color: $color_brand;
+				}
+			}
+		}
+	}
+
+	.reply a,
+	.reply-cancle a,
+	a.comment-edit-link {
+		font-size: $font_size_small;
+		position: relative;
+	}
+
+	.comment-date-and-time {
+		display: inline-block;
+		&:after {
+			@include divider();
+			margin: 0;
+		}
+	}
+
+	.reply a {
+		font-weight: 600;
+	}
+
+	.comment-respond {
+		position: relative;
+		z-index: 2;
+
+		.form-submit {
+			margin: 15px 0px 0px 0px;
+
+			@include sm_screen() {
+				.btn {
+					width: 100%;
+				}	
+			}
+		}
+
+		&:before {
+			content: '';
+			width: 500%;
+			height: 1px;
+			border-top: 1px solid rgba($color_neutral, .1);
+			position: absolute;
+			top: 0;
+			left: -200%;
+		}
+
+		&:before {
+			display: none;
+			top: auto;
+			bottom: 0;
+		}
+
+		.reply-cancle {
+			display: inline-block;
+		}
+
+		.input-wrap {
+			@include clearfix();
+
+			> .input-block {
+				padding: 5px 20px 20px 0;
+
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	.comment .comment-respond {
+		@include spacer40(margin-bottom);
+		@include spacer40(padding-bottom);
+
+		&:before {
+			display: block;
+		}
+	}
+
+	@include sm_screen(){
+		width: 100%;
+
+		#respond {
+			padding-top: 0;
+		}
+		
+		.comment-body {
+			padding: 90px 0px 20px 0px;
+		}
+
+		ul.children {
+			padding-left: 30px;
+		}
+
+		.comment-respond {
+			.comment-form {
+				padding: 0;
+				background: transparent;
+			}
+		}
+	}
+}

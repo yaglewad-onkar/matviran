@@ -1,0 +1,36 @@
+.sticky-section {
+    &-item {
+        height: 100%;
+        position: relative;
+
+        &-image-wrapper {
+            position: sticky;
+            top: 0px;
+            height: 100%;
+        }
+
+        &-second-image {
+            bottom: 0;
+            width: 100%;
+            position: absolute;
+            height: 100vh;
+            clip-path: inset(100% 0px 0px);
+        }
+
+        &-content {
+            padding-bottom: 100vh;
+            position: relative;
+        }
+    }
+
+    &.full-vh {
+        height: auto;
+        min-height: 100vh;
+
+        .sticky-section-item {
+            .sticky-section-item-first-image {
+                height: 100vh;
+            }
+        }
+    }
+}

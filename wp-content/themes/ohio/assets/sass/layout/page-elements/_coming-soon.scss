@@ -1,0 +1,33 @@
+.clb-coming-soon {
+	background: linear-gradient(90deg, #E7F6F8, #FBF6F1);
+	height: 100vh;
+	@include flex_center;
+	justify-content: center;
+	position: relative;
+
+	.holder {
+		@include flex_center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+
+		h2 {
+			margin: 0;
+		}
+
+		p {
+			font-size: 1.15em;
+		}
+
+		.countdown-box {
+			@include spacer40(margin-top);
+		}
+	}
+
+	.socialbar {
+		position: absolute;
+		left: 50%;
+		@include spacer80(bottom);
+		transform: translate(-50%, 50%);
+	}
+}

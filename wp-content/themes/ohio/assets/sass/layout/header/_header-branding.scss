@@ -1,0 +1,39 @@
+.branding {
+    position: relative;
+
+    @include flex_center();
+
+    &-title {
+        font-weight: bold;
+        font-size: 1.4em;
+
+        .light {
+            color: #fff;
+        }
+    }
+
+    &:hover {
+        opacity: .65;
+
+        @include animate();
+    }
+
+    .logo,
+    .mobile-logo,
+    .for-onepage {
+
+        img {
+            max-height: 66px;
+            display: flex;
+
+            @include sm_screen {
+
+                max-height: 46px;
+            }
+        }
+    }
+
+    .fixed-logo {
+        display: none;
+    }
+}

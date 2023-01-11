@@ -1,0 +1,2469 @@
+Version 4.9.7.3
+-- NEW FEATURE       : New Demo #53
+
+-- IMPROVEMENT: VIDEO MODULE
+-- new feature: added options to define a mobile and tablet version of selfhosted videos
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with react carousel not sliding correctly after window resize / orientation change
+-- info       : fixed an issue with google font weights not applying in some cases
+-- info       : fixed an issue with image gallery module when upscale failed on server
+
+Version 4.9.7.2
+-- NEW FEATURE       : New Demo #52
+
+-- IMPROVEMENT: VIDEO MODULE
+-- new feature: added reveal effects
+
+-- IMPROVEMENT: BLOG
+-- new feature: added options to hide icons
+-- new feature: added color option for single post sub titles
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : added PHP8 Compatibility
+-- info       : fixed an issue logo opacity
+-- info       : fixed an issue vc animations not firing in portfolio slide up
+-- info       : fixed an issue header and hero overlay not animating correctly in some cases
+-- info       : fixed an issue with google maps controls
+
+-- info       : update to Slider Revolution 6.5.8
+-- info       : update to Google Fonts
+
+Version 4.9.7.1
+-- info       : removed block editor from widgets admin
+-- info       : update to Slider Revolution 6.5.1
+
+Version 4.9.7
+-- NEW FEATURE       : New Demo #51
+-- NEW FEATURE       : Before and After Slider Module
+
+-- IMPROVEMENT: SERVICE COLUMN HORIZONTAL MODULE
+-- new feature: added more font options
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue button builder range slider options not working after adding
+-- info       : fixed an issue with lead color in page title module
+-- info       : fixed an issue with spacings in page title module
+-- info       : fixed an issue with body line height wrongly calculated on fancy list item
+-- info       : fixed an issue plugin check conditional
+-- info       : fixed an issue hero title custom font settings
+-- info       : fixed an issue menu top not working correctly on custom menu settings
+-- info       : fixed an issue font size not applying correctly
+-- info       : fixed an issue with missing svg icons
+-- info       : fixed an issue with site logo background
+-- info       : fixed an issue with numeric slider in logo widget
+-- info       : fixed an issue with numeric sliders missing handle in menu button settings
+
+Version 4.9.6.7
+-- NEW FEATURE       : New Demo #50
+-- NEW FEATURE       : New Font Responsive Options
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue google fonts not displaying correctly when no default font weight was selected
+-- info       : fixed an issue google fonts not displaying in Slider Revolution
+-- info       : fixed an issue with missing font option for default theme slider
+-- info       : fixed an issue with contact section not hiding correctly in combination with content blocks
+-- info       : fixed an issue with LightGallery not applying to sidebar widget
+-- info       : fixed an issue with missing images in LightGallery when image resize with upscale failed (image gallery module and animated image module)
+
+
+-- info       : update to Portfolio Plugin 4.9.2.2
+-- info       : update to Shortcode Plugin 4.9.7.7
+-- info       : update to Slider Revolution 6.4.11
+
+Version 4.9.6.6
+-- NEW FEATURE       : New Demo #49 Light Brooklyn
+
+-- IMPROVEMENT: IMAGE GALLERY MODULE
+-- info       : added an option to group images inside the lightbox with other galleries
+-- info       : exchanged lazy load preloader wih a modern one
+-- info       : fixed an issue with galleries grouping with other galleries in lightbox
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with images from other image galleries displaying in lightgallery
+-- info       : fixed an issue with 1 column option in image gallery module
+-- info       : fixed an issue with packery not sorting correctly on mobile in some cases
+-- info	      : fixed an issue wih custom link acting like parents in menu not highlighted correctly.
+-- info	      : fixed an issue with image reveal on single images module causing image not to load
+
+-- info       : update to Portfolio Plugin 4.9.2.1
+-- info       : update to Shortcode Plugin 4.9.7.6
+
+Version 4.9.6.5
+-- NEW FEATURE       : New Demo #49 Brooklyn
+
+-- IMPROVEMENT: IMAGE GALLERY MODULE
+-- new feature: added option to display gallery as masonry grid
+-- new feature: added option to display gallery as fitRows grid
+
+-- IMPROVEMENT: SINGLE IMAGE
+-- new feature: added option to show iframes in linked lightbox
+
+-- IMPROVEMENT: CTA MODULE
+-- new feature: added option to align button on tablet
+-- new feature: added option to align button on mobile
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with spacing top on section / page title 2
+-- info       : fixed an issue with custom title and caption not displaying correctly in morphbox
+-- info       : fixed an issue with custom link module line height 100% not working correctly
+
+Version 4.9.6.4
+-- NEW FEATURE       : New Demo #48 Brooklyn
+
+-- IMPROVEMENT: PORTFOLIO SETTINGS
+-- new feature: added option to exclude video preview from specific showcases
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with transparent image glitch
+-- info       : fixed an issue with video hide play icon on deactivated links
+-- info       : fixed an issue with custom line height on custom text module
+-- info       : fixed an issue with image deleting in option background fields
+-- info       : fixed an issue with image svg displaying in option fields
+
+Version 4.9.6.3.2
+-- info       : added WordPress 5.7 Compatibility
+-- info       : fixed an issue with woocommerce CSV Import
+
+Version 4.9.6.3.1
+-- info       : fixed an issue portfolio link field not displaying correctly
+
+Version 4.9.6.3
+-- NEW FEATURE: New Demo #47 Brooklyn
+
+-- info       : Update to Google Fonts
+-- info	      : Update to Slider Revolution 6.4.1
+-- info       : update to Portfolio Plugin 4.9
+-- info       : update to Shortcode Plugin 4.9.7.3
+-- info       : update to WP Bakery Page Builder 6.5
+
+Version 4.9.6.2
+-- info       : fixed an issue distortion effect blocking mobile vertical scroll
+-- info       : fixed an issue with custom CSS field in Theme Options not loading correctly in some cases
+-- info       : update to Brooklyn Page Builder 5.8.7
+-- info       : update to Portfolio Plugin 4.8.9
+-- info       : update to Shortcode Plugin 4.9.7.2
+-- info       : update to Slider Revolution 6.3.3
+
+Version 4.9.6.1
+-- info       : added WordPress 5.6 Compatibility
+
+Version 4.9.6
+-- NEW FEATURE: New Demo #46 Brooklyn
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with cursor animations in portfolio slide up
+-- info       : fixed an issue with dynamic font size in portfolio slide up
+-- info       : fixed an issue with preview video not playing in portfolio slide up
+-- info       : fixed an issue with custom column layouts reset in page builder while saving
+-- info       : fixed an issue with custom cursor position when admin bar was active
+-- info       : fixed an issue with fancy list hover color not applying
+
+Version 4.9.5.6
+-- info       : added WordPress 5.5 Compatibility
+
+Version 4.9.5.4
+
+-- IMPROVEMENT: BLOG SETTINGS
+-- new feature: added option to adjust date day color on single posts
+-- new feature: added option to adjust date month color on single posts
+-- info       : please check your blog colors
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with team member avatar swap on chrome
+-- info       : fixed an issue with blog date colors
+-- info       : fixed an issue with missing blog images
+-- info       : fixed an issue with collapsed portfolio images
+-- info       : fixed an issue with background text animations of preloader on mobile
+-- info       : fixed an issue with mute / unmute on single blog posts for youtube videos
+
+Version 4.9.5.3
+
+-- IMPROVEMENT: SINGLE IMAGE MODULE
+-- new feature: added image rotation for desktop
+-- new feature: added image rotation for tablet
+-- new feature: added image rotation for mobile
+-- new feature: added cursor skin option
+
+-- IMPROVEMENT: VIDEO MODULE
+-- new feature: added video rotation for desktop
+-- new feature: added video rotation for tablet
+-- new feature: added video rotation for mobile
+-- new feature: added cursor skin option
+
+-- IMPROVEMENT: MAIN NAVIGATION
+-- new feature: added font size option for navigation description
+
+-- IMPROVEMENT: SOCIAL SHARE BAR
+-- new feature: added responsive option to align bar on tablet
+-- new feature: added responsive option to align bar on mobile
+
+-- IMPROVEMENT: SECTION
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- IMPROVEMENT: ROW
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- IMPROVEMENT: ROW INNER
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- IMPROVEMENT: COLUMN
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- IMPROVEMENT: COLUMN INNER
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- IMPROVEMENT: CONTACT SECTION OVERLAY
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed an issue with animations in portfolio slide up
+-- info       : fixed an issue with selfhosted video autoplay in portfolio lightgallery
+-- info       : fixed an issue with mobile alignment of fancy lists
+-- info       : fixed an issue with large blog entry on blog mixed grid pixelated in chrome
+-- info       : fixed an issue with custom cursor missing inner icons on grow
+-- info       : fixed an issue with icon vertical correction could not be set back to 0
+-- info       : fixed an issue with draw number counter draw icons alignment on mobile
+-- info       : fixed an issue with portfolio page title lead not saving
+-- info       : update to Slider Revolution 6.2.1
+
+
+Version 4.9.5.2
+-- info       : fixed an issue with blog date color
+
+Version 4.9.5.1
+-- NEW FEATURE: New Demo #4 Cafe Brooklyn
+
+-- IMPROVEMENT: PAGE BUILDER COLUMN
+-- new feature: added force padding option for desktop
+-- new feature: added force padding option for tablet
+-- new feature: added force padding option for mobile
+-- info       : padding can be set from 0% to 10% and will overwrite the Design Options padding settings
+
+-- IMPROVEMENT: PAGE BUILDER INNER COLUMN
+-- new feature: added force padding option for desktop
+-- new feature: added force padding option for tablet
+-- new feature: added force padding option for mobile
+-- info       : padding can be set from 0% to 10% and will overwrite the Design Options padding settings
+
+-- IMPROVEMENT: BLOG
+-- new feature: categories of posts can now be turned off
+-- new feature: comment count and author name of posts can now be turned off
+-- new feature: background image option
+
+-- IMPROVEMENT: BLOG ARCHIVE
+-- new feature: categories of posts can now be turned off
+-- new feature: comment count and author name of posts can now be turned off
+
+-- IMPROVEMENT: SINGLE POST HERO
+-- new feature: added responsive option to adjust hero height on tablet
+-- new feature: added responsive option to adjust hero height on mobile
+
+-- IMPROVEMENT: BLOG AUTHOR ARCHIVE
+-- new feature: avatar in hero can no be turned off
+
+-- IMPROVEMENT: LIGHTGALLERY
+-- new feature: added 31 transition effects
+
+-- IMPROVEMENT: MENU CARD MODULE
+-- new feature: ingredients / description lowercase text transform can be turned off
+-- new feature: food title now has 2 additional sizes
+-- new feature: menu card can now animate items (option)
+
+-- IMPROVEMENT: FANCY LIST MODULE
+-- new feature: added list item animation
+
+-- IMPROVEMENT: SOCIAL FOLLOW MODULE
+-- new feature: added responsive option to align list on tablet
+-- new feature: added responsive option to align list on mobile
+
+-- IMPROVEMENT: BIG ICON MODULE
+-- new feature: added outline shape
+-- info       : with border radius and border width option
+
+-- IMPROVEMENT: NUMBER COUNTER MODULE
+-- new feature: added icon left position
+-- new feature: added icon right position
+-- info       : fixed an issue with top position
+
+-- IMPROVEMENT: CUSTOM CURSOR
+-- new feature: added 2 more inner dot sizes
+-- new feature: added 2 more circle dot sizes
+
+-- IMPROVEMENT: BROOKLYN OPTIONS
+-- info       : You can now add your own FAVICON to Admin Area
+
+-- IMPROVEMENT: BROOKLYN SERVER HEALTH
+-- info       : Added new requirement: PHP Extension: mbstring is now needed but not mandatory but we highly recommend activating it
+
+-- IMPROVEMENT: VIDEO MODULE
+-- new feature: preview video can now be displayed permanently
+
+
+-- GENERAL IMPROVEMENTS AND FIXES
+-- info       : fixed issues in IE11
+-- info       : fixed an issue with hero height not applying to product pages
+-- info       : fixed an issue hide background option on columns and inner columns
+-- info       : fixed an issue front end editor not loading adaptive images
+-- info       : fixed an issue with page builder gallery loading slow when lot of images are in gallery
+-- info       : fixed an issue with magnetic cursor not sticking correctly to social icons without shape
+-- info       : fixed an issue with portfolio manager showing unrelated option on react carousel
+-- info       : fixed an issue with portfolio video preview video not working in combination with title in filterable portfolio
+-- info       : fixed an issue with missing click pulse color on dark cursor skin
+-- info       : fixed an issue with hero button alignment right in chrome
+-- info       : fixed an issue with soft cropping and adaptive images in portfolio showcase
+-- info       : fixed an issue with chrome smooth scroll script
+-- info       : fixed an issue with word rotator in chrome
+-- info       : fixed an issue with gallery thumbnail in lightbox of default wordpress gallery
+
+Version 4.9.5
+-- IMPROVEMENT: OVERALL SITE SPEED FRONT END
+-- new feature: non core files are automatically loading non blocking and deferred
+-- new feature: added adaptive images. Images are now lazy loaded by available space, this greatly reduces site loading
+-- new feature: added image processing queue. Instead of generating Images on the fly as we have done before, images are now queued for the resizing in a process inside a queue. This greatly saves server resources. You can find a list of all current unfinished jobs under Tool > Image Processing and also information if a jobs fails for some reason. During the image processing the original image displays as a placeholder.
+
+-- IMPROVEMENT: OVERALL SITE SPEED BACKEND
+-- new feature: Brooklyn Metapanel is now loading by ajax requests which greatly increase editing speed of pages
+-- info       : Meta Panel Options are now reorganized
+
+-- IMPROVEMENT: BROOKLYN METAPANEL
+-- info       : improved Slider Editing
+-- info       : improved Fancy Slider Editing
+
+-- IMPROVEMENT: BROOKLYN ADMIN AREA
+-- new feature: Import / Export Tool for Theme Options
+-- new feature: duplicate posts and pages with a single click
+-- info       : Update to Google Fonts
+
+-- IMPROVEMENT: PAGE BUILDER
+-- new feature: added content blocks to pages (before only available for hero and footer)
+
+-- IMPROVEMENT: HEADER
+-- new feature: descriptions are now available for first level navigation entries
+-- new feature: description color can be individually set per item
+-- info       : keep in mind: descriptions must be very short
+-- new feature: header and top header do now support gradient colors
+
+-- IMPROVEMENT: SITE LOGO
+-- new feature: added 3 distortion effects to text and image logo
+-- new feature: added glow effect for text Logo
+-- new feature: added background color option for logo
+-- info       : fixed an issue with text logo size calculation
+
+-- IMPROVEMENT: MEGA MENU
+-- new feature: added mega menu image link option
+-- new feature: added mega menu image align option
+-- info       : removed unrelated categories and post types from menu manager screen
+
+-- IMPROVEMENT: HERO
+-- info       : improvement to hero animations when preloader is active
+-- info       : improvement to hero animations when preloader is off
+-- info       : improvement to hero animations when header and hero section animation is active
+-- info       : Animate Header and Hero Section? is now on by default
+-- info       : improvement hero background animations effects
+-- new feature: added 8 glitch effects to hero background image
+-- info       : glitch effects can be adjusted with own colors
+-- info       : small improvements for hero videos - preparation to video patch
+
+-- IMPROVEMENT: HERO CAPTION SLOGAN
+-- new feature: added glow effect
+
+-- IMPROVEMENT: HERO CAPTION TITLE
+-- new feature: added 3 distortion text effects
+-- new feature: added 2 glitch effects
+-- info       : glitch effects can be adjusted with 2 colors
+-- new feature: added stroke effect
+-- info       : improvement glow effect
+
+-- IMPROVEMENT: HERO CAPTION DESCRIPTION
+-- new feature: added glow effect
+
+-- IMPROVEMENT: HERO OVERLAY
+-- new feature: added new Overlay Pattern: Circuit Board
+
+-- IMPROVEMENT: SECTION TITLE MODULE
+-- new feature: added 2 Glitch effects
+-- info       : glitch effects can be adjusted with own colors
+-- new feature: added 3 text distortion effects
+-- new feature: added stroke effect
+-- new feature: added glow effect
+-- new feature: added responsive option to align title on tablet
+-- new feature: added responsive option to align title on mobile
+
+-- IMPROVEMENT: CUSTOM TEXT MODULE
+-- new feature: added background color option
+-- new feature: added background hover color option
+-- new feature: added responsive option to align title on tablet
+-- new feature: added responsive option to align title on mobile
+-- new feature: added 3 text distortion effects
+-- new feature: added stroke effect
+-- new feature: added glow effect
+
+-- IMPROVEMENT: SERVICE COLUMN VERTICAL MODULE
+-- new feature: added new outline shape
+-- info       : with border radius and border width option
+-- new feature: added link icon size
+
+-- IMPROVEMENT: SERVICE COLUMN HORIZONTAL MODULE
+-- new feature: added new outline shape
+-- info       : with border radius and border width option
+-- new feature: added link icon size
+
+-- IMPROVEMENT: INFORMATION BOX MODULE
+-- new feature: added new outline shape
+-- info       : with border radius and border width option
+-- new feature: added link icon size
+
+-- IMPROVEMENT: SOCIAL FOLLOW MODULE
+-- new feature: added new outline shape
+-- info       : with border radius and border width option
+
+-- IMPROVEMENT: FANCY LIST
+-- new feature: added optional second text (write in 2 rows per list item)
+-- new feature: added responsive option to align list on tablet
+-- new feature: added responsive option to align list on mobile
+-- new feature: 5 new spacings for icons between text
+-- info       : general visual improvements
+
+-- IMPROVEMENT: PARALLAX QUOTE
+-- new feature: added quote glow effect
+-- new feature: added quote stroke effect
+-- new feature: added cite glow effect
+-- new feature: added more Icons also with draw effect
+-- new feature: added responsive option to align quote on tablet
+-- new feature: added responsive option to align quote on mobile
+-- new feature: added responsive option to adjust icon spacing on tablet
+-- new feature: added responsive option to adjust icon spacing on mobile
+
+-- IMPROVEMENT: GALLERY SLIDER
+-- new feature: added new gallery slider skin
+-- info       : general improvements
+
+-- IMPROVEMENT: VIDEO PLAYER MODULE
+-- new feature: added preview video support
+-- new feature: added 8 glitch effect to video poster
+-- new feature: added lightbox support
+-- new feature: added twitch.tv support
+-- new feature: added new play button shape rectangle
+-- info       : Support the following URLs :
+   https://clips.twitch.tv/
+   https://www.twitch.tv/username/clip/
+   https://www.twitch.tv/videos/
+   https://www.twitch.tv/username (for live streams)
+   https://player.twitch.tv/?channel=username (for live streams)
+
+-- IMPROVEMENT: SECTIONS
+-- new feature: added 8 glitch effect for background images
+-- new feature: added new overlay pattern: circuit board
+-- info       : added option to deactivate automatic fill detection for automatic spacing system
+
+-- IMPROVEMENT: ROWS
+-- new feature: added 8 glitch effect for background images
+-- new feature: added new overlay pattern: circuit board
+-- info       : added option to deactivate automatic fill detection for automatic spacing system
+
+-- IMPROVEMENT: COLUMNS
+-- new feature: added 8 glitch effect for background images
+-- new feature: added new overlay pattern: circuit board
+
+-- IMPROVEMENT: SINGLE IMAGE MODULE
+-- new feature: added 8 glitch effects
+-- new feature: added adaptive images feature. image is now lazy loaded by available space, this greatly reduces site loading
+-- new feature: added responsive option to align image on tablet
+-- new feature: added responsive option to align image on mobile
+
+-- IMPROVEMENT: CUSTOM LINK MODULE
+-- new feature: added glow effect
+-- new feature: added 3 text distortion effects
+-- new feature: added text font style option
+-- new feature: added responsive option to align link on tablet
+-- new feature: added responsive option to align link on mobile
+
+-- IMPROVEMENT: BLOG GRID MODULE
+-- new feature: added colors options to adjust all colors
+-- new feature: added options to change visual appearance
+
+-- IMPROVEMENT: NUMBER COUNTER MODULE
+-- new feature: added prefix vertical alignment option
+-- new feature: added prefix size option
+-- new feature: added suffix vertical alignment option
+-- new feature: added suffix size option
+-- new feature: added glow effect
+-- new feature: added stroke effect
+
+-- IMPROVEMENT: BUTTON GROUP MODULE
+-- new feature: added responsive option to align buttons on tablet
+-- new feature: added responsive option to align buttons on mobile
+
+-- IMPROVEMENT: BUTTON MODULE
+-- new feature: added 3 text distortion effect
+
+-- IMPROVEMENT: PORTFOLIO PLUGIN
+-- new feature: added Adaptive Images. Images are now lazy loaded by available space, this greatly reduces site loading
+-- info       : visual improvements to portfolio showcase manager
+
+-- IMPROVEMENT: LIGHT GALLERY
+-- new feature: added twitch.tv support
+
+-- IMPROVEMENT: IMAGE GALLERY MODULE
+-- new feature: added Adaptive Images. Images are now lazy loaded by available space, this greatly reduces site loading
+
+-- IMPROVEMENT: CUSTOM CURSOR
+-- new feature: added skin management for own skins
+-- new feature: added inner dot size (option)
+-- new feature: added inner dot size on hover (option)
+-- new feature: added magnetic effect for outer circle. The outer circle will follow the inner dot (option)
+-- new feature: added hide browser default cursor (option)
+-- info       : more improvements in progress
+
+-- IMPROVEMENT: CONTACT FORM 7
+-- new feature: added color option for regular text
+
+-- IMPROVEMENT: QUOTE ROTATOR
+-- new feature: added custom fonts for quotes
+-- new feature: added websafe fonts for quotes
+
+-- IMPROVEMENT: QUOTE ROTATOR 2
+-- new feature: added custom fonts for quotes
+-- new feature: added websafe fonts for quotes
+
+-- IMPROVEMENT: QUOTE ROTATOR 3
+-- new feature: added custom fonts for quotes
+-- new feature: added websafe fonts for quotes
+
+-- IMPROVEMENT: REACT CAROUSEL
+-- info       : general fixes and improvements
+
+-- GENERAL IMPROVEMENTS AND FIXES
+
+-- Added Fixes
+-- fixed: an issue with shadows visibility on video module loading
+-- fixed: an issue with gradient picker not adding color stops correctly
+-- fixed: an issue with gradient picker not dragging correctly
+-- fixed: an issue with google fonts not displaying correctly in theme options when SSL is active
+-- fixed: an issue with site preloader "Text Background Animation" on mobiles
+-- fixed: an issue with portfolio not sliding up correctly in chrome when located close to browser bottom
+
+Version 4.9.4.1
+-- NEW FEATURE: New Demo #45
+-- NEW FEATURE: Added 7 New Templates based on Demo #45
+
+-- Improvement Morph Lightbox
+-- NEW FEATURE: New Morph Effect : Laser
+
+-- Improvement Overlay Particle Effect
+-- NEW FEATURE: Randomized Colors for Particles
+-- NEW FEATURE: Added new shape: Polygon
+-- Fixed: an issue with overlay particle filters distorted
+
+-- Improvement Fancy Slider
+-- NEW FEATURE: Added Autoplay
+
+-- Improvement Filterable and Packery Portfolio Grid
+-- NEW FEATURE: Image Tilt Mouse Effect
+
+-- Improvement Single Image Module
+-- NEW FEATURE: Caption Style 2 Offset can now be turned off now
+-- NEW FEATURE: Caption Style 2 has now an Image Zoom Out
+-- NEW FEATURE: Added 8 Shadow Styles
+-- NEW FEATURE: Added Cursor Skin Options
+-- INFO: Improved Admin Usability
+
+-- Improvement Image Gallery Module
+-- NEW FEATURE: Added 8 Shadow Styles
+-- NEW FEATURE: Added Cursor Skin Options
+-- INFO: Improved Admin Usability
+
+-- Improvement Single Post Subtitle
+-- NEW FEATURE: Added Font Settings for Customization
+
+-- Improvement Contact Form 7 Module
+-- NEW FEATURE: Added Light Skin
+-- NEW FEATURE: Added Dark Skin
+
+-- Improvement Portfolio Preview Video
+-- FIXED: an issue with On Load not playing
+
+-- Improvement Sections
+-- NEW FEATURE: Custom Background Position x:y for Desktop
+-- NEW FEATURE: Custom Background Position x:y for Medium Desktop
+-- NEW FEATURE: Custom Background Position x:y for Tablet
+-- NEW FEATURE: Custom Background Position x:y for Mobile
+
+-- Improvement Rows
+-- NEW FEATURE: Custom Background Position x:y for Desktop
+-- NEW FEATURE: Custom Background Position x:y for Medium Desktop
+-- NEW FEATURE: Custom Background Position x:y for Tablet
+-- NEW FEATURE: Custom Background Position x:y for Mobile
+
+-- Improvement Inner Rows
+-- NEW FEATURE: Custom Background Position x:y for Desktop
+-- NEW FEATURE: Custom Background Position x:y for Medium Desktop
+-- NEW FEATURE: Custom Background Position x:y for Tablet
+-- NEW FEATURE: Custom Background Position x:y for Mobile
+
+-- Improvement Columns
+-- NEW FEATURE: Custom Background Position x:y for Desktop
+-- NEW FEATURE: Custom Background Position x:y for Medium Desktop
+-- NEW FEATURE: Custom Background Position x:y for Tablet
+-- NEW FEATURE: Custom Background Position x:y for Mobile
+
+-- Improvement Inner Columns
+-- NEW FEATURE: Custom Background Position x:y for Desktop
+-- NEW FEATURE: Custom Background Position x:y for Medium Desktop
+-- NEW FEATURE: Custom Background Position x:y for Tablet
+-- NEW FEATURE: Custom Background Position x:y for Mobile
+
+-- INFO: removed "deprecated" modules from Module select Screen
+-- INFO: Count Up Box Module is now officially deprecated use Number Counter Module instead
+-- INFO: Hover Box Module is now officially deprecated use Advanced Hover Box
+
+-- Fixed: an issue with grid blog displaying wrong column when nested in visual composer
+-- Fixed: an issue with default lightbox on buttons not working correctly when morphbox was active
+-- Fixed: an issue with SVG icon alignment on mobiles when located in service module
+-- Fixed: an issue with overlay particle effects distorted on resize
+-- Fixed: an issue with reveal effect not reflecting border radius when set on image
+
+Version 4.9.4
+
+-- NEW FEATURE: New Demo #44
+-- NEW FEATURE: Added 11 New Templates based on Demo #44
+-- NEW FEATURE: Added New Typewriter Effect for Word Rotator Module
+
+-- NEW FEATURE: Added New Preloader Animation Style Animated Background Text
+-- INFO: Now includes 10 awesome Preloader Styles with lots of Customization Options
+
+-- Overworked React Slider
+-- NEW FEATURE: Autoplay now changes direction when navigation has been used
+-- NEW FEATURE: Added optional Preloader displaying until React Slider is loaded
+-- INFO: Preloader Font Color is adjustable via Showcase Settings. Preloader Font Style is based on React Carousel Title Font Settings
+
+-- Overworked Custom Cursor
+-- NEW FEATURE: Added Rotation Animation when another page is loading
+-- NEW FEATURE: Added Cursor Size Option
+-- INFO: Changed Position Calculation for better performance while moving
+
+-- Overworked Morph Lightbox
+-- NEW FEATURE: Morph Box now closeable by click on Morph Zoom Image
+
+-- Overworked Skewed Image Border Module
+-- NEW FEATURE: You can now define a border to separate images
+
+-- Overworked 3 Image Fader
+-- NEW FEATURE: Added Background Position Option for each Image
+
+-- Overworked Video Hero
+-- NEW FEATURE: Added Background Position Option for Poser Images
+
+-- Overworked SEO
+-- Hero Title and Hero Description are no longer parsed into Open Graph tags when Hero has been deactivated
+
+-- fixed an animation bug on portfolio zoom in firefox
+-- fixed an issue with icon picker not displaying some icon sets in frontend editor
+-- fixed an issue with website installer button on lower screen resolutions
+-- fixed an issue with alternate mobile retina logo no switching correctly
+-- fixed an issue with media library colorpicker firing too fast causing saving issues
+-- fixed an issue with margin bottom in word rotator
+
+Version 4.9.3.1
+
+-- NEW FEATURE: Added New Woocommerce Quantity Input Field
+
+-- fixed an issue with blog border radius when blog animation is active
+-- fixed an issue alternate logo not switching due to JS minification
+-- fixed an issue with woocommerce delete button in header cart overlapping
+
+Version 4.9.3
+
+-- NEW FEATURE: New Demo #43 Dark Edition
+-- NEW FEATURE: New Demo #43 Light Edition
+-- NEW FEATURE: Added Autoupdater
+-- NEW FEATURE: Added Envato License Verification Check
+-- NEW FEATURE: Added Smooth Scrolling Zoom Image Effect for Hero
+-- NEW FEATURE: Added Smooth Scrolling Zoom Image Effect for Sections and Row Backgrounds
+-- NEW FEATURE: Added Lazy Load to Parallax Images
+-- NEW FEATURE: Added Overflow Option for Section and Rows
+-- NEW FEATURE: Improvements to Responsive Text (Hero/Page Titles/Section Titles)
+
+-- NEW FEATURE: Added 4 New Templates to Page Builder Library
+-- INFO: Demo #43 Front Page Template
+-- INFO: Demo #43 Section Title / Page Title Template
+-- INFO: Demo #43 Case Study Template
+-- INFO: Demo #43 Footer Content Block Template
+
+-- NEW FEATURE: Added New Preloader Animation Style Text Draw
+-- INFO: Now includes 9 awesome Preloader Styles with lots of Customization Options
+
+-- Overworked Custom Text Module
+-- NEW FEATURE: Added 11 New Text Animation Effects
+
+-- Overworked Word Rotator Module
+-- NEW FEATURE: Added Element Tag Select
+-- NEW FEATURE: Added Swap Effect
+-- NEW FEATURE: Added more Font Settings and Responsive Font Settings
+-- NEW FEATURE: Added Glow Effect
+-- NEW FEATURE: Added Text Stroke
+
+-- Overworked Empty Space Module
+-- NEW FEATURE: Added Responsive Height (Desktop/Tablet/Mobile) Options for Empty Space Module
+
+-- Overworked Single Image Module
+-- NEW FEATURE: Renamed "Animated Single Module" to "Single Image Module"
+-- NEW FEATURE: Added Reveal Effect
+-- NEW FEATURE: Added Hover Caption Style 2
+
+-- Overworked Brand Module
+-- NEW FEATURE: Renamed "Client Carousel" to "Brand Module"
+-- NEW FEATURE: Added Cell Alignment for Plain Images - (left/center/right/space-around/space-between)
+-- NEW FEATURE: Added Cell Alignment for Images in Cells - (left/center/right)
+-- NEW FEATURE: Added Force Logo Height to uniform Logos
+-- NEW FEATURE: Added Delay Timer for Animation Purposes
+-- FIXED ISSUE: when amount of brands were equal to column count
+-- FIXED ISSUE: with color settings not applying
+-- INFO: Works best with SVG Logos / Images
+
+-- Overworked Time Line Module
+-- NEW FEATURE: Added Image Support to Timeline Milestones
+
+-- New Page Builder Modules
+-- NEW FEATURE: Added Information Box Module
+
+-- NEW FEATURE: Skewed Images Module
+-- INFO: Create Fancy Image Borders in your content
+
+-- NEW FEATURE: Fancy Divider Module with 2 Visual Designs
+-- INFO: You can also add an animation effect
+
+-- NEW FEATURE: Morphing Lightbox
+-- INFO: Morph Images to FullScreen with Extra Caption Content (Title + Description)
+-- INFO: You can set Caption Colors for each Lightbox Individually
+-- INFO: You can set alternate Images to morph between 2 Images
+
+-- NEW FEATURE: Moving Mouse Cursor
+-- INFO: Available in Dark and Light
+
+-- Overworked Blog
+-- NEW FEATURE: Added Subtitle Support for Single Posts
+-- NEW FEATURE: Added Option to hide Single Post Metabox (Date/Categories located on left)
+-- NEW FEATURE: Added Color Option to Adjust Date Background Color in Blog Overview
+-- NEW FEATURE: Added separate font weight setting for Post Titles
+-- NEW FEATURE: Swapped Tags Icons "Folder" to "Hash"
+-- NEW FEATURE: Added more Color Options to individualize your Blog see Demo #43 Dark for further Examples
+-- INFO: You can now create an entire Dark Blog
+
+-- Overworked Showcase Management Settings
+-- INFO: Visual Adjustments to Showcase Settings
+
+-- Overworked Portfolio
+-- NEW FEATURE: Added Video Preview for Showcases ( with mouseover or appear autoplay )
+-- NEW FEATURE: Added New Awesome Portfolio Type: React Carousel
+-- AVAILABLE React Carousel Options:
+--- Video Support
+--- Rotate Carousel (Slight Angle)
+--- Carousel Navigation (on/off)
+--- Carousel Autoplay (on/off)
+--- Carousel Autoplay Timer
+--- Carousel Item Number Counter (on/off)
+--- Display Carousel Number Counter with Color Strokes (on/off)
+--- Display Carousel Item Categories (on/off)
+--- Display Carousel Background Titles (on/off)
+--- Display Carousel Item Image Shadows (on/off)
+--- Change Image Shadow Color
+--- Carousel Item Title Line Draw Effect (on/off)
+--- Change Item Title Line Draw Width (thin/thick)
+--- Display Carousel Item Title Shadow (on/off)
+--- Carousel Item Title Blur Effect (on/off)
+--- Added Color Options for each Element belonging to Carousel Item
+
+-- Overworked Portfolio Single Item
+-- NEW FEATURE: Added New Image Portrait Upload for React Carousel
+-- NEW FEATURE: Added Preview Video Option to display Videos inside Showcase
+-- NEW FEATURE: Added Options to display Portfolio Item with Custom Colors in React Carousel
+
+-- General Improvements to Woocommerce
+
+-- INFO: Added new Image Size for Lightbox Thumbnails. Please regenerate "ut-mini" thumbnails. Use: https://wordpress.org/plugins/ajax-thumbnail-rebuild/
+-- INFO: Accent Color is not default link color anymore. Please check the link color settings.
+
+-- fixed an issue with font size calculation failed on stretched rows / sections
+-- fixed an issue with portfolio animation not executing correctly
+-- fixed an issue with menu parent not displaying with correct colors
+-- fixed an issue with menu sub menu color not applying correctly
+-- fixed an issue with WPML Content Block Translation
+-- fixed an issue with missing spacing of content blocks on single posts
+-- fixed an issue with lightgallery not closing correctly on mobile orientation change
+-- fixed an issue with logo swap in overlay navigation
+-- fixed an issue with Hero Settings on Single Product Pages
+-- fixed an issue with icon alignment on mobiles in Parallax Module
+
+-- Update to Slider Revolution 6.1.5
+
+Version 4.9.2.9
+
+-- Update to Page Builder for WordPress 5.3 Compatibility
+-- Update to Slider Revolution 6.1.4
+
+Version 4.9.2
+
+-- NEW FEATURE: Update to Demo1 (Classic)
+-- NEW FEATURE: Added Facebook Pixel ID
+-- NEW FEATURE: Added Google Tags Manager
+-- NEW FEATURE: Added Sticky Column Scroll Feature
+-- NEW FEATURE: Overworked Client Group Carousel
+-- NEW FEATURE: Added New Client Group Layout
+
+-- INFO: Added more Font Weights to Parallax Quote Modul
+-- INFO: Added Notification to Admin Area on Low Server Health
+-- INFO: Added infinite iteration to Hero Ken Burns Effect
+-- INFO: Removed Google Plus from Portfolio Share Bar
+-- INFO: Removed Google Plus from Share Bar Module
+-- INFO: Removed Google Plus from Social Media Theme Options
+-- INFO: Added Steam to Social Media Theme Options
+-- INFO: Added Teamspeak to Social Media Theme Options
+-- INFO: Added Tripadvisor to Social Media Theme Options
+-- INFO: Added Background Position to Hero Slider
+-- INFO: Added Content Post Title Alignment Option
+-- INFO: Added Font Size Options to Service Modules
+-- INFO: Added more Font Weights to Service Modules
+-- INFO: Added Volume Option to Single Post Video
+-- INFO: Added Medium Icon Size to Service Box Horizontal
+-- INFO: Added Custom Link Option for Portfolio Main Showcase Link
+-- INFO: Improved Google Font Loading with fewer requests
+
+-- Update to Page Builder for PHP7.3
+-- Update to Slider Revolution for PHP7.3
+-- Update to Twitter Plugin for PHP7.2+
+-- Update to Shortcode Plugin
+-- Update to Portfolio Plugin
+
+-- fixed an issue with admin notices ( TGMPA )
+-- fixed an issue with service icon box on mobiles
+-- fixed an issue with parallax quote reveal sticking to each other
+-- fixed an issue with contact section title styling not applying correctly
+-- fixed an issue with icon line height in contact section
+-- fixed an issue with fancy link line height
+-- fixed an issue with download button in lightbox still appearing even if deactivated in theme options
+-- fixed an issue with portfolio slide up height calculation causing inconsistent gaps below the portfolio details
+-- fixed an issie with comment reply link not formatted correctly
+-- fixed an issue with hero flickering on archive and category
+
+Version 4.9.1.2
+
+Hello Friends,
+
+WordPress 5 made its way and will be released on the 6th of December. This theme update includes an updated version of the Page Builder. Its an unscheduled update, means its not part of our roadmap and therefore does not contain any new features or demos. But we are already working on some awesome new features and demos as promised.
+
+Best regards
+Marcel & Matthias
+
+-- Update to Page Builder for WordPress 5.0
+-- Update to Slider Revolution
+
+-- INFO: Added steam: , tel: , sms: to kses protocols. Means you can now use them in links
+
+-- fixed an issue with hero timing event on IPhones
+-- fixed an issue with jetpack lazy load conflicting with theme lazy load in gallery module
+-- fixed an issue with media slider image slides
+
+Version 4.9.1.1
+
+Hello Friends,
+
+initially planned as a pure cosmetic update for Website/Demo #23, Version 4.9.1.1 now includes some awesome new features and re-designs. Website/Demo #23 received a facelift and has now a even more modern and timeless look. For Website/Demo #42 ( yes we know it just has received an update ) 
+we aded new portfolio slide up details. Go and have a look! Additionally we added new Hero Image and Caption Animation Effects allowing you to make the hero more attractive. To provide the best customizability for these new animations, you can set their duration and easing.
+
+Best regards
+Marcel & Matthias
+
+-- NEW FEATURE: Added new Portfolio Slideup Details
+-- NEW FEATURE: Added Hero Background Brooklyn Ken Burns
+-- NEW FEATURE: Added Hero Background Brooklyn Fade In Left
+-- NEW FEATURE: Added Hero Background Brooklyn Fade In Right
+-- NEW FEATURE: Added Hero Background Brooklyn Fade In Up
+-- NEW FEATURE: Added Hero Background Brooklyn Fade In Down
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Left
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Right
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Up
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Down
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Left Short
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Right Short
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Up Short Cut
+-- NEW FEATURE: Added Hero Caption Brooklyn Fade In Down Short Cut
+-- NEW FEATURE: plus more 27 Animation Effects 
+
+-- INFO: Update to Demo23
+-- INFO: Update to Demo42
+-- INFO: New Visual Composer Templates available of Demo 23 & 42
+
+-- fixed an issue with lightgallery in slideup portfolio
+-- fixed an issue with skillbars not animating in slideup portfolio
+-- fixed an issue with counter not animating in slideup portfolio
+-- fixed an issue with progress circle not animating in slideup portfolio
+-- fixed an issue with visual composer add column showing blue overlay
+-- fixed an issue with hero button stylings in onepage mode
+-- fixed an issue with lightgallery thumbnail size in slideup portfolio
+
+
+Version 4.9.1
+
+Hello Friends,
+
+Brooklyn 4.9.1 is ready for download. We have fixed some issues which occured with our 4.9 release. Thanks for your patience in this case. We also added more Font Options to the new Header for more styling freedom.
+While we just release Demo #42 we decided to change the Design a bit and we hope you like the changes as much as we do.
+
+Best regards
+Marcel & Matthias
+
+-- NEW FEATURE: Added Font Options for Blog Date Features
+-- NEW FEATURE: Added Font Options for Header Buttons
+-- NEW FEATURE: Added Font Options for Header Custom Fields
+-- NEW FEATURE: Added more Font Options for Submenu
+-- NEW FEATURE: Added Font Options for Lightbox Caption
+-- NEW FEATURE: Added Color Option for Lightbox Caption
+-- NEW FEATURE: Added Background Option for Entry Meta Data on Blog Single Pages
+
+-- INFO: Update to Demo42
+-- INFO: Overworked Menu Skins with new Color Hierachy (Please check your Menu Colors)
+-- INFO: Submenu Animation is now smoother
+-- INFO: Hero Default Button and Extra Module Button do now have a new default spacing
+-- INFO: Added Unit Switch for Section Separators (Percent and Pixel)
+-- INFO: Added New Location for Side Menu (optional)
+
+-- fixed an issue with hero style 6 
+-- fixed an issue with siteframe and fixed headers causing an extra gap
+-- fixed an issue with media slider video slides not displaying the poster image
+-- fixed an issue with hero image not displaying on front page in One Page Mode
+-- fixed an issue with sidebar not clickable
+-- fixed an issue with Default Color Skins
+-- fixed an issue with Menu Highlighting
+-- fixed an issue with Top Header and Siteframe Mode
+-- fixed an issue with Onepage mode CSS Parser
+-- fixed an issue with accordion hover and active state
+-- fixed an issue with PHP Versions prior to 5.5
+-- fixed an issue with Overlay Navigation Location
+-- fixed an issue with cached CSS on NGINX
+-- fixed an issue with top header not hiding
+-- fixed an issue with custom field in header tertiary area
+
+
+Version 4.9
+-- NEW FEATURE: Added Demo 42
+-- NEW FEATURE: Updated Demo 23 (has now 40 Subpages)
+-- NEW FEATURE: Brand New White Admin Color Skin (available per option)
+-- NEW FEATURE: Added New Overlay Search to Top Header
+-- NEW FEATURE: Added New WPML Support to Top Header
+-- NEW FEATURE: Added New Woocommerce Shopping Cart to Top Header
+-- NEW FEATURE: Top Header Woocommerce Shopping Cart is fully color customizeable
+-- NEW FEATURE: Added New Custom Menu Support to Top Header
+-- NEW FEATURE: Added New Custom Fields to Top Header
+-- NEW FEATURE: Added 5 New Site Frame Sizes (20/40/60/80/100/120)
+-- NEW FEATURE: Added 9 Brand New Header Styles. With the given options and available modules you can now create over 100 different header layouts in unlimited Color Variations
+-- NEW FEATURE: General Improvements to Woocommerce Default Settings
+-- NEW FEATURE: Added New Woocommerce Shopping Cart to Header
+-- NEW FEATURE: Header Woocommerce Shopping Cart is fully color customizeable
+-- NEW FEATURE: Added New WPML Support to Header
+-- NEW FEATURE: Added New Custom Fields to Header
+-- NEW FEATURE: Added New Social Icons to Header
+-- NEW FEATURE: Added New Button Module to Header
+-- NEW FEATURE: Added New Overlay Search to Header
+-- NEW FEATURE: Added Extra Custom Menus to Header (will display as single dropdown)
+-- NEW FEATURE: Front End Performance Improvements with up to 200% more loading Speed
+-- NEW FEATURE: New Main Navigation Style with Animating Border
+-- NEW FEATURE: Main Navigation Animating Border Positions (top/middle/bottom)
+-- NEW FEATURE: Main Navigation Animating Border Line Thickness (1-4)
+-- NEW FEATURE: Improvements to Submenu Navigation Link Effect: Animating Border Line Thickness (1-4)
+-- NEW FEATURE: Improvements to Submenu Navigation Link Effect:  Static Fading Background
+-- NEW FEATURE: Added New to Submenu Navigation Link Effect: Animating Background
+-- NEW FEATURE: New Animation for Navigation Submenus
+-- NEW FEATURE: New Animation for Navigation Megamenus
+-- NEW FEATURE: Logo Size can now be set for Tablets
+-- NEW FEATURE: Logo Size can now be set for Mobiles
+-- NEW FEATURE: Improvements to Header Scroll Behavior
+-- NEW FEATURE: Improvements to Header Scroll Animation
+-- NEW FEATURE: Overlay Hamburger Icons Settings do now apply mobile menu as well
+-- NEW FEATURE: Added New Line Width to Overlay Hamburger Icon (small/medium)
+-- NEW FEATURE: Added New Line Width to Overlay Hamburger Upper and Lower Line (50%-100%). This allows to create a different icon style
+-- NEW FEATURE: Added New Global Company Details for centralizing Social Media etc. 
+-- NEW FEATURE: Improvements Global Hero Settings (will not affect pages with already existing custom settings)
+-- NEW FEATURE: Added Global Hero Image for Desktop
+-- NEW FEATURE: Added Global Hero Image for Tablets
+-- NEW FEATURE: Added Global Hero Image for Mobiles
+-- NEW FEATURE: Added Global Hero Height
+-- NEW FEATURE: Added Global Hero Logo
+-- NEW FEATURE: Added Global Hero Primary Button Styling
+-- NEW FEATURE: Added Global Hero Secondary Button Stylling
+-- NEW FEATURE: Added Global Hero Button Spacing
+-- NEW FEATURE: Added Global Hero Caption Settings
+-- NEW FEATURE: Mega Menu Phase 3 complete
+-- NEW FEATURE: Mega Menu Content Width is now available in 4 different sizes
+-- NEW FEATURE: Mega Menu Content Width: Full Width Menu with Padding and Full Width Content
+-- NEW FEATURE: Mega Menu Content Width: Full Width Menu with Full Width Content
+-- NEW FEATURE: Mega Menu Content Width: Full Width Menu with Centered Content
+-- NEW FEATURE: Mega Menu Content Width: Centered Menu with Full Width Content
+-- NEW FEATURE: Improvements Portfolio Animations
+-- NEW FEATURE: Added New Portfolio Animations "Fade In Up" for Filterable and Packery Showcases
+-- NEW FEATURE: Added New Portfolio Animations "Fade In" for Filterable and Packery Showcases
+-- NEW FEATURE: Added New Portfolio Animations "Zoom In" for Filterable and Packery Showcases
+-- NEW FEATURE: Added New Portfolio Animations "Zoom Out" for Filterable and Packery Showcases
+-- NEW FEATURE: Portfolio Gallery Filter Spacing is now adjustable
+-- NEW FEATURE: Added Portfolio Gallery Filter Font Weight Option
+-- NEW FEATURE: Added Portfolio Gallery Filter Letter Spacing Option
+-- NEW FEATURE: Added Portfolio Gallery Packery Medium Desktop Image Size
+-- NEW FEATURE: Added Portfolio Gallery Packery Small Desktop Image Size
+-- NEW FEATURE: Added Portfolio Gallery Packery Tablet Image Size
+-- NEW FEATURE: Added Portfolio Gallery Packery Mobile Image Size
+-- NEW FEATURE: Added New Porfolio Media Upload Manager for quicker and easier setup
+-- NEW FEATURE: Added Chrome Smooth Scroll (can be activated via Theme Options)
+-- NEW FEATURE: Added Hide Linebreaks on Tablets and Mobiles for Hero
+-- NEW FEATURE: Added Hide Linebreaks on Tablets and Mobiles for Section Title
+-- NEW FEATURE: Improvements to Navigation Color Management for individual pages
+-- NEW FEATURE: Heavy Improvements to Single Page Settings
+-- NEW FEATURE: Fancy Link Module now supports Lightbox,Image,Youtube,Vimeo and Iframes
+-- NEW FEATURE: Custom Link Module has now font settings
+-- NEW FEATURE: Visual Improvements to Brooklyn Page Builder (Visual Composer)
+and much more! 
+
+
+
+-- INFO: Polishment to Top Header Skins: Light, Dark and Transparent
+-- INFO: Polishment to Header Skins: Light, Dark and Transparent
+-- INFO: General Improvements to Brooklyn Dashboard
+-- INFO: General Improvements to Brooklyn Theme Options
+-- INFO: General Improvements to Overlay Navigation
+-- INFO: Default Overlay Navigation default font size is now smaller
+-- INFO: Top Header Content width is now based on Header Content Width by default but can of course be switched to a different width
+-- INFO: Font Weight Bold on Hero Buttons and Buttons is not default anymore
+-- INFO: Adjustments Woocommerce Phase 1
+-- INFO: Overworked Header Color and Settings on individual pages. If you have used custom skins on single pages in the past, please check the settings
+-- INFO: Disabled Portfolio Animation on Mobiles
+-- INFO: Overworked Spacing System for even better results than before
+-- INFO: Removed Twitter Icons in Widgets
+-- INFO: Droped default Footer height
+-- INFO: The Footer height is now connected with the Automatic Spacing System
+-- INFO: Dropped default page height of Single Post, Blog, Archive & Search Result Page
+-- INFO: Single Post, Blog Page, Archive and Search Result Page are now having a fix height
+-- INFO: Adjust Overlay Navigation Spacings
+-- INFO: Update to Mobile Detection Class
+and much more!
+
+
+-- fixed an issue with portfolio placeholders
+-- fixed an issue with svg files in animated image module
+-- fixed an issue with twitter rotator and ssl
+-- fixed an issue with flick widget and ssl
+-- fixed an issue with top header option on single pages
+-- fixed an issue with navigation link animation on single pages
+-- fixed an issue with navigation column animation on single pages
+-- fixed an issue with blog not displaying correct layout when set to "Your latest posts"
+-- fixed an issue with rain effect and missing hero elements
+-- fixed an issue with quote rotator 1-3 when placed in a full width section / row
+-- fixed: removed PHP7.2 deprecated function from theme
+and much more!
+
+
+
+Version 4.7.3.1
+-- Updated Slider Revolution
+-- Updated Slider Demo23
+
+-- fixed an issue with lineaicons
+
+
+Version 4.7.3
+-- NEW FEATURE: Added Demo 41
+-- NEW FEATURE: Updated Demo 17
+
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Service Column
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Service Column Vertical
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Big Icon Box
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Service Box Horizontal
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Service Box Vertical
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Progress Circle
+-- NEW FEATURE: Added 850+ New Animated Draw Icons to Icon Module
+-- NEW FEATURE: Added Animated Image to Advanced Hover Box
+-- NEW FEATURE: Added Shadow to Advanced Hover Box
+-- NEW FEATURE: Added Section Separators to Rows
+-- NEW FEATURE: Added new viewport breakpoints to adjust sizes for packery showcase
+-- NEW FEATURE: Exchanged and added new count up script
+
+-- fixed an issue with parallax in hero not turning off
+-- fixed an issue 404 pages when content blog was in contact section
+
+Version 4.7.2
+-- NEW FEATURE: Mega Menu Phase 2 added more options and image upload support
+
+Version 4.7.1
+-- NEW FEATURE: Added Hover Effect to Submenu and Megamenu links
+-- NEW FEATURE: Added Labels to Advanced Hover Box
+
+-- fixed an issue with service column horizontal icon shapes
+-- fixed an issue with button particle effect javascript linking
+-- fixed an issue with background color on progress bars not appearing correctly
+-- fixed an issue with button spacing in button groups
+
+Version 4.7
+-- NEW FEATURE: Mega Menu Phase 1
+-- NEW FEATURE: Advanced Hover Box
+-- NEW FEATURE: Added Gradient Colors to Custom Text Module
+
+-- fixed an issue with fullscreen videos in slideup portfolios causing an overlay conflict in chrome
+-- fixed an issue with Design Options on Rows and Sections not applying correctly when parallax was active
+-- fixed an issue with button groups not displaying correctly on mobiles
+-- fixed an issue with button spacing settings not accepting other values other than px
+-- fixed an issue with missing active color option for secondary skin sub menu
+-- fixed an issue with image carousel autoplay not pausing on mouse over
+-- fixed an issue with media carousel autoplay not pausing on mouse over
+-- fixed an issue with carousel lightbox when multiple carousel were active
+-- fixed an issue with video player pulsate effect not working when multiple video were active
+
+Version 4.6.9.1
+-- fixed an issue with WP Rocket Caching
+
+Version 4.6.9
+-- NEW FEATURE: Overworked Demo 13
+-- NEW FEATURE: Added 4 Morph Effects to Preloader (Water, Fluid, Digital, Balloon)
+
+-- fixed an issue with section separators not displaying on when covered by filled rows or columns
+-- fixed an issue with fluid button not working when particle effects are active
+
+Version 4.6.8
+-- NEW FEATURE: Added Demo 40
+-- NEW FEATURE: Added 12 Button Particle Click Effects
+
+-- fixed an issue with missing colorpickers for Triple Wave Separator
+-- fixed an issue with logo not displaying with custom navigation settings
+-- fixed an issue wtih custom height not working on 3 Image Fader
+-- fixed an issue with Yoast and Grid Blog Module causing and error on saving
+-- fixed an issue with Blog Pagination Custom Height not applying correctly
+-- fixed an issue with IE11 and Font Resize Script
+-- fixed a spacing issue when no excerpt was set
+-- fixed an issue with PHP5.3
+
+Version 4.6.7
+-- NEW FEATURE: Added Demo 39
+
+Version 4.6.6
+-- NEW FEATURE: Added Demo 38
+
+-- fixed an issue with responsive background disabling not working correctly
+
+Version 4.6.5
+-- NEW FEATURE: Added Demo 37
+-- NEW FEATURE: New Hero Type - 3 Image Fader
+-- NEW FEATURE: Added Light Purple Map Style for Google Maps
+
+-- INFO: Overworked Hero Title Responsiveness
+
+-- fixed an issue with google map address field causing issue with map loading
+
+Version 4.6.4
+-- NEW FEATURE: Added Demo 36
+
+-- INFO: Improved Distortion Canvas Size Calculation
+
+-- fixed an issue with line height calculation on section headers
+-- fixed an issue with hero overlay displaying when background image was not loaded cuasing a gray placeholder
+
+Version 4.6.3
+-- NEW FEATURE: Added Demo 35
+-- NEW FEATURE: Added Custom Font Uploader
+-- NEW FEATURE: Added Gradient Picker to Standard Hero Background Color
+
+-- INFO: Replaced Letter Spacing Settings Unit from PX to EM. Please check your font settings
+
+-- fixed an issue with Google Maps not displaying when multiple maps are active on a single page
+-- fixed an issue with Visual Composer not working with PHP 7.2
+-- fixed an issue with pie chart label positioning on desktop and mobile
+-- fixed an issue with line height on countdown timer
+-- fixed an issue with woocommerce settings dropdown
+
+Version 4.6.2
+-- NEW FEATURE: Updated Demo 14
+
+-- NEW FEATURE: Added Google Map Modul with 14 Amazing Skins
+-- NEW FEATURE: Added new Blog Grid Modul to Visual Composer
+-- NEW FEATURE: Added Distortion Background Animation to Sections
+-- NEW FEATURE: Added Distortion Background Animation to Columns
+-- NEW FEATURE: Added Distortion Background Animation to Rows
+
+-- Update to Visual Composer Google Fonts
+
+-- fixed an issue with WPML String Translation Plugin
+-- fixed an issue with menu hover skin and active menu item highlight
+-- fixed an issue with hero image and parallax loading
+-- fixed an issue with button fluid option
+-- fixed an issue with gradient picker not showing up after adding a button to primary menu
+-- fixed an issue audio player controls not displaying correctly
+-- fixed an issue with demo import when SSL is active
+
+Version 4.6.1
+
+-- NEW FEATURE: Added Demo 34
+-- NEW FEATURE: Section Overlay Effects
+-- NEW FEATURE: Added custom count to toggle groups
+-- NEW FEATURE: Added new Icon to Mobile Menu
+-- NEW FEATURE: Added Linear Gradient Support for Button Borders
+-- NEW FEATURE: Added Linear Gradient Support for Menu Buttons
+-- NEW FEATURE: Added an option to adjust the default content width of the theme
+
+-- Update to Google Fonts
+
+-- fixed an issue with parallax not displaying in IE11
+-- fixed an issue with portfolio animation in IE
+-- fixed an issue with hero video gets covered with hero image on scroll
+-- fixed an issue with blog shortcode posts alignment with more than 3 posts
+-- fixed an issue with missing portfolio metabox
+-- fixed an issue accordion progress module
+-- fixed an issue with image gallery gaps
+-- fixed an issue with blog gallery was showing images not part of the gallery
+-- fixed an issue with js error in console caused by overlay effect
+-- fixed an issue with transparent navigation not displaying correctly on subpages
+-- fixed an issue with font settings not applying correctly to overlay menu
+-- fixed an issue with pulsate effect on video module
+-- fixed an issue with last border styling on toggle groups
+-- fixed an issue with font setting not applying to content block after placing in hero
+-- fixed an issue with winona button hover effect when icon was active as well
+-- fixed an issue with overlay logo not displaying correctly
+-- fixed an issue with vimeo videos notm playing when parallax was active
+-- fixed an issue with media slider not displaying dot navigation
+-- fixed an issue with social widget style select broken after saving
+
+
+Version 4.6
+-- NEW FEATURE: Added Demo 33
+-- NEW FEATURE: Added new Toggle Module
+-- NEW FEATURE: Added new Accordion Module
+-- NEW FEATURE: Animated Pie Charts and Doughnut Charts
+-- NEW FEATURE: Date Countdown and Countup Module
+-- NEW FEATURE: Added Brooklyn Icons to Service Column Module
+-- NEW FEATURE: Added Brooklyn Icons to Service Column Vertical Module
+-- NEW FEATURE: Added Icons to Header Module Lead Text
+-- NEW FEATURE: Added optional link to Service Box Module
+-- NEW FEATURE: Added Gradient Background Colors for Sections
+-- NEW FEATURE: Added Gradient Background Colors for Rows
+-- NEW FEATURE: Added Gradient Background Colors for Columns
+-- NEW FEATURE: Added Gradient Background Colors for Inner Rows
+-- NEW FEATURE: Added Gradient Background Colors for Inner Columns
+-- NEW FEATURE: Added Gradient Background Colors for Header
+-- NEW FEATURE: Added Gradient Background Colors for Preloader
+-- NEW FEATURE: Parallax Support for Mobiles
+-- NEW FEATURE: Youtube Video Support for Mobiles
+-- NEW FEATURE: Added Padding for Hero Buttons
+-- NEW FEATURE: Added Logo Upload for Hero Content
+-- NEW FEATURE: Added Custom Border Settings to Title Module
+-- NEW FETAURE: Added Section Separators for Visual Composer Sections
+-- NEW FETAURE: Added Section Separators for Multisite Mode Hero Area
+-- NEW FETAURE: Added a new Image Size to Team Member Style 2 Options
+-- NEW FEATURE: Social Follow Icon can now be animated
+-- NEW FEATURE: Custom Links can now be animated
+-- NEW FEATURE: Added Pulse Effect to Video Play Module
+
+-- fixed an issue with animation still executing after deactivating on Service Box Vertical Module 
+-- fixed an issue with custom link icon spacing when no animation was active
+-- fixed an issue with missing title tags on animated images
+-- fixed an issue with footer background not displaying correctly on IPAD and IPhone
+-- fixed an issue with global section styles in one page mode
+-- fixed an issue with font size and text transform not applying to hero buttons
+-- fixed an issue with overlay navigation item still clickable after closing the overlay
+-- fixed an issue with page title 2 not applying in one page mode
+-- fixed an issue with MetaPanel if JqueryUI Interface was loaded by a plugin
+-- fixed an issue with blog link hover color not applying correctly
+-- fixed an issue with pixelated logo on retina devices
+-- fixed an issue with grid showcase image not appearing correctly in safari
+-- fixed an issue with WPML Language Switcher adding pages to the front page in one page mode
+
+Version 4.5.3.3
+-- Update to Visual Composer for fixing link popup window
+-- Update to Visual Composer for fixing linebreak / paragraph issue
+
+Version 4.5.3.2
+-- Update to Visual Composer for WordPress 4.9
+-- Update to Slider Revolution 5.4.6.3.1
+
+Version 4.5.3.1
+-- Fixed an issue with broken auto scroll in latest Chrome
+
+Version 4.5.3
+-- NEW FEATURE: Added Demo32
+-- NEW FEATURE: Added New Image Dimension for LightGallery
+-- NEW FEATURE: Added Option to turn off "Download Button" in Lightbox
+
+-- INFO: Update to Google Fonts
+
+-- fixed an issue with image gallery wihtout gap having a small 1px whitespace after CSS3 Animation was finished
+-- fixed an issue with footer not sticky when sidenavigation was active
+-- fixed an issue with gaps on image galleries causing an extra space at bottom for the gallery
+-- fixed an spacing issue with siteframe and side navigation
+
+Version 4.5.2
+-- NEW FEATURE: Added Demo31
+-- NEW FEATURE: Added Demo30
+
+-- fixed an issue with google font not applying correctly to gallery slider caption
+
+Version 4.5.1.1
+-- NEW FEATURE: Migrated Demo 5 to Visual Composer
+-- NEW FEATURE: Added Enhanced Color Options for Slide Up Portfolios
+
+-- fixed an issue with twitter rotator with avatar not applaying colors
+-- fixed an issue with vimeo videos in lightbox
+-- fixed an issue with global google font for page titles not applying correctly
+
+Version 4.5.1
+-- NEW FEATURE: Added New Demo 29
+-- NEW FEATURE: Added fullwidth style to portfolio navigation
+-- NEW FEATURE: Added new portfolio navigation customization options
+-- NEW FEATURE: Added color options for link icons on vertical service column module
+-- NEW FEATURE: Added icon options for link on service column module
+-- NEW FEATURE: Added logo support for overlay navigation
+-- NEW FEATURE: Added copyright field for overlay navigation
+-- NEW FEATURE: Added social icon support for overlay navigation
+-- NEW FEATURE: Added animation effect for overlay navigation
+-- NEW FEATURE: Added new preloader style (Text Logo)
+
+-- fixed an issue with portfolio navigation with custom height distorted
+-- fixed an issue with blog shortcode not displaying correctly
+-- fixed an issue with slider control were not visible in viewport if header was set to fixed
+-- fixed an issue with mobile navigation animation not so smooth on opening
+
+Version 4.5
+-- NEW FEATURE: Added New Demo 28
+-- NEW FEATURE: Added new Custom Link Module with Icon Support and Hover Animation
+-- NEW FEATURE: Added Link Icon Support for Vertical Service Columns
+-- NEW FEATURE: Added Shadow Effect for Image Gallery
+-- NEW FEATURE: Added External Link feature for Image Gallery
+-- NEW FEATURE: Added Dot Navigation to Quote Rotator 2
+-- NEW FEATURE: Added more Colors and Styling Options for Blog
+-- NEW FEATURE: Added Caption Support for Animated Images (Same as Image Gallery)
+-- NEW FEATURE: Added Box Shadow to Visual Composer Columns
+
+-- fixed an issue with button colors in mobile menu
+-- fixed an issue with buttons dimension in mobile menu
+-- fixed an issue with header animation causing a tiny black border to appear while header was switching skins
+-- fixed an issue with caption not animating with images in Image Gallery Module
+-- fixed an issue with shortcode plugin required twitter plugin 
+
+Version 4.4.9
+-- NEW FEATURE: Overworked Demo 7
+-- NEW FEATURE: Added Twitter Rotator to Visual Composer
+-- NEW FEATURE: Added Center and Right Alignment for Social Share Bar Module
+-- NEW FEATURE: Added Image Opacity Option for Animated Images
+-- NEW FEATURE: Added Image Swap Feature for Team Member Module
+-- NEW FEATURE: Portfolio Navigation can be turned off per portfolio page now
+
+-- fixed an issue with custom side navigation on pages
+-- fixed an issue with Hero Title in Hero Slider not displaying correct font size
+-- fixed an issue with slide up scroll offset (header covering closing icon)
+-- fixed an issue with overlay effect mouse offset
+-- fixed an issue with video shortcode caption font weight
+-- fixed an issue with Navigation Button Colors in Chrome
+-- fixed an issue with single quote name color not applying
+-- fixed an issue with animation deactivation not working correctly for mobile and tablet
+
+Version 4.4.8
+-- NEW FEATURE: Added buttons to navigation
+-- NEW FEATURE: Added 3 new Home templates to demo 3
+-- NEW FEATURE: Added 13 portfolio examples
+-- NEW FEATURE: Added 8 project / portfolio single pages to demo 3
+-- NEW FEATURE: Added new color options for author biography
+-- NEW FEATURE: Added new testimonial style
+-- NEW FEATURE: Vertical Service Column improvements
+-- NEW FEATURE: Service Box improvements
+
+-- NEW FEATURE: 
+
+-- INFO: Demo 3 has now 30 predefined templates
+-- INFO: Dropped PrettyPhoto from theme
+-- INFO: Changed arrows on portfolio carousel
+
+-- fixed an issue Custom CSS from Theme Options
+
+Version 4.4.7
+-- NEW FEATURE: Overworked Some Pages of Demo 3
+-- NEW FEATURE: Added New Pages to Demo 3
+
+-- fixed an issue with footer title color not applying correctly
+-- fixed an issue with target _blank not working correctly in service icon box module
+-- fixed an issue with thumbnails in gallery popups
+-- fixed an issue with vimeo video not playing in slideup
+-- fixed an issue with header not displaying when hero and header were set to off
+
+Version 4.4.6
+
+-- NEW FEATURE: Overworked Demo 3
+-- NEW FEATURE: Added Fixed Header Support
+-- NEW FEATURE: Added Pricing Table Module for VC
+-- NEW FEATURE: Overworked Video Shortcode with new loader and caption
+-- NEW FEATURE: Added Portfolio Showcase as Module into VC
+-- NEW FEATURE: Custom Menu Item Separator for default Navigation
+-- NEW FEATURE: UnitedThemes Ajax Video Player for VC
+-- NEW FEATURE: Added Lazy Load to Image Gallery Module for faster page loading
+-- NEW FEATURE: New Team Meber Style 5
+
+-- INFO: Update to Slider Revolution 5.4.5.1
+-- INFO: Top Header can now be set to centered
+-- INFO: Switched Position of Email and Phone in Top Header 
+-- INFO: changed target self to target blank for social icons in subfooter
+-- INFO: Update to Service Column Vertical Module
+-- INFO: Update to Service Column Module
+-- INFO: Update to BKLYN 5 Number Counter Module
+-- INFO: Update to Progress Cricle Module
+
+-- fixed an issue with elements not animating when loaded in viewport unless user scrolled
+-- fixed an issue with count up box not counting when loaded in viewport unless user scrolled
+-- fixed an issue with external links in portfolio
+-- fixed an issue with icon position in progress circle
+-- fixed an issue with progress circle animation
+-- fixed an issue with mobile menu opening without background
+-- fixed an issue with hero parallax
+-- fixed an issue with fancy images in safari
+-- fixed an issue with missing color options for icon tabs with Brooklyn Icons
+
+Version 4.4.5
+
+-- NEW FEATURE: Re Added Classic Brooklyn Demo based on Visual Composer
+-- NEW FEATURE: Vimeo Support for Video Hero
+
+-- INFO: changed the portfolio arrow navigation in slideup gallery
+-- INFO: added caption support for featured media (gallery and images ) in slideup gallery
+
+-- fixed an issue with Portfolio Slideups not formatted correctly if not built with VC
+-- fixed an issue with header not aligning correclty on mobile and tablet if top header is active
+-- fixed an issue with Slider Revolution not displaying correctly on first call in slideup portfolio
+-- fixed an issue with footer sticky to the hero in IE11
+-- fixed an issue with blog grid not displaying correctly in IE11
+-- fixed an issue with blog mixed grid not displaying correctly in IE11
+-- fixed an issue with post title on audio posts displaying above the featured image instead below
+-- fixed an issue with hero down arrow position
+-- fixed an issue with frame border bottom still displaying even when turned off
+
+
+Version 4.4.4
+
+-- INFO: Overworked Demo 23
+-- INFO: Added optional Hard Image Cropping Option for Portfolio Packery
+
+-- fixed an issue with double post date appearing on video posts
+-- fixed an issue with portfolio navigation
+-- fixed an issue with missing video in blog list
+-- fixed an issue with global site frame settings
+-- fixed an issue with global hero caption style on portfolios
+-- fixed an issue with global hero caption align on portfolios
+-- fixed an issue with global image for archive pages
+-- fixed an issue with service column icons not displaying correctly
+-- fixed an issue with service column vertical icons not displaying correctly
+
+
+Version 4.4.3
+-- fixed an issue with invisible elements such as hero or sections
+-- fixed an issue with parse error on multisite mode
+
+Version 4.4.2
+
+-- NEW FEATURE: New Demo 26 
+-- NEW FEATURE: Overlay Navigation for a minimal compact site navigation
+-- NEW FEATURE: Added Thumbnail to Portfolio Overview for a better item identification
+
+-- INFO: Removed Hard Image Cropping from Portfolio Packery for better displaying results
+
+- fixed an issue with blog images were stretched unproportional in safari
+- fixed an issue with social icon spacing in footer
+- fixed an issue with hero alignment on blog single pages and archive pages and maintenance mode
+- fixed an issue with maintenance mode text not displaying
+- fixed an issue with missing theme color on gallery and media slider
+- fixed an issue with wrong coloring of icons in blog
+- fixed an issue with "uncategorized" not displaying as post category
+- fixed an issue with visual composer single image lightgallery
+- fixed an issue with portfolio packery column settings
+
+
+Version 4.4.1
+- fixed an issue with Section Linking not saving
+- fixed an issue with Slider Revolution not displaying
+
+Version 4.4
+
+-- NEW FEATURE: Demo 1 rebuilded in Brooklyn 5 style (available for Visual Composer now)
+-- NEW FEATURE: Hero is now available for single posts
+-- NEW FEATURE: Hero Video for single posts available
+-- NEW FEATURE: Hero Image for single posts available
+-- NEW FEATURE: Hero Dynamic Height for single posts available
+-- NEW FEATURE: Classic Blog new design
+-- NEW FEATURE: Blog Grid new design
+-- NEW FEATURE: Blog List new design
+-- NEW FEATURE: Blog Grid Mixed new design
+-- NEW FEATURE: Blog Single Post new design
+-- NEW FEATURE: Blog Archive Pages automatic hero image
+-- NEW FEATURE: Single Post About Author Social Icons added
+-- NEW FEATURE: Animated Blog
+-- NEW FEATURE: Blog shapes in round and square available
+-- NEW FEATURE: Contact Form 7 for Hero available
+-- NEW FEATURE: Light Header Default skin new colors
+-- NEW FEATURE: Dark Header Default skin new colors
+-- NEW FEATURE: Transparent Default skin new colors
+-- NEW FEATURE: Footer Light Default skin new colors
+-- NEW FEATURE: Footer Dark Default skin new colors
+-- NEW FEATURE: Sub Footer new layout available
+-- NEW FEATURE: Sub Footer new layout reverse mode available
+-- NEW FEATURE: Sub Footer Social Icons customizing available
+-- NEW FEATURE: 3 Sneak Peek modules for the Visual Composer added from Brooklyn 5
+-- NEW FEATURE: Better Hero settings for each page available
+-- NEW FEATURE: Footer disable for each page
+-- NEW FEATURE: For each page site frame disabled
+-- NEW FEATURE: Top Header can now be turned on an off on each page
+-- NEW FEATURE: footer color skins can be changed per page
+-- NEW FEATURE: accent color can be set individually per page
+-- NEW FEATURE: seperate button settings for contact section
+
+
+-- INFO: Site Border is now Site Frame
+-- INFO: Improvements to Site Frame
+-- INFO: Improvements to Top Header
+-- INFO: Improvements to Visual Composer
+-- INFO: Improvements to Theme Option Panel
+-- INFO: Improvements to Page Settings
+-- INFO: Improvements in Responsive design
+-- INFO: Split Hero is now Highlighted Hero
+-- INFO: Overworked Highlighted Hero
+-- INFO: Overworked Hero Style 1
+-- INFO: Overworked Hero Style 2
+-- INFO: Overworked Hero Style 3
+-- INFO: Overworked Hero Style 4
+-- INFO: Overworked Hero Style 5
+-- INFO: Overworked Hero Style 6
+-- INFO: Overworked Hero Style 7
+-- INFO: Overworked Hero Style 8
+-- INFO: Overworked Hero Style 9
+-- INFO: Overworked Hero Style 10
+-- INFO: Overworked Hero Style 1 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 2 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 3 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 4 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 5 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 6 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 7 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 8 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 9 in combination with Highlighted Hero
+-- INFO: Overworked Hero Style 10 in combination with Highlighted Hero
+-- INFO: Dropped Hero Style 11
+-- INFO: Improvements Quote Rotator Module 2
+-- INFO: Overworked & improvements Slide Up Portfolio
+-- INFO: Added more tutorial videos
+-- INFO: Revolution Slider
+-- INFO: Udate Visual Composer
+-- INFO: Update to Font Awesome 4.7.0
+
+-- Fixed an Issue with top header not displaying correctly
+-- Fixed an Issue with body color not applying correctly
+-- Fixed an Issue with sidebar icon hover colors not applying correctly
+-- Fixed an Issue with sidebar not displaying on single posts
+-- Fixed an Issue with mobile menu skin changing
+-- Fixed an Issue with filterable packery portfolio 4 columns not centering correctly
+-- Fixed some CSS issues
+
+-- INFO: Removed HATOM tags - please cover your SEO with a SEO plugin
+
+Version 4.3
+-- NEW FEATURE: Demo 24
+-- NEW FEATURE: Demo 25
+-- NEW FEATURE: Preloader Style 7
+
+-- Fixed an Issue with Hero Button in Background Image Slider causing scrolling blocking
+-- Fixed an Issue with parallax images not displaying correctly if overlay was active
+-- Fixed an Issue with some CSS Animation effects not animating correctly on second appear
+-- Fixed an Issue with videos not displaying correctly if overlay was active
+-- Fixed an issue with Metapanel CSS conflicting with different plugins
+-- Fixed an Issue with google fonts not displaying correctly after updating
+-- Fixed an Issue with wrong navigation skins displaying on system pages
+-- Fixed an Issue with wrong vimeo videos not playing when https is active
+-- Fixed an Issue with logo widget appearance
+-- Fixed an Issue with Media Library search was not working
+-- Fixed an Issue with mobile navigation section linking
+-- Fixed an Issue with word rotator
+
+Version 4.2.5
+-- Fixed an Issue with demo importer and Demo23
+
+Version 4.2.4
+-- NEW FEATURE: Demo 23
+-- NEW FEATURE: New Shortcode: Progress Circles with 2 different styles
+-- NEW FEATURE: New Shortcode: Icon Tabs with Fontawesome icons and optional custom icons
+
+-- INFO: Added more Animation Options for Service Boxes
+-- INFO: Added more Animation Options for Service Icon Boxes
+-- INFO: Added more Animation Options for Service Columns
+-- INFO: Added more Animation Options for Service Vertical Columns
+
+-- Fixed an Issue with WPML and Polylang
+
+Version 4.2.3
+-- NEW FEATURE: Overworked Demo 2 and Demo 8
+-- NEW FEATURE: Maintenance Mode
+-- NEW FEATURE: New set of skillbars
+-- NEW FEATURE: New Widget Simple Logo Widget
+-- NEW FEATURE: Added infinite animation to several elements
+-- NEW FEATURE: Added linking to team member shortcode
+
+-- INFO: Update to Slider Revolution 5.3.0.2
+
+-- Fixed an Issue with portfolio navigation settings
+-- Fixed an Issue with sidebar spacing when located left
+-- Fixed an Issue with menu flickering on click
+-- Fixed an Issue with icons in service boxes
+-- Fixed an Issue with missing Contact Section Spacing Settings
+-- Fixed an Issue with additional traffic caused by google.json object
+-- Fixed an Issue with missing Portfolio Settings
+-- Fixed an Issue with missing colors in navigation
+-- Fixed an Issue with Images not displaying if Amazon S3 is active
+-- Fixed an Issue with Images not displaying if Jetpack is active
+
+Version 4.2.1
+-- INFO: Overworked Mobile Navigation
+
+-- Fixed an Issue with Visual Composer Filters causing an issue in portfolio ajax requets
+-- Fixed an Issue with Portfolio not loading item on filter click
+
+Version 4.2
+
+Hopefully we haven't forgot any infos, since a lot of coding has been done the past 2 Month.
+
+-- NEW FEATURE: Added VC Row Animation
+-- NEW FEATURE: Added VC Row Background Settings
+-- NEW FEATURE: Added VC Column Animation
+-- NEW FEATURE: Added VC Column Background Settings
+-- NEW FEATURE: Demo 22
+-- NEW FEATURE: Brand New Admin Backend
+-- NEW FEATURE: Admin Backend Speed up to 250%
+-- NEW FEATURE: Post Format Manager
+-- NEW FEATURE: New Meta Panel
+-- NEW FEATURE: New Demo Installer ( Prior Demo Importer )
+-- NEW FEATURE: Better Server Health Status
+-- NEW FEATURE: Better Plugin Control
+-- NEW FEATURE: Improved One Page Multipage Management
+-- NEW FEATURE: Improved Typography Management
+-- NEW FEATURE: Fully Customizable Side Navigation
+-- NEW FEATURE: One New Front Page Template
+-- NEW FEATURE: One New About Page Template
+-- NEW FEATURE: One New Service Page Template
+-- NEW FEATURE: One New Contact Page Template
+-- NEW FEATURE: One Crew Page Template
+-- NEW FEATURE: One Crew Single Detail Page Template
+-- NEW FEATURE: 404 Template
+-- NEW FEATURE: Search Result Template
+-- NEW FEATURE: Nothing Found Template
+-- NEW FEATURE: Author Template
+-- NEW FEATURE: Category Template
+-- NEW FEATURE: Archive Template
+-- NEW FEATURE: Mixed Grid Blog Layout
+-- NEW FEATURE: List Blog Layout
+-- NEW FEATURE: Grid Blog Layout
+-- NEW FEATURE: 5 New Portfolio Page Layouts
+-- NEW FEATURE: New Quote Rotator
+
+-- Fixed an Issue with Image Gallery Shortcode stacking wrong
+-- Fixed an Issue with Windows Server causing a file load error
+-- Fixed an Issue with Portfolio Lazy Loading
+-- Fixed an Issue with Portfolio Gaps
+-- Fixed an Issue with Image Animation
+-- Fixed an Issue with Owl Carousel Jumping on first loop
+-- Fixed an Issue with an issue with count up boxes
+-- Fixed an Issue with Retina JS causing images in portfolio staying invisible
+
+Version 4.1.1
+-- Fixed an Issue with PHP 5.3
+
+Version 4.1
+-- NEW FEATURE: Added New Demo: Demo 21
+-- NEW FEATURE: Full Header Customizattion
+-- NEW FEATURE: Full Navigation Customization (Centred)
+-- NEW FEATURE: Full Navigation Customization (FullWidth)
+-- NEW FEATURE: Full Mobile Navigation Customization
+-- NEW FEATURE: Full Sidebar Customization
+-- NEW FEATURE: Full Footer Customization
+-- NEW FEATURE: Full Subfooter Customization
+-- NEW FEATURE: Bunch of new Typography Settings
+-- NEW FEATURE: Global Hero Settings
+-- NEW FEATURE: New visual Appearance of Brooklyn Backend
+-- NEW FEATURE: Backend Theme Welcome Page
+-- NEW FEATURE: Backend Theme Health Status
+-- NEW FEATURE: Overworked Theme Demo Importer
+-- NEW FEATURE: New Showcase Type: Filterable Image Packery
+-- NEW FEATURE: 4 New Thumnail Sizes for Showcase
+-- NEW FEATURE: Thumbnail Extralarge
+-- NEW FEATURE: Thumbnail Portrait
+-- NEW FEATURE: Thumbnail Panorama
+-- NEW FEATURE: Thumbnail Standard
+-- NEW FEATURE: New Responsinve Showcase Settings
+-- NEW FEATURE: Global Portfolio Settings
+-- NEW FEATURE: New Caption Style with own Icon
+-- NEW FEATURE: Added Portfolio Hover Caption Alignment
+-- NEW FEATURE: Added Custom Portfolio Hover Title
+-- NEW FEATURE: Added 8 Visual Composer Elements
+-- NEW FEATURE: Progress Bar
+-- NEW FEATURE: Quote Rotator
+-- NEW FEATURE: Animated Image
+-- NEW FEATURE: Social Share Bar
+-- NEW FEATURE: Image Gallery
+-- NEW FEATURE: Gallery Slider
+-- NEW FEATURE: Media Slider
+-- NEW FEATURE: Portfolio Detail Box
+-- NEW FEATURE: Added 17 New Visual Composer Templates
+-- NEW FEATURE: Added 12 Single Portfolio Page Templates
+-- NEW FEATURE: Added 1 New Homepage Template
+-- NEW FEATURE: Added 1 New About Us Template
+-- NEW FEATURE: Added 1 New Service Page Template
+-- NEW FEATURE: Added 1 New Portfolio Page Template
+-- NEW FEATURE: Improved Page and Section Control
+-- NEW FEATURE: New Scroll Down Arrow Customization and Position Options
+-- NEW FEATURE: 2 New Widgets
+-- NEW FEATURE: Social Icon Widget
+-- NEW FEATURE: Contact Widget
+-- NEW FEATURE: New Logo Settings
+-- NEW FEATURE: Added Portfolio Navigation
+-- NEW FEATURE: Added Portfolio Navigation Customization
+-- NEW FEATURE: Added Blog Navigation
+-- NEW FEATURE: Added Blog Navigation Customization
+
+-- General Improvments and Fixes
+-- Fixed an Issue with Siteborder and Fullwidth Section overlapping
+-- Fixed an Issue with missing logo in subpages if alternate logo was not set
+-- Fixed an Issue with menu overwriting page type
+-- Fixed an Issue with Element Offset
+-- Fixed an Issue with Poster Image and Selfhosted Videos
+-- Fixed an Issue with Child Theme
+
+-- Update to TGM Activation Class
+
+Version 4.0.2
+-- Fixed an Issue with missing logo in subpages if alternate logo was not set
+-- Fixed an Issue with menu overwriting page type
+-- Fixed an Issue with Element Offset
+-- Fixed an Issue with Poster Image and Selfhosted Videos
+
+Version 4.0.1
+-- Update to TGM Activation Class
+-- Fixed an Issue with Child Theme
+
+Version 4.0
+-- NEW FEATURE: Added Visual Composer
+-- NEW FEATURE: Added New Demo: Construction Multisite
+-- NEW FEATURE: Added New Demo: Restaurant
+-- NEW FEATURE: Added New Demo: Wedding
+-- NEW FEATURE: Added New Demo: Dentist
+-- NEW FEATURE: Added New Demo: Barber
+-- NEW FEATURE: Added New Demo: Condolence
+-- NEW FEATURE: Added Menu Card Manager to Pricing Table Plugin
+-- NEW FEATURE: Added Scroll Down Arrows to Hero
+-- NEW FEATURE: Added Custom Height for Dynamic Hero
+-- NEW FEATURE: Added Section Border Top Styles
+-- NEW FEATURE: Added Full Width Single Pages
+-- NEW FEATURE: Added New Team Member Styles
+-- NEW FEATURE: Added New Call to Action 
+-- NEW FEATURE: Added New Design Options to Service Box Shortcode
+-- NEW FEATURE: Added Custom Icon Upload to Service Box Shortcode
+-- NEW FEATURE: Added New Design Options to Service Icon Box Shortcode
+-- NEW FEATURE: Added New Design Options to Service Column Shortcode
+-- NEW FEATURE: Added Custom Icon Upload to Service Column Shortcode
+-- NEW FEATURE: Added New Design Options to Service Column Vertical Shortcode
+-- NEW FEATURE: Added Custom Icon Upload to Service Column Vertical Shortcode
+-- NEW FEATURE: Added New Design Options to Count Up Box Shortcode
+-- NEW FEATURE: Added New Design Options to Client Group Carousel
+-- NEW FEATURE: Added New Fancy Image Shortcode
+-- NEW FEATURE: Added New Button Shortcode
+-- NEW FEATURE: Added New Fancy List Shortcode
+-- NEW FEATURE: Added Alignment Setting for Portfolio Filter
+-- NEW FEATURE: Overworked WordPress Gallery
+
+-- BUG: fixed an issue with slow theme options
+-- BUG: fixed an issue with counter shortcode responsiveness
+-- BUG: fixed an issue with header style 1 not displaying correctly on single pages 
+-- BUG: fixed an issue with hero border bottom styles
+-- BUG: fixed an issue with section border bottom styles
+-- BUG: fixed an issue with logo alignment in header
+-- BUG: fixed an issue with single quote responsiveness
+-- BUG: fixed an issue with contact section header setting
+-- BUG: fixed an issue with background slider caption on first rotation
+
+-- INFO: Update to Mobile Detection Class
+
+Version 3.3.4
+-- BUG: fixed an issue with https youtube videos and video shortcode
+-- BUG: fixed an issue with https vimeo videos in portfolio
+-- BUG: fixed an issue with overlay effect no displaying correctly
+-- BUG: fixed an issue with not centred parallax images
+-- BUG: fixed an issue with overlay effect on split hero having no color applied
+-- BUG: fixed an issue with shortcode icon picker and WPML Sitepress
+
+-- INFO: Update to Slider Revolution 5.2.5.4
+-- INFO: Update to Font Awesome 4.6.3
+-- INFO: Update to Mobile Detection Class
+
+Version 3.3.3
+-- BUG: fixed a JavaScript issue with WordPress 4.5
+-- BUG: fixed an issue with google font subsets not loading correctly due to "&amp;"
+
+-- INFO: Update to Slider Revolution 5.2.4.1
+
+Version 3.3.2
+-- BUG: fixed an issue with hero displaying in chrome
+-- BUG: removed menu caching for theme options cache
+-- BUG: fixed an issue with custom video portfolio displaying video in footer
+-- BUG: fixed an issue with vimeo not autplaying in video shortcode
+
+-- INFO: Update to Youtube Background Script
+-- INFO: Update to Mobile Detection Class
+-- INFO: Update to Slider Revolution 5.2.3.5
+-- INFO: Update to Font Awesome 4.5
+
+Version 3.3.1
+-- BUG: fixed an issue with featured images in blog, if image_resize_dimensions() throws an error
+
+-- INFO: Update to Slider Revolution 5.1.6
+
+Version 3.3
+-- NEW FEATURE: Portfolio Gutters are no more flexible and can be displayed in different sizes
+-- NEW FEATURE: Portfolio Items with gutter can now have an optional shadow
+-- NEW FEATURE: Redesign of tablet slider with 2 new skins 
+-- NEW FEATURE: Tabletslider can now be displayed with an additional shadow
+-- NEW FEATURE: You can now turn off header/ navigation shadow
+
+-- BUG: fixed an issue with Team Styles not working correctly
+-- BUG: fixed an issue with videoplayer in sections
+-- BUG: fixed an issue with blog shortcode not displaying the optional class
+-- BUG: fixed an issue with portfolio items in search result causing a blank page
+
+-- INFO: Update to Slider Revolution 5.1.5
+
+Version 3.2
+-- BUG: fixed an issue with new lightbox gallery not applying to WordPress default galleries
+-- BUG: fixed an issue with parallax not displaying correctly
+-- BUG: fixed an issue with theme cache and activated SSL
+-- BUG: fixed an issue with video quality in firefox
+-- BUG: fixed an issue with portfolio plugin in Internet Explorer
+-- BUG: fixed an issue with portfolio search causing a whitescreen
+
+-- INFO: Update to Slider Revolution 5.1.4
+
+Version 3.1
+-- BUG: fixed an issue with Team Style 2 not working correctly on mobile
+-- BUG: fixed an issue with mute button for hero videos
+-- BUG: fixed an issue with navigation not displaying correctly
+
+-- INFO: Update to Slider Revolution 5.1.3
+-- INFO: Update to Mobile Detection Class
+
+Version 3.0
+-- NEW FEATURE: Added Demo #14 ( +2 )
+-- NEW FEATURE: Bordered Layout
+-- NEW FEATURE: Added new awesome Lightbox
+-- NEW FEATURE: Added new top header 
+-- NEW FEATURE: Added new site border option
+
+
+-- INFO: Update to Google Font List
+-- INFO: Update to Slider Revolution 5.1.1
+-- INFO: Update to Font Awesome 4.4.0
+-- INFO: Removed Font Awesome from theme library and added CND ( maxcdn.bootstrapcdn.com )
+
+Version 2.9
+-- INFO: Added Option switch to activate / deactivate smooth scrolling only for Chrome
+-- BUG: fixed an issue with Client Carousel skipping items
+
+2.8.9.1
+-- INFO: Update to Youtibe API causing issues on chrome
+-- INFO: Update to Slider Revolution 5.0.9
+
+Version 2.8.9
+-- INFO: Update to Slider Revolution 5.0.4.1
+-- BUG: fixed an issue with numeric urls on hero buttons
+
+Version 2.8.8
+-- BUG: fixed an issue with flip animation on latest IOS
+-- BUG: added language codes to theme cache to avoid missbehvior with WPML
+-- BUG: fixed an issue with retina logo on new IPhone 6 devices
+-- BUG: fixed an issue with video in hero not displaying correctly
+
+Version 2.8.7
+-- INFO: Update to PrettyPhoto due to Security related issues
+-- BUG: fixed an issue with missing font weights on some google fonts
+
+Version 2.8.6
+-- INFO: Update to Slider Revolution 4.6.93
+
+-- BUG: fixed an issue with Slider Background not cycling
+
+Version 2.8.5
+-- BUG: fixed an issue with videos not displaying inside portfolio
+
+Version 2.8.4
+-- INFO: Update to Slider Revolution 4.6.9
+-- INFO: Added patches regarding this WordPress security issue: https://blog.sucuri.net/2015/04/security-advisory-xss-vulnerability-affecting-multiple-wordpress-plugins.html
+
+-- BUG: fixed an issue with 4 column pricing tables on tablet
+-- BUG: fixed an issue with portfolio showcase carousel on resize
+-- BUG: fixed an issue with twitter rotator not autoplaying
+-- BUG: fixed an issue with missing icons on service icon boxes in firefox
+-- BUG: fixed an issue with showcase arows in Chrome
+-- BUG: fixed an issue with missing image descriptions inside showcase lightboxes
+-- BUG: fixed an issue with lazy load and portfolio image causing wrong image displaying
+
+-- changed files or folders
+-- entire admin/ folder
+-- functions.php
+-- inc/ut-menu-walker.php
+-- inc/lib/ut-plugin-activation-class.php
+
+
+Version 2.8.3
+-- NEW FEATURE: New look for the theme options panel
+-- NEW FEATURE: Added sidebar support for single pages
+
+-- INFO: Update to Font Awesome 4.3.0
+
+-- BUG: fixed an issue with showcase arrows in Chrome
+-- BUG: fixed an issue with title links in filterable portfolio
+
+-- changed files or folders
+-- templates/template-team.php
+-- page.php
+-- sidebar-page.php
+
+Version 2.8.2
+-- INFO: Update to Google Analytics
+-- INFO: Added Title Attribute to ut_button for better user experience
+
+-- BUG: fixed an issue with Showcase Shortcode on Single Pages
+-- BUG: fixed an issue with Showcase Title not linking correctly
+-- BUG: fixed an issue with Video Player Shortcode in Portfolio Slideup Items
+-- BUG: fixed an issue with Member Popup closing when using Member Icons
+-- BUG: fixed an issue with Menu Cache
+-- BUG: fixed an issue with Service Icon Box not displaying in FireFox
+
+-- changed files or folders
+-- js/ut-init.js
+-- 404.php
+-- author-bio.php
+-- author.php
+-- comments.php
+-- footer.php
+-- functions.php
+-- no-results.php
+-- search.php
+-- searchform.php
+-- single-portfolio.php
+-- templates/template-team.php
+-- templates/template-archive.php
+-- entire "partials" folder
+
+
+Version 2.8.1
+-- BUG: fixed an issue with Shortcode Generator. Please make sure to update the Shortcode Plugin at least, the theme itself has not been modified.
+
+Version 2.8
+
+Dear Customers, 
+this is a small update for our beloved Brooklyn Theme. It's our Christmas Edition 2014 and wo hope you enjoy it as much as we do. Do not forget to have a look at our new Demo #13. We wish you a merry Christmas!
+
+-- NEW FEATURE: Added Demo #13 ( Demo 14 )
+-- NEW FEATURE: Added Snow Effect in Revolution Slider
+
+-- BUG: Fixed an issue with theme caching
+-- BUG: Fixed an issue with Contact Section link not working when Contact Section was disabled on particularly page
+-- BUG: Fixed minor CSS issues
+
+-- INFO: Update to Revolution Slider 4.6.3 to 4.6.5
+-- INFO: Update to Video Shortcode
+-- INFO: Simplified Portfolio Configuration
+
+-- changed files or folders
+-- entire admin/ folder
+-- inc/ut-custom-css.php
+-- inc/ut-custom-js.php
+-- inc/ut-menu-walker.php
+-- js/ut-init.js
+-- front-page.php
+-- functions.php
+-- single.php
+-- page.php
+-- style.css
+
+Version 2.7.1
+-- BUG: Fixed an issue with Twitter Shortcode
+-- BUG: Fixed an issue with wrong color on word rotator
+-- BUG: Fixed an issue with hero style not getting applied correctly on video hero
+-- BUG: Fixed an issue with Demo Importer and PHP 5.5
+
+Version 2.7
+-- NEW FEATURE: Added Demo #12 ( Demo 13 )
+-- NEW FEATURE: Added New Table Style 3 ( before 2 )
+-- NEW FEATURE: Added New Shortcode : Custom Box
+-- NEW FEATURE: Added Border Option for Front Page Hero
+-- NEW FEATURE: Added Border Option for Blog Hero
+-- NEW FEATURE: Added Color Background Chooser for Dark Header
+-- NEW FEATURE: Added Color Background Chooser for Light Header
+-- NEW FEATURE: Added Color Background Chooser for Dark Footer
+-- NEW FEATURE: Added Color Background Chooser for Light Footer
+-- NEW FEATURE: Added Border Options for Sections
+-- NEW FEATURE: Added Border Options for Contact Section
+-- NEW FEATURE: Added Section Header Text Alignment Left
+-- NEW FEATURE: Added Section Header Text Alignment Center
+-- NEW FEATURE: Added Section Header Width ( Fullwidth )
+-- NEW FEATURE: Added New Overlay Animation Effect - Connecting Dots
+-- NEW FEATURE: Added New Overlay Animation Effect - Rising Bubbles
+-- NEW FEATURE: Added New Video Shortcode. Now a poster image displays instead of the video player and on click the player get's loaded. As a result your site performance is greatly increased, especially when using multiple video players.
+
+-- CHANGE: improved caching options
+-- CHANGE: improved woocommerce default support
+-- CHANGE: re-added the video background feature for entire site
+
+-- BUG: Fixed an issue with missing Page and Section Settings on lower screen resolutions
+-- BUG: Fixed an issue with missing color on section header align left / right
+-- BUG: Fixed an issue with section header alignment when editor is empty
+-- BUG: Fixed an issue with portfolio lightbox filtering
+-- BUG: Fixed an issue with portfolio bad anchorage
+-- BUG: Fixed an issue with mobile navigation ( visual fix )
+-- BUG: Fixed an issue with site performance when no video was entered for video sections
+
+-- changed files or folders
+-- entire admin/ folder
+-- css/ut.shortcode.css
+-- css/ut.table.style.css
+-- css/ut.portfolio.style.css
+-- inc/ut-custom-css.php
+-- inc/ut-custom-js.php
+-- inc/ut-prepare-csection.php
+-- inc/ut-prepare-front-page.php
+-- inc/ut-prepare-hero.php
+-- inc/lib/ut-mobile-detect-class.php
+-- inc/ut-theme-activation.php
+-- functions.php
+-- front-page.php
+-- header.php
+-- footer.php
+-- front-page.php
+-- inc/ut-section-player.php
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- template-part-hero.php
+-- single-portfolio.php
+-- partials/content-page.php
+-- js/ut-init.js
+-- style.css
+
+-- new files
+-- js/greensock/animationframe.js
+-- js/greensock/EasePack.min.js
+-- js/greensock/TweenLite.min.js
+-- js/canvas.connectingdots.js
+-- js/canvas.risingbubbles.js
+-- partials/hero-custom.php
+-- partials/hero-dynamic.php
+-- partials/hero-animatedimage.php
+-- partials/hero-dynamic.php
+-- partials/hero-slider.php
+-- partials/hero-splithero.php
+-- partials/hero-tabs.php
+-- partials/hero-transition.php
+-- partials/hero-video.php
+-- woocommerce.php
+-- sidebar-shop.php
+
+-- plugin updates
+-- UT Shortcode Plugin Version 2.4 to 2.5
+-- UT Portfolio Plugin Version 3.0 to 3.1
+-- UT Pricing Table Plugin Version 2.0 to 2.1
+
+Version 2.6
+-- NEW FEATURE: Added demo #11 ( Demo 12 )
+-- NEW FEATURE: Added demo #8a ( The new Landing Page )
+-- NEW FEATURE: Pages do now support all Hero Types
+-- NEW FEATURE: Portfolio Pages do now support all Hero Types
+-- NEW FEATURE: Added shortcode: Highlight Section
+-- NEW FEATURE: Added shortcode: Video Testimonials
+-- NEW FEATURE: Added shortcode: Spacer
+-- NEW FEATURE: Added new Hero Type: Split Hero ( Image )
+-- NEW FEATURE: Added new Hero Type: Split Hero ( Video )
+-- NEW FEATURE: Added second button for Hero
+-- NEW FEATURE: Added button customizer for Hero
+-- NEW FEATURE: Added left alignment for section headers
+-- NEW FEATURE: Added right alignment for section headers
+-- NEW FEATURE: Added new pricing table layout 2
+-- NEW FEATURE: Added lightbox option for WordPress Galleries
+-- NEW FEATURE: Added border radius option for WordPress Galleries
+-- NEW FEATURE: Added bunch of design customization options for single pages ( now you can build complete pink websites )
+-- NEW FEATURE: Backend Phase 2 ( visual refresh )
+-- NEW FEATURE: Improved Page Management similar to our Nevada theme
+-- NEW FEATURE: Improved Portfolio Page Management similar to our Nevada theme
+-- NEW FEATURE: Improved Section Management similar to our Nevada theme
+-- NEW FEATURE: Improved Pricing Table Manager UI
+-- NEW FEATURE: Improved Portfolio Showcase Manager UI
+-- NEW FEATURE: Improved Twitter Settings UI
+-- NEW FEATURE: Contact Section can now be turned on and off per page
+-- NEW FEATURE: Contact Section can now be designed per page
+-- NEW FEATURE: Improved Video support per page
+-- NEW FEATURE: Videos can now be added separately to each page hero
+-- NEW FEATURE: Videos can now be added separately to each section on the front page
+-- NEW FEATURE: Videos can now be added separately to the contact section
+-- NEW FEATURE: Improved Page Speed
+-- NEW FEATURE: Hero Caption Title font size can now be changed individually per page
+-- NEW FEATURE: Show / Hide Scroll To Top Button
+-- NEW FEATURE: Added more icons for social links in footer
+-- NEW FEATURE: Copyright font size can now be changed to bold
+
+-- BUG: Fixed an issue with volume control when using youtube
+-- BUG: Fixed an issue with broken youtube videos due to youtube api change
+-- BUG: Fixed an issue with broken twitter links inside the twitter widget
+-- BUG: Fixed an issue with twitter overflow bug
+-- BUG: Fixed an issue with portfolio slideup animation in IOS Safari
+-- BUG: Fixed an issue with reponsive font sizes in Hero
+-- BUG: Fixed an issue with fitvid and JW Player
+-- BUG: Pricing Table CSS fix
+-- BUG: Navigation CSS fix
+-- BUG: Social Network dark color CSS fix
+-- BUG: Showcase Navigation CSS fix
+-- BUG: Fixed minor CSS issues
+
+-- INFO: Update to Revolution Slider 4.5.4 to 4.6.0
+-- INFO: Update to Font Awesome 4.2
+
+- changed files or folders
+-- admin/ folder
+-- partials/content-page.php
+-- inc/ut-custom-css.php
+-- inc/ut-custom-js.php
+-- js/jquery.mb.YTPlayer.min.js
+-- js/ut-init.js
+-- header.php
+-- functions.php
+-- template-part-hero.php
+-- footer.php
+-- front-page.php
+-- page.php
+-- single-portfolio.php
+-- style.css
+
+- new files
+-- admin/ut-hero-settings.php
+-- inc/ut-prepare-hero.php
+-- inc/ut-prepare-csection.php
+-- inc/ut-section-player.php
+
+- removed files
+-- template-part-portfolio-hero.php
+
+
+Version 2.5.3
+-- BUG: fixed an issue with blank targets on portfolio
+-- BUG: fixed an issue with client grid
+-- BUG: fixed an issue with caption resizing in hero
+
+-- INFO: update to Revolution Slider 4.5.4
+
+-- inc/ut-custom-js.php
+-- js/ut-init-js.js
+-- style.css
+
+Version 2.5.2
+-- BUG: fixed an issue with social share icons not opening the popup
+-- BUG: fixed an issue with site display in IE9
+-- BUG: fixed an issue with hero font size calculation
+
+- changed files or folders
+-- inc/ut-custom-js.php
+-- js/ut-init-js.js
+-- js/ut-share.js
+-- style.css
+
+Version 2.5.1
+-- NEW FEATURE: Added demo #10
+-- NEW FEATURE: Added new header style #11
+
+-- CHANGE: Added Retina Logo Upload
+-- CHANGE: Update to Font Awesome 4.1
+
+-- BUG: fixed an issue with black border in background videos
+-- BUG: fixed an issue with Twitter hashtags
+-- BUG: fixed an issue with video / gallery popup in grid galleries
+-- BUG: fixed an issue with hero fonts on single portfolio pages
+-- BUG: fixed an issue with split screen section causing large spacings on tablets / mobiles
+-- BUG: fixed an issue with social share icons on single portfolio pages
+-- BUG: fixed minor CSS issues
+
+- changed files or folders
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- functions.php
+-- front-page.php
+-- single-portfolio.php
+-- style.css
+
+Version 2.5
+-- NEW FEATURE: Added demo #9
+-- NEW FEATURE: Added new team member style
+-- NEW FEATURE: Addes new hero slider with some fancy transitions
+-- NEW FEATURE: Added single portfolio pages
+-- NEW FEATURE: Added share function to portfolio pages
+-- NEW FEATURE: Added widget support for footer
+-- NEW FEATURE: Added carousel function to client shortcode
+
+-- CHANGE: Added star ratings and dates to single quotes
+-- CHANGE: improved mobile navigation
+
+-- INFO: update to Revolution Slider 4.3.8
+
+-- BUG: fixed an issue with Twitter Widget displaying no tweets
+-- BUG: fixed an issue with multiple use of team templates
+-- BUG: fixed an issue with unclosed tags in archive
+-- BUG: fixed minor theme issues
+-- BUG: fixed minor CSS issues
+
+- changed files or folders
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- inc/ut-prepare-front-page.php
+-- front-page.php
+-- single-portfolio.php
+-- functions.php
+-- header.php
+-- footer.php
+
+- new files
+-- template-part-hero.php
+
+Version 2.4.4
+
+-- INFO: update to Revolution Slider 4.3.3
+-- BUG: fixed an issue with twitter widget displaying no tweets
+-- BUG: fixed an issue with animated image not animating in chrome
+-- BUG: fxied an issue with overlay in hero slider
+-- BUG: fixed an issue with selfhosted video causing a javascript error on subpages
+-- BUG: fixed an issue overlay in split sections
+
+- changed files or folders
+-- js/ut-videoplayer.js
+-- inc/ut-custom-css.php
+-- front-page.php
+-- header.php
+
+Version 2.4.3
+-- NEW FEATURE: Navigation width can now be changed
+-- NEW FEATURE: Self Hosted Background Videos
+
+-- BUG: fixed an issue with portfolio height when different slider scripts images are inside the portfolio
+-- BUG: fixed an issue with CSS3 Animation and background flickering in Chrome
+
+-- INFO: update to Revolution Slider 4.3.1
+
+- changed files or folders
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- functions.php
+-- header.php
+-- footer.php
+
+- new files
+-- js/ut-videoplayer.js
+
+Version 2.4.2
+-- fixed an issue with scroll to blog on blog page
+-- fixed an issue with portfolio gallery post types
+
+Version 2.4.1
+-- Hotfix for parallax overlay and childtheme image issue
+
+Version 2.4
+-- NEW FEATURE: Added new demo to one click demo importer
+-- NEW FEATURE: Portfolio Categories are now sortable for each showcase
+-- NEW FEATURE: You can now choose the section where your hero button should scroll to
+-- NEW FEATURE: Single testimonial shortcode
+
+-- CHANGE: Pre Loader can now be turned on / off for different site parts like blog, page, single posts or front page
+-- CHANGE: Added Instagram to team management
+
+-- UPDATE: Revolution Slider 4.2
+
+-- BUG: fixed an issue slider galleries on single portfolio pages
+-- BUG: fixed an issue with testimonial shortcode rotation
+
+
+- changed files or folders
+-- admin/ folder
+-- js/ut-init.js
+-- header.php
+-- footer.php
+-- functions.php
+-- style.css
+
+Version 2.3.1
+-- NEW FEATURE: Added randomize option to quote rotator
+-- NEW FEATURE: Scrolling Icon and Element Animation
+-- NEW FEATURE: Added external links for portfolio items
+-- NEW FEATIRE: Added new scroll to animation effects
+-- NEW FEATURE: Enhanced Blog Shortcode to show blogposts by category
+-- NEW FEATURE: Added animated header background
+
+-- BUG: fixed an issue with site displaying issues on firefox mobile
+-- BUG: fixed an issue with missing images in multiple portfolios
+-- BUG: fixed an issue with missing contact section on single pages when video was activated
+-- BUG: fixed an issue with video sound still playing after portfolio was closed
+-- BUG: fixed an issue with portfolio navigation and gallery was not loaded correctly
+-- BUG: fixed an issue with IPAD safari crash when video poster was set
+-- BUG: fixed an issue with Global Header Slogan Font Styles
+-- BUG: fixed an issue with special character in popup portfolio
+-- BUG: fixed an issue with special character in word rotator
+-- BUG: fixed an issue with galleries on single pages
+-- BUG: fixed an issue with gallery captions
+-- BUG: fixed some minor CSS issues
+
+- changed files or folders
+-- admin/ folder
+-- js/ut-init.js
+-- inc/ut-custom-js.php
+-- inc/theme-activation.php
+-- functions.php
+-- footer.php
+
+- removed files
+-- js/device.min.js
+
+Version 2.3
+-- NEW FEATURE: Added new rain effect for hero images
+-- NEW FEATURE: Added Blog Excerpt Shortcode
+-- NEW FEATURE: Added Demo #7
+-- NEW FEATURE: Added alternate logo upload for navigation
+
+-- BUG: fixed some minor CSS issues
+-- BUG: fixed an issue with team hover effect on IPAD
+-- BUG: fixed an issue with external linking in main navigation
+-- BUG: fixed an issue with section header padding
+-- BUG: fixed an issue with background player in chrome while visitors are logged in at google
+-- BUG: fixed an issue with portfolio loading performance
+-- BUG: fixed an issue with section animation
+
+- changed files or folders
+-- js/toucheffect.min.js
+-- js/ut-init.js
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- templates/template-team.php
+-- functions.php
+-- header.php
+
+- new files
+-- js/rainyday.min.js
+
+Version 2.2
+-- NEW FEATURE: Added one click demo install interface
+-- NEW FEATURE: Added pricing table plugin
+-- NEW FEATURE: Added new header style : dynamic hero
+-- NEW FEATURE: Added section animation on/off switch
+-- NEW FEATURE: Added custom logo upload for preloader
+-- NEW FEATURE: Added new section style : split section
+-- NEW FEATURE: Added 50 Pattern
+-- NEW FEATURE: Added Section Shadow
+-- NEW FEATURE: Added Demo #6
+
+-- BUG: fixed some minor CSS issues
+-- BUG: fixed an issue with portfolio image cropping
+
+-- INFO: update to Revolution Slider 4.1.4
+
+- changed files or folders
+-- admin/ folder
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- inc/ut-image-resize.php
+-- inc/ut-extras.php
+-- js/ut-init.js
+-- header.php
+-- footer.php
+-- functions.php
+-- style.css
+
+- new files 
+-- inc/lib/ut-mobile-detect-class.php
+
+Version 2.1
+-- NEW FEATURE: Added new portfolio style ( before 1 now 2 )
+-- NEW FEATURE: Added new portfolio lightbox
+-- NEW FEATURE: Added new pattern overlay
+-- NEW FEATURE: Added new portfolio navigation styles ( before 1 now 3 )
+-- NEW FEATURE: Added new header transition effect ( mixed header style )
+
+-- CHANGE: You can now change the visible state of the navigation
+
+-- BUG: fixed an issue with theme customizer
+-- BUG: fixed an issue with custom hero html output
+-- BUG: fixed an issue with portfolio height overflow
+-- BUG: fixed an issue with member style 3 disalignment
+-- BUG: fixed an issue with icon chooser background
+-- BUG: fixed some minor CSS issues
+
+- changed files or folders
+-- admin/ folder
+-- inc/ut-custom-js.php
+-- inc/ut-custom-css.php
+-- header.php
+-- functions.php
+
+Version 2.0
+
+- NEW FEATURE: Added Revolution Slider
+- NEW FEATURE: Added over 600 Google Fonts
+- NEW FEATURE: New Theme Options Panel
+
+- CHANGE: Added "LinkedIn" to member profile
+- CHANGE: Added timer for testimonial and twitter rotator
+
+- BUG: fixed an issue with team member overlay flickering in chrome
+- BUG: fixed an issue with portfolio anchor pagination
+- BUG: fixed Mute / Unmute Button Alignement Chrome / Safari
+
+- changed files:
+-- admin/ folder
+-- functions.php
+-- templates/template-team.php
+-- inc/ut-custom-css.php
+-- style.css
+
+Version 1.1
+
+- NEW FEATURE: Added new hero header type : tablet slider
+- NEW FEATURE: Added new section header style ( before 5 now 6 )
+- NEW FEATURE: Added 2 new team member box styles ( before 1 now 3 )
+- NEW FEATURE: Added mute and unmute button to hero video section
+- NEW FEATURE: Added twitter rotator with avatar
+- NEW FEATURE: Added twitter rotator without avatar
+- NEW FEATURE: Added hero section text align
+- NEW FEATURE: Added pattern management to header, section and contact section
+
+- CHANGE: added color picker to progress bar
+- CHANGE: moved home link management from theme option to "Appearance" -> "Menu"
+- CHANGE: changed scrolling behavior when opening a portfolio detail
+- CHANGE: dynamic CSS and JS file are not also available inside the child theme
+- CHANGE: added hover effect to custom icons
+- CHANGE: decreased menu mobile button size
+
+- BUG: fixed an issue with contact section alignment on tablets
+- BUG: fixed an issue with Safari Scroll Crash
+- BUG: fixed an issue with navigation and section highlight
+- BUG: fixed an issue with scrolling to portfolio details
+- BUG: fixed an issue with video poster image on tablet portrait
+- BUG: fixed an issue with hero size on mobile devices
+
+- changed files:
+-- admin/ folder
+-- js/ut-init.js
+-- inc/ut-menu-walker.php
+-- inc/ut-extras.php
+-- inc/ut-custom-css.php
+-- inc/ut-custom-js.php
+-- templates/template-team.php
+-- header.php
+-- functions.php
+-- front-page.php
+-- footer.php
+-- style.css
+
+Version 1.0
+- initial release

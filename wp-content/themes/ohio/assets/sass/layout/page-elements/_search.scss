@@ -1,0 +1,244 @@
+.clb-search-popup {
+	.search-holder {
+		width: 100%;
+		position: absolute;
+		top: calc(30vh - 50px);
+		left: 0;
+
+        @include sm_screen() {
+            top: $spacer_100;
+        }
+
+		.search-field {
+			background-color: rgba(#fff, .03);
+			border-color: rgba(#000, .2);
+            @include border_radius(5px);
+			color: #fff;
+            height: 56px;
+            padding-left: 18px;
+            padding-right: 18px;
+
+            &::placeholder {
+                color: #fff;
+            }
+
+            &:hover {
+                &::placeholder {
+                    opacity: .7;
+                } 
+            }
+		}
+
+        .product_search {
+            &_description {
+                color: #fff;
+                margin-left: 25px;
+                max-width: calc(100% - 195px);
+            }
+        }
+
+        .search_results_btn.btn-link {
+            color: #fff;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 12;
+
+            label {
+                margin-bottom: 0;
+            }
+
+            .select-holder {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 45px;
+                color: #fff;
+
+                select {
+                    background: transparent;
+                    color: currentColor;
+                    height: 100%;
+                }
+            }
+
+            .search-submit {
+                color: #fff;
+                width: 56px;
+
+                &.btn-loading {
+                    &:before {
+                        border-color: rgba(#fff, 0.2);
+                        border-top-color: rgba(#fff, 0.8);
+                        border-right-color: rgba(#fff, 0.8);
+                    }
+                }
+            }
+
+            @include sm_screen {
+                max-width: calc(100% - 40px);
+            }
+        }
+	}
+}
+
+.search_results {
+    max-width: 500px;
+    margin: 0 auto;
+    max-height: 500px;
+    overflow: auto;
+
+    .suggestions,
+    .no-search-results,
+    #loading {
+        margin: 18px 0;
+        color: $color_light;
+    }
+
+    #loading {
+        margin: 25px 15px;
+    }
+
+    .product_search {
+        position: relative;
+        padding: 13px 0;
+        border-top: solid 1px rgba($color_border, .08);
+        @include flex_center();
+        
+        &_img {
+            a {
+                &:before{
+                    display: none;
+                }
+            }
+            
+            img {
+                vertical-align: top;
+                max-width: 70px;
+                min-width: 70px;
+                height: auto;
+            }
+        }
+
+        &_name {
+            display: block;
+            font-weight: 600;
+        }
+
+        &_description {
+            margin-left: 15px;
+
+            .product_search_name div {
+                @include crop_string();  
+            }
+        }
+
+        &_price {
+            font-weight: 600;
+            position: absolute;
+            right: 0;
+            color: #fff;
+        }
+
+        &:first-child {
+            border: none;
+        }
+    }
+
+    &_btn.btn-link {
+        margin-top: 15px;
+        position: relative;
+
+        &:before {
+            float: right;
+            margin-right: 0 !important;
+        }
+    }
+
+
+    @include sm_screen {
+        .suggestions,
+        #loading,
+        &_btn {
+            margin: 25px 20px;
+        }
+
+        .product_search {
+            margin: 0px 20px;
+        }
+    }
+}
+
+.search-global {
+    &.fixed {
+        position: fixed;
+        @include spacer40(left);
+        @include spacer40(bottom);
+        z-index: 50;
+
+        .ion {
+            &.light-typo {
+                color: #fff;
+            }
+            &.dark-typo {
+                color: $color_dark;
+            }
+        }
+    }
+}
+
+button.search-submit {
+    &.btn-loading {
+        .ion {
+            display: none;
+        }
+    }
+}
+
+/*---------------------------------
+## Product search widget
+---------------------------------*/
+.search-form,
+.woocommerce-product-search {
+	position: relative;
+
+	label {
+		font-size: 1em;
+	}
+
+    .search-submit {
+        color: $color_text;
+    }
+
+	button.search {
+		background: none;
+		width: 50px;
+		height: 50px;
+		@include flex_center();
+        justify-content: center;
+		box-shadow: none;
+		height: 100%;
+		border: none;
+		padding: 0;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		right: 0;
+		outline: none;
+
+		&:hover {
+			opacity: .6;
+		}
+	}
+}
+
+.search-results {
+    .clb-page-headline {
+        .category-holder:after {
+            display: none;
+        }
+    }
+}

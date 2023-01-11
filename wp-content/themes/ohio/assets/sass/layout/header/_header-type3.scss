@@ -1,0 +1,13 @@
+&.header-3 {
+
+    // Desktop
+
+    &:not(.-mobile) {
+
+        .nav {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

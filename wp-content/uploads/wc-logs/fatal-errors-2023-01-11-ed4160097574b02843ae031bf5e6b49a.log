@@ -1,0 +1,162 @@
+2023-01-11T06:27:35+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:27:39+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:28:06+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:28:10+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:29:44+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:31:30+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:31:37+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:34:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:34:51+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T06:34:55+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php:32
+Stack trace:
+#0 C:\xampp\htdocs\matviran\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\matviran\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\matviran\wp-content\themes\ohio\footer.php(8): get_template_part('parts/elements/...')
+#4 C:\xampp\htdocs\matviran\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matviran\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\matviran\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\matviran\wp-content\themes\ohio\index.php(235): get_footer()
+#8 C:\xampp\htdocs\matviran\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\matviran\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\matviran\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\matviran\wp-content\themes\ohio\parts\elements\notification.php on line 32
+
+2023-01-11T13:35:48+00:00 CRITICAL Cannot redeclare get_rs_plugin_url() (previously declared in C:\xampp\htdocs\matviran\wp-content\plugins\revslider\revslider.php:258) in C:\xampp\htdocs\matviran\wp-content\plugins\slider-revolution\revslider.php on line 259
+

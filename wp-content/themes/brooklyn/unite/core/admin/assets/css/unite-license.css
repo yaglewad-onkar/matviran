@@ -1,0 +1,220 @@
+/* Dashboard Notifications */
+.brooklyn_page_unite-manage-license #wpwrap {
+    background: #191c20;
+}
+
+.ut-missing-license {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.brooklyn_page_unite-manage-license .ut-dashboard-widgets {
+    margin-bottom: 0;
+}
+
+.brooklyn_page_unite-manage-license .ut-rotate-label-hover {
+    margin: 0;
+}
+
+.brooklyn_page_unite-manage-license .ut-dashboard-widget {
+    position: relative;
+}
+
+@media (max-width: 1024px) {
+
+    #ut-dashboard-widget-license-info {
+        order: 1;
+    }
+
+    #ut-dashboard-widget-code-info {
+        order: 2;
+    }
+
+    #ut-dashboard-widget-connect-info {
+        order: 3;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1599px) {
+
+    .brooklyn_page_unite-manage-license .ut-dashboard-widgets > .ut-dashboard-widget {
+        box-sizing: border-box;
+        width: calc(50% - 20px);
+        flex: none;
+    }
+
+    .brooklyn_page_unite-manage-license .ut-dashboard-widgets > .ut-dashboard-widget.ut-dashboard-widget-large {
+        width: calc(100% - 20px);
+    }
+
+    .brooklyn_page_unite-manage-license .ut-dashboard-widgets > .ut-dashboard-widget.ut-dashboard-widget-medium-large {
+        width: calc(100% - 20px);
+    }
+
+    #ut-dashboard-widget-license-info {
+        order: 1;
+    }
+
+    #ut-dashboard-widget-code-info {
+        order: 2;
+    }
+
+    #ut-dashboard-widget-connect-info {
+        order: 3;
+    }
+
+}
+
+@media (min-width: 1600px) {
+
+    .brooklyn_page_unite-manage-license .ut-dashboard-widgets > .ut-dashboard-widget {
+        box-sizing: border-box;
+        width: calc(25% - 20px);
+        flex: none;
+    }
+
+    .brooklyn_page_unite-manage-license .ut-dashboard-widgets > .ut-dashboard-widget.ut-dashboard-widget-large {
+        width: calc(50% - 20px);
+    }
+
+    .brooklyn_page_unite-manage-license .ut-dashboard-hover {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+.brooklyn_page_unite-manage-license .ut-dashboard-widget-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.brooklyn_page_unite-manage-license .ut-license-info li {
+    display: inline-block;
+    margin: 0 20px 0 auto;
+}
+
+.brooklyn_page_unite-manage-license .ut-license-info span {
+    color: #FFF;
+}
+
+.brooklyn_page_unite-manage-license .ut-license-info li:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin: 0;
+}
+
+
+.brooklyn_page_unite-manage-license .ut-dashboard-widget-badge.ut-dashboard-widget-badge-unregistered {
+    background: #FACE15;
+    color: #151515;
+}
+
+#ut-server-connect-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+    background: rgba(11,120,227, 0.3);
+    display: none;
+}
+
+.swal2-shown #ut-server-connect-overlay {
+    display: block;
+}
+
+.brooklyn_page_unite-manage-license.swal2-shown .swal2-container {
+    z-index: 10001;
+}
+
+.brooklyn_page_unite-manage-license.swal2-no-backdrop .swal2-shown > .swal2-modal {
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+
+/* Sweet Alert */
+.swal2-styled:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.brooklyn_page_unite-manage-license .swal2-popup {
+    background: #25292f;
+}
+
+.brooklyn_page_unite-manage-license .swal2-title {
+    color: #898c8f;
+}
+
+.brooklyn_page_unite-manage-license .swal2-icon.swal2-error {
+    border-color: #FF2366;
+}
+
+.brooklyn_page_unite-manage-license .swal2-icon.swal2-error [class^="swal2-x-mark-line"] {
+    background-color: #FF2366;
+}
+
+.brooklyn_page_unite-manage-license .swal2-icon.swal2-warning {
+    border-color: #FACE15;
+    color: #FACE15;
+}
+
+.brooklyn_page_unite-manage-license .swal2-icon.swal2-success .swal2-success-ring {
+    border: .25em solid #7ED321;
+}
+
+.brooklyn_page_unite-manage-license .swal2-icon.swal2-success [class^="swal2-success-line"] {
+    background-color: #7ED321;
+}
+
+/* Connect */
+.ut-connect {
+    text-align: left;
+}
+
+.ut-connect > li a {
+    display: flex;
+    color: #FFF;
+}
+
+.ut-connect > li span {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    color: #FFF;
+    margin-right: 20px;
+}
+
+.ut-connect > li span.youtube {
+    background: #bb0000;
+}
+
+.ut-connect > li span.twitter {
+    background: #00aced;
+}
+
+.ut-connect > li span.facebook {
+    background: #3b5998;
+}
+
+.ut-connect > li span.instagram {
+    background: #000;
+}
+
+.ut-connect-content {
+    display: inline-block;
+}
+
+.ut-connect-url {
+    font-weight: 500;
+}

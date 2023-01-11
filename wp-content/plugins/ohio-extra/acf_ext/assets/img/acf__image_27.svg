@@ -1,0 +1,32 @@
+<svg width="252" height="150" viewBox="0 0 252 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.4" width="252" height="150" fill="#677A9E"/>
+<rect opacity="0.15" x="30" y="36" width="96" height="60" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="65" y="53" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="65" y="53" width="26" height="26">
+<rect opacity="0.3" x="65" y="53" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask0)">
+<path d="M67 63.1667C67 61.3571 68.3478 60 70.1449 60C71.942 60 73.2899 61.3571 73.2899 63.1667C73.2899 64.9762 71.942 66.3333 70.1449 66.3333C68.3478 66.3333 67 64.9762 67 63.1667ZM86.0942 63.1667L80.9275 71.3095L76.8841 66.3333L67 79H98L86.0942 63.1667Z" fill="#677A9E"/>
+</g>
+<rect opacity="0.15" x="30" y="98" width="96" height="52" rx="1" fill="#677A9E"/>
+<rect opacity="0.3" x="65" y="114" width="26" height="26" rx="6" fill="#677A9E"/>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="65" y="114" width="26" height="26">
+<rect opacity="0.3" x="65" y="114" width="26" height="26" rx="6" fill="#677A9E"/>
+</mask>
+<g mask="url(#mask1)">
+<path d="M67 124.167C67 122.357 68.3478 121 70.1449 121C71.942 121 73.2899 122.357 73.2899 124.167C73.2899 125.976 71.942 127.333 70.1449 127.333C68.3478 127.333 67 125.976 67 124.167ZM86.0942 124.167L80.9275 132.31L76.8841 127.333L67 140H98L86.0942 124.167Z" fill="#677A9E"/>
+</g>
+<path d="M202 66H162V70H202V66Z" fill="white"/>
+<path d="M172 93H162V97H172V93Z" fill="white"/>
+<path d="M222 76H162V79H222V76Z" fill="white"/>
+<path d="M202 82H162V85H202V82Z" fill="white"/>
+<rect x="14" y="16.3636" width="18" height="3.27273" fill="white"/>
+<rect x="97" y="17" width="12" height="2" fill="white"/>
+<rect x="115" y="17" width="12" height="2" fill="white"/>
+<rect x="133" y="17" width="12" height="2" fill="white"/>
+<rect x="151" y="17" width="12" height="2" fill="white"/>
+<rect x="169" y="17" width="12" height="2" fill="white"/>
+<rect x="187" y="17" width="12" height="2" fill="white"/>
+<rect x="220" y="17.1818" width="6" height="1.63636" fill="white"/>
+<rect x="232" y="17.1818" width="6" height="1.63636" fill="white"/>
+</svg>
