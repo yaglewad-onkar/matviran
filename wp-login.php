@@ -4,7 +4,7 @@
  *
  * Handles authentication, registering, resetting passwords, forgot password,
  * and other user handling.
- *
+ * Authors: Neeraj,Onkar,Suryakant
  * @package WordPress
  */
 
